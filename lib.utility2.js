@@ -6331,11 +6331,12 @@ instruction\n\
         }
         // init lib
         [
-            'lib.swgg.js'
-        ].forEach(function (file) {
-            file = __dirname + '/' + file;
+            'swgg'
+        ].forEach(function (lib) {
+            var file;
+            file = __dirname + '/lib.' + lib + '.js';
             if (!local.global.utility2_rollup && local.fs.existsSync(file)) {
-                require(file);
+                local[lib] = require(file);
             }
         });
         break;

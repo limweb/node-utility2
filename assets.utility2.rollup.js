@@ -15795,11 +15795,12 @@ instruction\n\
         }
         // init lib
         [
-            'lib.swgg.js'
-        ].forEach(function (file) {
-            file = __dirname + '/' + file;
+            'swgg'
+        ].forEach(function (lib) {
+            var file;
+            file = __dirname + '/lib.' + lib + '.js';
             if (!local.global.utility2_rollup && local.fs.existsSync(file)) {
-                require(file);
+                local[lib] = require(file);
             }
         });
         break;
@@ -15875,9 +15876,9 @@ instruction\n\
             ? local.global.utility2
             : (function () {
                 try {
-                    return require('./assets.utility2.rollup.js');
+                    return require(__dirname + '/lib.utility2.js');
                 } catch (errorCaught) {
-                    return require('./assets.swgg.rollup.js');
+                    return require(__dirname + '/assets.swgg.rollup.js');
                 }
             }()));
         local.utility2.objectSetDefault(local, local.utility2);

@@ -63,16 +63,16 @@
             ? local.global.utility2
             : (function () {
                 try {
-                    return require('./assets.utility2.rollup.js');
+                    return require(__dirname + '/lib.utility2.js');
                 } catch (errorCaught) {
-                    return require('./assets.swgg.rollup.js');
+                    return require(__dirname + '/assets.swgg.rollup.js');
                 }
             }()));
         local.utility2.objectSetDefault(local, local.utility2);
         local.utility2.swgg = local;
         // init assets and templates
 /* jslint-ignore-begin */
-local.assetsDict['/assets.swgg.html'] = '\
+local.assetsDict['/assets.swgg.html'] = local.assetsDict['/assets.swgg.template.html'] = '\
 <!doctype html>\n\
 <html lang="en">\n\
 <head>\n\

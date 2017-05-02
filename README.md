@@ -732,7 +732,7 @@ VOLUME [ \
 WORKDIR /tmp
 # install nodejs
 # https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
-RUN (set -e;
+RUN (set -e; \
     export DEBIAN_FRONTEND=noninteractive; \
     apt-get update; \
     apt-get install --no-install-recommends -y \

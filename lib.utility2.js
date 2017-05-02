@@ -1904,14 +1904,15 @@ local.assetsDict['/favicon.ico'] = '';
             xhr.addEventListener('progress', local.ajaxProgressUpdate);
             xhr.upload.addEventListener('progress', local.ajaxProgressUpdate);
             // open url
-            xhr.open(xhr.method, (local.modeJs === 'browser' &&
-                (/^https{0,1}:/).test(xhr.url) &&
-                xhr.url.indexOf(location.protocol + '//' + location.host) !== 0 &&
-                local.env.modeForwardProxyUrl) || xhr.url);
-            // set request-headers
-            if (local.env.modeForwardProxyUrl) {
+            if (local.modeJs === 'browser' &&
+                    (/^https{0,1}:/).test(xhr.url) &&
+                    xhr.url.indexOf(location.protocol + '//' + location.host) !== 0 &&
+                    local.modeForwardProxyUrl) {
+                xhr.open(xhr.method, local.modeForwardProxyUrl);
                 xhr.setRequestHeader('forward-proxy-headers', JSON.stringify(xhr.headers));
                 xhr.setRequestHeader('forward-proxy-url', xhr.url);
+            } else {
+                xhr.open(xhr.method, xhr.url);
             }
             Object.keys(xhr.headers).forEach(function (key) {
                 xhr.setRequestHeader(key, xhr.headers[key]);

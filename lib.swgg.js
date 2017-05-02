@@ -4187,7 +4187,7 @@ local.templateUiResponseAjax = '\
                 local.env.SWAGGER_JSON_URL = '/assets.swgg.petstore.json';
             }
             local.assetsDict['/assets.swgg.html'] =
-                local.assetsDict['/assets.swgg.html'].replace(
+                local.assetsDict['/assets.swgg.template.html'].replace(
                     'assets.swgg.petstore.json',
                     local.env.SWAGGER_JSON_URL
                 );

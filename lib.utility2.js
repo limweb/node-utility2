@@ -1904,7 +1904,9 @@ local.assetsDict['/favicon.ico'] = '';
             xhr.addEventListener('progress', local.ajaxProgressUpdate);
             xhr.upload.addEventListener('progress', local.ajaxProgressUpdate);
             // open url
-            xhr.open(xhr.method, local.env.modeForwardProxyUrl || xhr.url);
+            xhr.open(xhr.method, ((/^https{0,1}:/).test(xhr.url) &&
+                xhr.url.indexOf(location.protocol + '//' + location.host) !== 0 &&
+                local.env.modeForwardProxyUrl) || xhr.url);
             // set request-headers
             if (local.env.modeForwardProxyUrl) {
                 xhr.setRequestHeader('forward-proxy-headers', JSON.stringify(xhr.headers));
@@ -3816,6 +3818,7 @@ return Utf8ArrayToStr(bff);
                 ? local.https
                 : local.http).request(options, function (clientResponse) {
                 options.clientResponse = clientResponse.on('error', onError);
+                response.statusCode = options.clientRespone.statusCode;
                 // pipe clientResponse to serverResponse
                 options.clientResponse.pipe(response);
             }).on('error', onError);

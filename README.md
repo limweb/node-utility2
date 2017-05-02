@@ -732,44 +732,50 @@ VOLUME [ \
 WORKDIR /tmp
 # install nodejs
 # https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
-RUN export DEBIAN_FRONTEND=noninteractive && \
-    apt-get update && \
+RUN (set -e;
+    export DEBIAN_FRONTEND=noninteractive; \
+    apt-get update; \
     apt-get install --no-install-recommends -y \
         apt-utils \
         busybox \
         ca-certificates \
-        curl && \
+        curl; \
     (busybox --list | xargs -n1 /bin/sh -c 'ln -s /bin/busybox /bin/$0 2>/dev/null' || true) \
-        && \
-    curl -#L https://deb.nodesource.com/setup_6.x | /bin/bash - && \
-    apt-get install -y nodejs
+       ; \
+    curl -#L https://deb.nodesource.com/setup_6.x | /bin/bash -; \
+    apt-get install -y nodejs; \
+)
 # install electron-lite
 VOLUME [ \
   "/usr/lib/chromium" \
 ]
 # COPY electron-*.zip /tmp
-RUN export DEBIAN_FRONTEND=noninteractive && \
-    apt-get update && \
+RUN (set -e; \
+    export DEBIAN_FRONTEND=noninteractive; \
+    apt-get update; \
     apt-get install --no-install-recommends -y \
         chromium \
         gconf2 \
         git \
-        xvfb && \
-    npm install "kaizhu256/node-electron-lite#alpha" && \
-    cd node_modules/electron-lite && \
-    npm install && \
-    export DISPLAY=:99.0 && \
-    (Xvfb "$DISPLAY" &) && \
-    npm test && \
-    cp /tmp/electron-*.zip /
+        xvfb; \
+    npm install "kaizhu256/node-electron-lite#alpha"; \
+    cd node_modules/electron-lite; \
+    npm install; \
+    export DISPLAY=:99.0; \
+    (Xvfb "$DISPLAY" &); \
+    npm test; \
+    cp /tmp/electron-*.zip /; \
+)
 # install extras
-RUN export DEBIAN_FRONTEND=noninteractive && \
-    apt-get update && \
+RUN (set -e; \
+    export DEBIAN_FRONTEND=noninteractive; \
+    apt-get update; \
     apt-get install --no-install-recommends -y \
         nginx-extras \
         transmission-daemon \
         ssh \
-        vim
+        vim; \
+)
 ```
 
 - Dockerfile.latest

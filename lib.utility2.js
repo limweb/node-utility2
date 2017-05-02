@@ -3764,7 +3764,8 @@ return Utf8ArrayToStr(bff);
                 // enable cors
                 // http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
                 local.serverRespondHeadSet(request, response, null, {
-                    'Access-Control-Allow-Headers': 'forward-proxy-headers,forward-proxy-url',
+                    'Access-Control-Allow-Headers':
+                        'content-type,forward-proxy-headers,forward-proxy-url',
                     'Access-Control-Allow-Methods': 'DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT',
                     'Access-Control-Allow-Origin': '*'
                 });

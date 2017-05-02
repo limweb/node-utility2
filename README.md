@@ -772,29 +772,6 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
         vim
 ```
 
-- Dockerfile.emscripten
-```shell
-# Dockerfile.emscripten
-# docker build -f tmp/README.Dockerfile.emscripten -t emscripten .
-FROM kaizhu256/node-utility2:latest
-MAINTAINER kai zhu <kaizhu256@gmail.com>
-# https://kripken.github.io/emscripten-site/docs
-# /building_from_source/building_emscripten_from_source_using_the_sdk.html
-# build emscripten v1.36.0
-RUN export DEBIAN_FRONTEND=noninteractive && \
-    mkdir -p /usr/share/man/man1 && \
-    apt-get update && \
-    apt-get install --no-install-recommends -y \
-        cmake && \
-    cd / && \
-    git clone https://github.com/juj/emsdk.git --branch=master --single-branch && \
-    cd /emsdk && \
-    ./emsdk install -j2 --shallow sdk-master-64bit && \
-    ./emsdk activate && \
-    find . -name ".git" -print0 | xargs -0 rm -fr && \
-    find . -name "src" -print0 | xargs -0 rm -fr
-```
-
 - Dockerfile.latest
 ```shell
 # Dockerfile.latest
@@ -810,7 +787,8 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
     (Xvfb "$DISPLAY" &) && \
     npm test
 # install elasticsearch and kibana
-RUN export DEBIAN_FRONTEND=noninteractive && \
+RUN (set -e; \
+    export DEBIAN_FRONTEND=noninteractive && \
     mkdir -p /usr/share/man/man1 && \
     apt-get update && \
     apt-get install --no-install-recommends -y \
@@ -823,7 +801,8 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
     curl -#Lo kibana.tar.gz https://download.elastic.co/kibana/kibana/kibana-3.1.3.tar.gz && \
     rm -fr /kibana && \
     mkdir -p /kibana && \
-    tar -xzf kibana.tar.gz --strip-components=1 -C /kibana
+    tar -xzf kibana.tar.gz --strip-components=1 -C /kibana \
+)
 ```
 
 - build_ci.sh

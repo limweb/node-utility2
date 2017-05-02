@@ -45,6 +45,7 @@ the zero-dependency, swiss-army-knife utility for building, testing, and deployi
 - none
 
 #### changelog for v2017.5.2
+- add local.env param modeForwardProxy for browser-xss
 - none
 
 #### this package requires

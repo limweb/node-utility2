@@ -643,7 +643,7 @@ shBuildCiAfter() {(set -e\n\
 shBuildCiBefore() {(set -e\n\
     shReadmeTest example.js\n\
     shReadmeTest example.sh\n\
-    shNpmTestPublished\n\
+    # shNpmTestPublished\n\
 )}\n\
 \n\
 # run shBuildCi\n\
@@ -1904,8 +1904,12 @@ local.assetsDict['/favicon.ico'] = '';
             xhr.addEventListener('progress', local.ajaxProgressUpdate);
             xhr.upload.addEventListener('progress', local.ajaxProgressUpdate);
             // open url
-            xhr.open(xhr.method, xhr.url);
+            xhr.open(xhr.method, local.env.modeForwardProxyUrl || xhr.url);
             // set request-headers
+            if (local.env.modeForwardProxyUrl) {
+                xhr.setRequestHeader('forward-proxy-headers', JSON.stringify(xhr.headers));
+                xhr.setRequestHeader('forward-proxy-url', xhr.url);
+            }
             Object.keys(xhr.headers).forEach(function (key) {
                 xhr.setRequestHeader(key, xhr.headers[key]);
             });
@@ -2928,9 +2932,11 @@ return Utf8ArrayToStr(bff);
                 (/\n {4}\/\/ run shared js\-env code - function\n[\S\s]*?\n {4}\}\(\)\);\n/),
                 (/\n {4}\/\/ run browser js\-env code - function\n[\S\s]*?\n {8}break;\n/),
                 (/\n {4}\/\/ run node js\-env code - function\n[\S\s]*?\n {8}break;\n/),
+                (/\n {4}\/\/ run shared js\-env code - init-after\n[\S\s]*?\n {4}\}\(\)\);\n/),
                 new RegExp('\\n {4}\\/\\/ run browser js\\-env code - init-after\\n[\\S\\s]*?' +
-                    '^ {4}case \'browser\':\n', 'm'),
-                (/\n {4}\/\/ run shared js\-env code - init-after\n[\S\s]*?\n {4}\}\(\)\);\n/)
+                    '\n {8}local.testCase_\\w+ = local.testCase_\\w+ \\|\\| function \\(\n'),
+                new RegExp('\\n {4}\\/\\/ run node js\\-env code - init-after\\n[\\S\\s]*?' +
+                    '\n {8}local.testCase_\\w+ = local.testCase_\\w+ \\|\\| function \\(\n')
             ].forEach(function (rgx) {
                 // handle large string-replace
                 options.dataFrom.replace(rgx, function (match0) {

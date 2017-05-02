@@ -30,6 +30,7 @@ the zero-dependency, swiss-army-knife utility for building, testing, and deployi
 [![apidoc](https://kaizhu256.github.io/node-utility2/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-utility2/build..beta..travis-ci.org/apidoc.html)
 
 #### todo
+- npm publish 2017.5.2
 - fix https://travis-ci.org/npmdoc/node-npmdoc-cash
 - add quickstart example for npmdoc and npmtest
 - add browser-side testing of npmtest for /bower-components and /dist
@@ -43,14 +44,7 @@ the zero-dependency, swiss-army-knife utility for building, testing, and deployi
 - analytics
 - none
 
-#### changelog for v2017.5.1
-- npm publish 2017.5.1
-- add cli-code cli.customOrgStarFilterNotBuilt
-- add default-coverage fallback for npmtest
-- add shell-functions shCustomOrgBuildCi, shCustomOrgTravisRebuild
-- auto-include electron-lite binary path in shell-function shBuildInit
-- streamline shell-based crypto-functions
-- use breadth-first-search for exampleList in apidoc
+#### changelog for v2017.5.2
 - none
 
 #### this package requires
@@ -98,7 +92,7 @@ the zero-dependency, swiss-army-knife utility for building, testing, and deployi
 
 shExampleSh() {(set -e
     # npm install utility2
-    npm install utility2
+    npm install "kaizhu256/node-utility2#alpha"
     # serve a webpage that will interactively run browser-tests with coverage
     cd node_modules/utility2 && export PORT=8081 && npm start
 )}
@@ -127,7 +121,7 @@ this script will demo automated browser-tests with coverage (via electron and is
 instruction
     1. save this script as example.js
     2. run the shell command:
-        $ npm install electron-lite utility2 && \
+        $ npm install electron-lite "kaizhu256/node-utility2#alpha" && \
             PATH="$(pwd)/node_modules/.bin:$PATH" \
             PORT=8081 \
             npm_config_mode_coverage=utility2 \
@@ -703,7 +697,7 @@ utility2-comment -->\n\
         "start": "set -e; export PORT=${PORT:-8080}; if [ -f assets.app.js ]; then node assets.app.js; else npm_config_mode_auto_restart=1 ./lib.utility2.sh shRun shIstanbulCover test.js; fi",
         "test": "PORT=$(./lib.utility2.sh shServerPortRandom) PORT_REPL=$(./lib.utility2.sh shServerPortRandom) npm_config_mode_auto_restart=1 ./lib.utility2.sh test test.js"
     },
-    "version": "2017.5.1"
+    "version": "2017.5.2"
 }
 ```
 

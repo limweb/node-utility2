@@ -12401,9 +12401,9 @@ return Utf8ArrayToStr(bff);
                 (/\n {4}\/\/ run node js\-env code - function\n[\S\s]*?\n {8}break;\n/),
                 (/\n {4}\/\/ run shared js\-env code - init-after\n[\S\s]*?\n {4}\}\(\)\);\n/),
                 new RegExp('\\n {4}\\/\\/ run browser js\\-env code - init-after\\n[\\S\\s]*?' +
-                    '\n {8}local.testCase_\\w+ = local.testCase_\\w+ \\|\\| function \\(\n'),
+                    '\n {8}local.testCase_browser_nullCase = '),
                 new RegExp('\\n {4}\\/\\/ run node js\\-env code - init-after\\n[\\S\\s]*?' +
-                    '\n {8}local.testCase_\\w+ = local.testCase_\\w+ \\|\\| function \\(\n')
+                    '\n {8}local.testCase_buildApidoc_default = ')
             ].forEach(function (rgx) {
                 // handle large string-replace
                 options.dataFrom.replace(rgx, function (match0) {

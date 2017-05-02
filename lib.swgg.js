@@ -4182,14 +4182,14 @@ local.templateUiResponseAjax = '\
     // run node js-env code - cli
     case 'node':
         /* istanbul ignore next */
-        if (local.env.SWAGGER_JSON_URL) {
-            if (local.env.SWAGGER_JSON_URL === '127.0.0.1') {
-                local.env.SWAGGER_JSON_URL = '/assets.swgg.petstore.json';
+        if (local.modeSwaggerJsonUrl) {
+            if (local.modeSwaggerJsonUrl === '127.0.0.1') {
+                local.modeSwaggerJsonUrl = '/assets.swgg.petstore.json';
             }
             local.assetsDict['/assets.swgg.html'] =
                 local.assetsDict['/assets.swgg.template.html'].replace(
                     'assets.swgg.petstore.json',
-                    local.env.SWAGGER_JSON_URL
+                    local.modeSwaggerJsonUrl
                 );
         }
         // run the cli

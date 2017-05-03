@@ -3387,6 +3387,14 @@ local.templateUiResponseAjax = '\
         /*
          * this function will reload the ui
          */
+            var notify;
+            notify = function (message) {
+            /*
+             * this function will notify with the given message
+             */
+                document.querySelector('.swggAjaxProgressDiv').style.display = 'block';
+                document.querySelector('.swggAjaxProgressDiv').textContent = message;
+            };
             // reset ui
             Array.from(
                 document.querySelectorAll('.swggUiContainer > .reset')
@@ -3400,10 +3408,9 @@ local.templateUiResponseAjax = '\
                         .replace((/^\//), '')
                 ).href;
             // display .swggAjaxProgressDiv
-            document.querySelector('.swggAjaxProgressDiv').textContent =
-                'fetching resource list: ' +
+            notify('fetching resource list: ' +
                 document.querySelector('.swggUiContainer > .header > .td2').value +
-                '; Please wait.';
+                '; Please wait.');
             document.querySelector('.swggAjaxProgressDiv').style.display = 'block';
             local.ajax({
                 url: document.querySelector('.swggUiContainer > .header > .td2').value
@@ -3421,10 +3428,7 @@ local.templateUiResponseAjax = '\
                         ).host
                     }));
                     local.uiRender();
-                }, function (error) {
-                    document.querySelector('.swggAjaxProgressDiv').style.display = 'block';
-                    document.querySelector('.swggAjaxProgressDiv').textContent = error;
-                });
+                }, notify);
             });
         };
 

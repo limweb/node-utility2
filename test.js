@@ -220,7 +220,9 @@
                 // test undefined-error handling-behavior
                 url: '/test.error-undefined'
             }, {
-                // test undefined https-url handling-behavior
+                // test modeForwardProxyUrl handling-behavior
+                modeForwardProxyUrl: local.serverLocalHost,
+                // test undefined-https-url handling-behavior
                 timeout: 1,
                 url: 'https://undefined:0'
             }] };

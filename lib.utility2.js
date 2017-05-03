@@ -1824,6 +1824,8 @@ local.assetsDict['/favicon.ico'] = '';
             });
             // init method
             xhr.method = xhr.method || 'GET';
+            // init modeForwardProxy
+            xhr.modeForwardProxy = xhr.modeForwardProxy || local.modeForwardProxy;
             // init timeout
             xhr.timeout = xhr.timeout || local.timeoutDefault;
             // init timerTimeout
@@ -1905,10 +1907,10 @@ local.assetsDict['/favicon.ico'] = '';
             xhr.upload.addEventListener('progress', local.ajaxProgressUpdate);
             // open url
             if (local.modeJs === 'browser' &&
+                    xhr.modeForwardProxyUrl &&
                     (/^https{0,1}:/).test(xhr.url) &&
-                    xhr.url.indexOf(location.protocol + '//' + location.host) !== 0 &&
-                    local.modeForwardProxyUrl) {
-                xhr.open(xhr.method, local.modeForwardProxyUrl);
+                    xhr.url.indexOf(location.protocol + '//' + location.host) !== 0) {
+                xhr.open(xhr.method, xhr.modeForwardProxyUrl);
                 xhr.setRequestHeader('forward-proxy-headers', JSON.stringify(xhr.headers));
                 xhr.setRequestHeader('forward-proxy-url', xhr.url);
             } else {

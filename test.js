@@ -2373,6 +2373,12 @@
                 local.cronJob();
             }, 30000);
             break;
+        case 'h1-proxy1':
+            setInterval(function () {
+                // heroku-keepalive
+                local.ajax({ url: 'https://h1-proxy1.herokuapp.com' }, local.onErrorThrow);
+            }, 5 * 60 * 1000);
+            break;
         }
 
         local.testCase_buildApidoc_default = local.testCase_buildApidoc_default || function (

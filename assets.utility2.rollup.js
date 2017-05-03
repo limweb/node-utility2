@@ -13228,7 +13228,8 @@ return Utf8ArrayToStr(bff);
                 // enable cors
                 // http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
                 local.serverRespondHeadSet(request, response, null, {
-                    'Access-Control-Allow-Headers': 'forward-proxy-headers,forward-proxy-url',
+                    'Access-Control-Allow-Headers':
+                        'content-type,forward-proxy-headers,forward-proxy-url',
                     'Access-Control-Allow-Methods': 'DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT',
                     'Access-Control-Allow-Origin': '*'
                 });
@@ -15478,12 +15479,11 @@ instruction\n\
             location.search.replace(
                 (/\b(NODE_ENV|mode[A-Z]\w+|timeExit|timeoutDefault)=([^#&]+)/g),
                 function (match0, key, value) {
-                    // jslint-hack
-                    local.nop(match0);
-                    local[key] = local.env[key] = value;
+                    match0 = decodeURIComponent(value);
+                    local[key] = local.env[key] = match0;
                     // try to JSON.parse the string
                     local.tryCatchOnError(function () {
-                        local[key] = JSON.parse(value);
+                        local[key] = JSON.parse(match0);
                     }, local.nop);
                 }
             );
@@ -16294,21 +16294,24 @@ border: 0;\n\
 </style>\n\
 </head>\n\
 <body>\n\
-    <div id="ajaxProgressDiv1" style="background: #d00; height: 4px; left: 0; margin: 0; padding: 0; position: fixed; top: 0; transition: background 0.5s, width 1.5s; width: 25%;"></div>\n\
-    <div class="swggUiContainer">\n\
+<div id="ajaxProgressDiv1" style="background: #d00; height: 4px; left: 0; margin: 0; padding: 0; position: fixed; top: 0; transition: background 0.5s, width 1.5s; width: 25%;"></div>\n\
+<div class="swggUiContainer">\n\
 <form2 class="header tr">\n\
     <a class="td1" href="https://github.com/kaizhu256/node-swgg" target="_blank">swgg</a>\n\
     <input\n\
         class="flex1 td2"\n\
         type="text"\n\
-        value="assets.swgg.petstore.json"\n\
     >\n\
     <button class="td3">Explore</button>\n\
 </form2>\n\
-    </div>\n\
-    <div class="swggAjaxProgressDiv" style="margin-top: 1rem; text-align: center;">fetching resource list; Please wait.</div>\n\
-    <script src="assets.swgg.rollup.js"></script>\n\
-    <script>window.swgg.uiEventListenerDict[".onEventUiReload"]();</script>\n\
+</div>\n\
+<div class="swggAjaxProgressDiv" style="margin-top: 1rem; text-align: center;">fetching resource list; Please wait.</div>\n\
+<script src="assets.swgg.rollup.js"></script>\n\
+<script>\n\
+document.querySelector(".swggUiContainer > .header > .td2").value =\n\
+    window.swgg.modeSwaggerJsonUrl || "assets.swgg.petstore.json";\n\
+window.swgg.uiEventListenerDict[".onEventUiReload"]();\n\
+</script>\n\
 </body>\n\
 </html>\n\
 ';
@@ -19205,7 +19208,7 @@ local.templateUiResponseAjax = '\
             ).forEach(function (element) {
                 element.remove();
             });
-            // normalize url
+            // normalize swaggerJsonUrl
             document.querySelector('.swggUiContainer > .header > .td2').value =
                 local.urlParse(
                     document.querySelector('.swggUiContainer > .header > .td2').value
@@ -19220,18 +19223,23 @@ local.templateUiResponseAjax = '\
             local.ajax({
                 url: document.querySelector('.swggUiContainer > .header > .td2').value
             }, function (error, xhr) {
-                // hide .swggAjaxProgressDiv
-                document.querySelector('.swggAjaxProgressDiv').style.display = 'none';
-                // validate no error occurred
-                local.assert(!error, error);
-                // reset state
-                local.apiDict = local.swaggerJson = null;
-                local.apiDictUpdate(local.objectSetDefault(JSON.parse(xhr.responseText), {
-                    host: local.urlParse(
-                        document.querySelector('.swggUiContainer > .header > .td2').value
-                    ).host
-                }));
-                local.uiRender();
+                local.tryCatchOnError(function () {
+                    // validate no error occurred
+                    local.assert(!error, error);
+                    // hide .swggAjaxProgressDiv
+                    document.querySelector('.swggAjaxProgressDiv').style.display = 'none';
+                    // reset state
+                    local.apiDict = local.swaggerJson = null;
+                    local.apiDictUpdate(local.objectSetDefault(JSON.parse(xhr.responseText), {
+                        host: local.urlParse(
+                            document.querySelector('.swggUiContainer > .header > .td2').value
+                        ).host
+                    }));
+                    local.uiRender();
+                }, function (error) {
+                    document.querySelector('.swggAjaxProgressDiv').style.display = 'block';
+                    document.querySelector('.swggAjaxProgressDiv').textContent = error;
+                });
             });
         };
 
@@ -19995,17 +20003,6 @@ local.templateUiResponseAjax = '\
     /* istanbul ignore next */
     // run node js-env code - cli
     case 'node':
-        /* istanbul ignore next */
-        if (local.modeSwaggerJsonUrl) {
-            if (local.modeSwaggerJsonUrl === '127.0.0.1') {
-                local.modeSwaggerJsonUrl = '/assets.swgg.petstore.json';
-            }
-            local.assetsDict['/assets.swgg.html'] =
-                local.assetsDict['/assets.swgg.template.html'].replace(
-                    'assets.swgg.petstore.json',
-                    local.modeSwaggerJsonUrl
-                );
-        }
         // run the cli
         switch (process.argv[2]) {
         case 'swagger-ui':

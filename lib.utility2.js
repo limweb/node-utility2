@@ -6015,12 +6015,11 @@ instruction\n\
             location.search.replace(
                 (/\b(NODE_ENV|mode[A-Z]\w+|timeExit|timeoutDefault)=([^#&]+)/g),
                 function (match0, key, value) {
-                    // jslint-hack
-                    local.nop(match0);
-                    local[key] = local.env[key] = value;
+                    match0 = decodeURIComponent(value);
+                    local[key] = local.env[key] = match0;
                     // try to JSON.parse the string
                     local.tryCatchOnError(function () {
-                        local[key] = JSON.parse(value);
+                        local[key] = JSON.parse(match0);
                     }, local.nop);
                 }
             );

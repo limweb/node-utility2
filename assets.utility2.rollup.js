@@ -12145,7 +12145,8 @@ return Utf8ArrayToStr(bff);
                 local.assert(!error, error);
                 // coverage-hack
                 writeFileSync = local.fs.writeFileSync;
-                local.nop(local.global.__coverage__ && (function () {
+                local.nop((local.env.npm_package_nameAlias === 'swgg' ||
+                    local.global.__coverage__) && (function () {
                     writeFileSync = local.nop;
                 }()));
                 writeFileSync(
@@ -12159,7 +12160,7 @@ return Utf8ArrayToStr(bff);
                     cwd: 'tmp',
                     env: {
                         PATH: local.env.PATH,
-                        PORT: (Math.random() * 0x10000) | 0x8000,
+                        PORT: (local.env.PORT ^ (Math.random() * 0x10000)) | 0x8000,
                         npm_config_timeout_exit: 5000
                     },
                     stdio: ['ignore', 1, 2]

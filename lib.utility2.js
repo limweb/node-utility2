@@ -2646,9 +2646,6 @@ return Utf8ArrayToStr(bff);
                 file: '/assets.swgg.html',
                 url: '/assets.swgg.html'
             }, {
-                file: '/assets.swgg.rollup.js',
-                url: '/assets.swgg.rollup.js'
-            }, {
                 file: '/assets.swgg.swagger.json',
                 url: '/assets.swgg.swagger.json'
             }, {
@@ -6179,9 +6176,6 @@ instruction\n\
                 script.trim() +
                 '\n/* script-end ' + key + ' */\n';
         }).join('\n\n\n');
-        // init assets.lib.rollup.js
-        local.assetsDict['/assets.swgg.rollup.js'] =
-            local.assetsDict['/assets.utility2.rollup.js'];
         // merge previous test-report
         if (local.env.npm_config_file_test_report_merge) {
             local.testReportMerge(

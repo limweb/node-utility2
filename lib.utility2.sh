@@ -3126,7 +3126,7 @@ shUtility2DependentsSync() {(set -e
     # hardlink lib.swgg.js
     if [ -d swgg ]
     then
-        ln -f utility2/assets.utility2.rollup.js swgg/assets.swgg.rollup.js
+        ln -f utility2/assets.utility2.rollup.js swgg
         ln -f utility2/lib.swgg.js swgg
     fi
 )}

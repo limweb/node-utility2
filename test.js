@@ -1716,9 +1716,6 @@
                 file: '/assets.script_only.html',
                 url: '/assets.script_only.html'
             }, {
-                file: '/assets.swgg.rollup.js',
-                url: '/assets.swgg.rollup.js'
-            }, {
                 file: '/assets.utility2.lib.db.js',
                 url: '/assets.utility2.lib.db.js'
             }, {

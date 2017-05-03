@@ -12110,9 +12110,6 @@ return Utf8ArrayToStr(bff);
                 file: '/assets.swgg.html',
                 url: '/assets.swgg.html'
             }, {
-                file: '/assets.swgg.rollup.js',
-                url: '/assets.swgg.rollup.js'
-            }, {
                 file: '/assets.swgg.swagger.json',
                 url: '/assets.swgg.swagger.json'
             }, {
@@ -15643,9 +15640,6 @@ instruction\n\
                 script.trim() +
                 '\n/* script-end ' + key + ' */\n';
         }).join('\n\n\n');
-        // init assets.lib.rollup.js
-        local.assetsDict['/assets.swgg.rollup.js'] =
-            local.assetsDict['/assets.utility2.rollup.js'];
         // merge previous test-report
         if (local.env.npm_config_file_test_report_merge) {
             local.testReportMerge(
@@ -15888,7 +15882,7 @@ instruction\n\
                 try {
                     return require(__dirname + '/lib.utility2.js');
                 } catch (errorCaught) {
-                    return require(__dirname + '/assets.swgg.rollup.js');
+                    return require(__dirname + '/assets.utility2.rollup.js');
                 }
             }()));
         local.utility2.objectSetDefault(local, local.utility2);
@@ -16312,7 +16306,7 @@ border: 0;\n\
 </form2>\n\
 </div>\n\
 <div class="swggAjaxProgressDiv" style="margin-top: 1rem; text-align: center;">fetching resource list; Please wait.</div>\n\
-<script src="assets.swgg.rollup.js"></script>\n\
+<script src="assets.utility2.rollup.js"></script>\n\
 <script>\n\
 document.querySelector(".swggUiContainer > .header > .td2").value =\n\
     window.swgg.modeSwaggerJsonUrl || "assets.swgg.swagger.json";\n\
@@ -19997,9 +19991,6 @@ local.templateUiResponseAjax = '\
 
     // run node js-env code - init-after
     case 'node':
-        // init assets.lib.rollup.js
-        local.assetsDict['/assets.swgg.rollup.js'] =
-            local.assetsDict['/assets.utility2.rollup.js'];
         // init state
         local.utility2._stateInit({});
         break;

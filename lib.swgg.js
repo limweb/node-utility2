@@ -65,7 +65,7 @@
                 try {
                     return require(__dirname + '/lib.utility2.js');
                 } catch (errorCaught) {
-                    return require(__dirname + '/assets.swgg.rollup.js');
+                    return require(__dirname + '/assets.utility2.rollup.js');
                 }
             }()));
         local.utility2.objectSetDefault(local, local.utility2);
@@ -489,7 +489,7 @@ border: 0;\n\
 </form2>\n\
 </div>\n\
 <div class="swggAjaxProgressDiv" style="margin-top: 1rem; text-align: center;">fetching resource list; Please wait.</div>\n\
-<script src="assets.swgg.rollup.js"></script>\n\
+<script src="assets.utility2.rollup.js"></script>\n\
 <script>\n\
 document.querySelector(".swggUiContainer > .header > .td2").value =\n\
     window.swgg.modeSwaggerJsonUrl || "assets.swgg.swagger.json";\n\
@@ -4174,9 +4174,6 @@ local.templateUiResponseAjax = '\
 
     // run node js-env code - init-after
     case 'node':
-        // init assets.lib.rollup.js
-        local.assetsDict['/assets.swgg.rollup.js'] =
-            local.assetsDict['/assets.utility2.rollup.js'];
         // init state
         local.utility2._stateInit({});
         break;

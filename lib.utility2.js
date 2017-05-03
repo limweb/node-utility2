@@ -2643,6 +2643,15 @@ return Utf8ArrayToStr(bff);
                 file: '/assets.example.js',
                 url: '/assets.example.js'
             }, {
+                file: '/assets.swgg.html',
+                url: '/assets.swgg.html'
+            }, {
+                file: '/assets.swgg.rollup.js',
+                url: '/assets.swgg.rollup.js'
+            }, {
+                file: '/assets.swgg.swagger.json',
+                url: '/assets.swgg.swagger.json'
+            }, {
                 file: '/assets.test.js',
                 url: '/assets.test.js'
             }, {

@@ -2257,6 +2257,7 @@ local.assetsDict['/favicon.ico'] = '';
                         'modeBrowserTestRecurseDepth',
                         'modeBrowserTestRecurseExclude',
                         'modeBrowserTestRecurseInclude',
+                        'modeBrowserTestRecursePath',
                         'modeBrowserTestTranslate',
                         'modeBrowserTestTranslating',
                         'modeCoverageMerge',
@@ -2483,13 +2484,12 @@ function TranslateElementInit() {\n\
                     });
                     local.onParallelList({
                         list: Object.keys(data.recurseDict).sort(),
-                        rateLimit: options.rateLimit || 2
+                        rateLimit: options.rateLimit || 1
                     }, function (options2, onParallel) {
                         onParallel.counter += 1;
                         local.browserTest({
                             modeBrowserTestRecurseDepth: options.modeBrowserTestRecurseDepth,
-                            modeBrowserTestRecursePath:
-                                (options.modeBrowserTestRecursePath || '') +
+                            modeBrowserTestRecursePath: options.modeBrowserTestRecursePath +
                                 options.url + ' -> ',
                             url: options2.element
                         }, onParallel);
@@ -2556,7 +2556,7 @@ function TranslateElementInit() {\n\
                     local.objectSetDefault(options, {
                         frame: false,
                         height: 768,
-                        type: 'desktop',
+                        show: !!options.modeBrowserTestShow,
                         width: 1024,
                         x: 0,
                         y: 0
@@ -4736,7 +4736,8 @@ return Utf8ArrayToStr(bff);
             var ii, onEach2, onParallel;
             options.list = options.list || [];
             onEach2 = function () {
-                while (ii + 1 < options.list.length && onParallel.counter < options.rateLimit) {
+                while (ii + 1 < options.list.length &&
+                        onParallel.counter < options.rateLimit + 1) {
                     ii += 1;
                     onParallel.ii += 1;
                     onParallel.remaining -= 1;
@@ -4759,13 +4760,13 @@ return Utf8ArrayToStr(bff);
                     return true;
                 }
             });
-            onParallel.counter += 1;
             ii = -1;
             onParallel.ii = -1;
             onParallel.remaining = options.list.length;
             options.rateLimit = Number(options.rateLimit) || 6;
             options.rateLimit = Math.max(options.rateLimit, 1);
             options.retryLimit = Number(options.retryLimit) || 2;
+            onParallel.counter += 1;
             onEach2();
             onParallel();
         };

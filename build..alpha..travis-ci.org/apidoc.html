@@ -8619,6 +8619,7 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                 &#x27;modeBrowserTestRecurseDepth&#x27;,
                 &#x27;modeBrowserTestRecurseExclude&#x27;,
                 &#x27;modeBrowserTestRecurseInclude&#x27;,
+                &#x27;modeBrowserTestRecursePath&#x27;,
                 &#x27;modeBrowserTestTranslate&#x27;,
                 &#x27;modeBrowserTestTranslating&#x27;,
                 &#x27;modeCoverageMerge&#x27;,
@@ -8682,9 +8683,7 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                     &#x27;/test-report.&#x27; + options.testName + &#x27;.json&#x27;,
                 modeBrowserTest: &#x27;test&#x27;,
                 timeExit: Date.now() + options.timeoutDefault,
-                timeoutScreenshot: options.timeoutScreenshot || 15000
-            }, 1);
-            options.fileScreenshot ...</pre></li>
+                timeoutScreenshot: options.timeoutScreenshot || 15000 ...</pre></li>
     <li>example usage<pre class="apidocCodePre">...
             options,\n\
             onError\n\
@@ -13026,7 +13025,8 @@ local.dbCrudRemoveAll = function (onError) {
 </span>    var ii, onEach2, onParallel;
     options.list = options.list || [];
     onEach2 = function () {
-        while (ii + 1 &#x3c; options.list.length &#x26;&#x26; onParallel.counter &#x3c; options.rateLimit) {
+        while (ii + 1 &#x3c; options.list.length &#x26;&#x26;
+                onParallel.counter &#x3c; options.rateLimit + 1) {
             ii += 1;
             onParallel.ii += 1;
             onParallel.remaining -= 1;
@@ -13049,13 +13049,13 @@ local.dbCrudRemoveAll = function (onError) {
             return true;
         }
     });
-    onParallel.counter += 1;
     ii = -1;
     onParallel.ii = -1;
     onParallel.remaining = options.list.length;
     options.rateLimit = Number(options.rateLimit) || 6;
     options.rateLimit = Math.max(options.rateLimit, 1);
     options.retryLimit = Number(options.retryLimit) || 2;
+    onParallel.counter += 1;
     onEach2();
     onParallel();
 }</pre></li>
@@ -29749,6 +29749,7 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                 &#x27;modeBrowserTestRecurseDepth&#x27;,
                 &#x27;modeBrowserTestRecurseExclude&#x27;,
                 &#x27;modeBrowserTestRecurseInclude&#x27;,
+                &#x27;modeBrowserTestRecursePath&#x27;,
                 &#x27;modeBrowserTestTranslate&#x27;,
                 &#x27;modeBrowserTestTranslating&#x27;,
                 &#x27;modeCoverageMerge&#x27;,
@@ -29812,9 +29813,7 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                     &#x27;/test-report.&#x27; + options.testName + &#x27;.json&#x27;,
                 modeBrowserTest: &#x27;test&#x27;,
                 timeExit: Date.now() + options.timeoutDefault,
-                timeoutScreenshot: options.timeoutScreenshot || 15000
-            }, 1);
-            options.fileScreenshot ...</pre></li>
+                timeoutScreenshot: options.timeoutScreenshot || 15000 ...</pre></li>
     <li>example usage<pre class="apidocCodePre">...
             options,\n\
             onError\n\
@@ -34945,7 +34944,8 @@ local.dbCrudRemoveAll = function (onError) {
 </span>    var ii, onEach2, onParallel;
     options.list = options.list || [];
     onEach2 = function () {
-        while (ii + 1 &#x3c; options.list.length &#x26;&#x26; onParallel.counter &#x3c; options.rateLimit) {
+        while (ii + 1 &#x3c; options.list.length &#x26;&#x26;
+                onParallel.counter &#x3c; options.rateLimit + 1) {
             ii += 1;
             onParallel.ii += 1;
             onParallel.remaining -= 1;
@@ -34968,13 +34968,13 @@ local.dbCrudRemoveAll = function (onError) {
             return true;
         }
     });
-    onParallel.counter += 1;
     ii = -1;
     onParallel.ii = -1;
     onParallel.remaining = options.list.length;
     options.rateLimit = Number(options.rateLimit) || 6;
     options.rateLimit = Math.max(options.rateLimit, 1);
     options.retryLimit = Number(options.retryLimit) || 2;
+    onParallel.counter += 1;
     onEach2();
     onParallel();
 }</pre></li>

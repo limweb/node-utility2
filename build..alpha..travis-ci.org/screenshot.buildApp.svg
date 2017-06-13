@@ -3,14 +3,14 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26">(re)starting shNpmTest test.js</tspan>
 <tspan x="10" y="42"></tspan>
-<tspan x="10" y="58">[MODE_BUILD=buildApp] - 2017-06-13T03:45:05.311Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="58">[MODE_BUILD=buildApp] - 2017-06-13T03:59:44.228Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="74">-utility2</tspan>
 <tspan x="10" y="90"></tspan>
 <tspan x="10" y="106"></tspan>
 <tspan x="10" y="122">buildApp - merged test-report from file /home/travis/build/kaizhu256/node-utility2/tmp/build/tes\</tspan>
 <tspan x="10" y="138">t-report.json</tspan>
-<tspan x="10" y="154">&gt; repl-server listening on tcp-port 60498</tspan>
-<tspan x="10" y="170">server listening on http-port 47320</tspan>
+<tspan x="10" y="154">&gt; repl-server listening on tcp-port 52137</tspan>
+<tspan x="10" y="170">server listening on http-port 37138</tspan>
 <tspan x="10" y="186">file modified - /home/travis/build/kaizhu256/node-utility2/README.md</tspan>
 <tspan x="10" y="202">file modified - /home/travis/build/kaizhu256/node-utility2/README.md</tspan>
 <tspan x="10" y="218">file modified - /home/travis/build/kaizhu256/node-utility2/lib.utility2.js</tspan>
@@ -19,34 +19,34 @@
 <tspan x="10" y="266">file modified - /home/travis/build/kaizhu256/node-utility2/package.json</tspan>
 <tspan x="10" y="282">file modified - /home/travis/build/kaizhu256/node-utility2/test.js</tspan>
 <tspan x="10" y="298">file modified - /home/travis/build/kaizhu256/node-utility2/test.js</tspan>
-<tspan x="10" y="314">server listening on http-port 55628</tspan>
+<tspan x="10" y="314">server listening on http-port 45565</tspan>
 <tspan x="10" y="330">&gt; [node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="346"></tspan>
 <tspan x="10" y="362">buildApp - merged test-report from file /home/travis/build/kaizhu256/node-utility2/tmp/build/tes\</tspan>
 <tspan x="10" y="378">t-report.json</tspan>
 <tspan x="10" y="394"></tspan>
 <tspan x="10" y="410">-------------------------------------------------------</tspan>
-<tspan x="10" y="426">| test-report - buildApidoc - node - linux v6.11.0 - 2017-06-13T03:44:01.473Z</tspan>
-<tspan x="10" y="442">|    6934 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="426">| test-report - buildApidoc - node - linux v6.11.0 - 2017-06-13T03:58:38.670Z</tspan>
+<tspan x="10" y="442">|    7044 ms            0 failed        1 passed      |</tspan>
 <tspan x="10" y="458">-------------------------------------------------------</tspan>
 <tspan x="10" y="474">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="490">L, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T03:43:04.489Z</tspan>
-<tspan x="10" y="506">|    4340 ms            0 failed       64 passed      |</tspan>
+<tspan x="10" y="490">L, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T03:57:43.524Z</tspan>
+<tspan x="10" y="506">|    4245 ms            0 failed       64 passed      |</tspan>
 <tspan x="10" y="522">-------------------------------------------------------</tspan>
 <tspan x="10" y="538">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="554">L, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T03:43:43.712Z</tspan>
-<tspan x="10" y="570">|    3998 ms            0 failed       64 passed      |</tspan>
+<tspan x="10" y="554">L, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T03:58:20.937Z</tspan>
+<tspan x="10" y="570">|    4098 ms            0 failed       64 passed      |</tspan>
 <tspan x="10" y="586">-------------------------------------------------------</tspan>
-<tspan x="10" y="602">| test-report - npmTest - node - linux v6.11.0 - 2017-06-13T03:42:41.101Z</tspan>
-<tspan x="10" y="618">|   90670 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="602">| test-report - npmTest - node - linux v6.11.0 - 2017-06-13T03:57:19.104Z</tspan>
+<tspan x="10" y="618">|   91131 ms            0 failed        1 passed      |</tspan>
 <tspan x="10" y="634">-------------------------------------------------------</tspan>
 <tspan x="10" y="650">| test-report - testExampleJs - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36\</tspan>
-<tspan x="10" y="666"> (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T03:41:50.78\</tspan>
-<tspan x="10" y="682">3Z</tspan>
-<tspan x="10" y="698">|      40 ms            0 failed        2 passed      |</tspan>
+<tspan x="10" y="666"> (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T03:56:28.49\</tspan>
+<tspan x="10" y="682">4Z</tspan>
+<tspan x="10" y="698">|      31 ms            0 failed        2 passed      |</tspan>
 <tspan x="10" y="714">-------------------------------------------------------</tspan>
-<tspan x="10" y="730">| test-report - testExampleJs - node - linux v6.11.0 - 2017-06-13T03:41:49.478Z</tspan>
-<tspan x="10" y="746">|   16145 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="730">| test-report - testExampleJs - node - linux v6.11.0 - 2017-06-13T03:56:27.414Z</tspan>
+<tspan x="10" y="746">|   15989 ms            0 failed        1 passed      |</tspan>
 <tspan x="10" y="762">-------------------------------------------------------</tspan>
 <tspan x="10" y="778"></tspan>
 <tspan x="10" y="794">created test-report file /home/travis/build/kaizhu256/node-utility2/tmp/build/test-report.html</tspan>
@@ -55,7 +55,7 @@
 <tspan x="10" y="842">buildApp - 0 failed tests</tspan>
 <tspan x="10" y="858"></tspan>
 <tspan x="10" y="874"></tspan>
-<tspan x="10" y="890">[MODE_BUILD=buildApp] - 2017-06-13T03:45:14.953Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="890">[MODE_BUILD=buildApp] - 2017-06-13T03:59:53.667Z - EXIT_CODE - 0</tspan>
 <tspan x="10" y="906"></tspan>
 <tspan x="10" y="922">process exited with code 0</tspan>
 <tspan x="10" y="938">EXIT_CODE - 0</tspan>

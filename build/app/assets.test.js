@@ -1108,7 +1108,7 @@
                         rateLimit: options.rateLimit
                     }, function (data, onParallel) {
                         onParallel.counter += 1;
-                        options.rateMax = Math.max(onParallel.counter, options.rateMax);
+                        options.rateMax = Math.max(onParallel.counter - 1, options.rateMax);
                         // test async handling-behavior
                         setTimeout(function () {
                             options.data[data.ii] = data.element;

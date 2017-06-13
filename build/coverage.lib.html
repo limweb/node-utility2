@@ -197,18 +197,18 @@
     <h1>Code coverage report for <span class="entity">node-utility2/test.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">100% <small>(1018 / 1018)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">100% <small>(1021 / 1021)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
         Branches: <span class="metric">100% <small>(145 / 145)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">100% <small>(229 / 229)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">100% <small>(230 / 230)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">100% <small>(1018 / 1018)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">100% <small>(1021 / 1021)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
-        Ignored: <span class="metric">46 statements, 10 functions, 27 branches</span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Ignored: <span class="metric">48 statements, 10 functions, 27 branches</span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
     <div class="path"><a href="../index.html">All files</a> &#187; <a href="index.html">node-utility2/</a> &#187; test.js</div>
 </div>
@@ -2860,7 +2860,14 @@
 2644
 2645
 2646
-2647</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+2647
+2648
+2649
+2650
+2651
+2652
+2653
+2654</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -5314,6 +5321,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -5381,16 +5390,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
@@ -5400,6 +5401,18 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -5407,9 +5420,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7</span>
+<span class="cline-any cline-yes">7</span>
 <span class="cline-any cline-yes">6</span>
-<span class="cline-any cline-yes">6</span>
-<span class="cline-any cline-yes">6</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
@@ -7955,13 +7969,15 @@
 <span class="cstat-skip" title="statement not covered" >            return;</span>
         }
         local.assetsDict['/assets.script_only.html'] = '&lt;h1&gt;script_only_test&lt;/h1&gt;\n' +
-                '&lt;a href="assets.undefined"&gt;undefined&lt;/a&gt;\n' +
-                '&lt;a href="assets.hello"&gt;hello&lt;/a&gt;\n' +
                 '&lt;script src="assets.utility2.js"&gt;&lt;/script&gt;\n' +
                 '&lt;script&gt;window.utility2.onReadyBefore.counter += 1;&lt;/script&gt;\n' +
                 '&lt;script src="assets.example.js"&gt;&lt;/script&gt;\n' +
                 '&lt;script src="assets.test.js"&gt;&lt;/script&gt;\n' +
                 '&lt;script&gt;window.utility2.onReadyBefore();&lt;/script&gt;\n';
+        local.assetsDict['/assets.recurse1'] = local.assetsDict['/assets.recurse2'] =
+            '&lt;a href="assets.recurse1"&gt;&lt;/a&gt;\n' +
+            '&lt;a href="assets.recurse2"&gt;&lt;/a&gt;\n' +
+            '&lt;a href="assets.undefined"&gt;&lt;/a&gt;\n';
         <span class="skip-if-branch" title="if path not taken" >I</span>if (process.argv[2]) {
             // start with coverage
 <span class="cstat-skip" title="statement not covered" >            if (local.env.npm_config_mode_coverage) {</span>
@@ -8027,12 +8043,12 @@
                 case 1:
                     options2 = {};
                     options2.modeBrowserTest = 'scrape';
-                    //!! options2.modeSilent = true;
                     options2.modeBrowserTestRecurseDepth = 1;
                     options2.modeBrowserTestRecurseExclude = 'undefined';
+                    options2.modeBrowserTestTranslate = 'ru,zh-CN';
                     options2.modeTestIgnore = true;
                     options2.timeoutScreenshot = 1000;
-                    options2.url = local.serverLocalHost + '/assets.script_only.html';
+                    options2.url = local.serverLocalHost + '/assets.recurse1';
                     local.browserTest(options2, options.onNext);
                     break;
                 // test translateAfterScrape handling-behavior
@@ -8046,19 +8062,24 @@
                 case 3:
                     // validate scraped files
                     [
-                        '.html',
-                        '.png',
-                        '.translateAfterScrape.ru.html',
-                        '.translateAfterScrape.ru.png',
-                        '.translateAfterScrape.zh-CN.html',
-                        '.translateAfterScrape.zh-CN.png'
-                    ].forEach(function (file) {
-                        file = options2.fileScreenshotBase + file;
-                        local.assert(local.fs.existsSync(file), file);
-                        local.fs.unlinkSync(file);
+                        options2.fileScreenshotBase,
+                        options2.fileScreenshotBase.replace('1', '2')
+                    ].forEach(function (file1) {
+                        [
+                            '.html',
+                            '.png',
+                            '.translateAfterScrape.ru.html',
+                            '.translateAfterScrape.ru.png',
+                            '.translateAfterScrape.zh-CN.html',
+                            '.translateAfterScrape.zh-CN.png'
+                        ].forEach(function (file2) {
+                            file2 = file1 + file2;
+                            local.assert(local.fs.existsSync(file2), file2);
+                            local.fs.unlinkSync(file2);
+                        });
                     });
-                    options.onNext();
-                    break;
+<span class="cstat-skip" title="statement not covered" >                    options.onNext();</span>
+<span class="cstat-skip" title="statement not covered" >                    break;</span>
                 default:
                     onError(error);
                 }
@@ -8156,7 +8177,7 @@
 </table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 07:54:30 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 08:31:22 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>

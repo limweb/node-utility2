@@ -15496,7 +15496,7 @@ mkdir -p /tmp/100 && \
     shBrowserTest 'http://xinhuanet.com/' scrape
 */
                     if (options.modeBrowserTestRecursePath) {
-                        if (options.modeBrowserTestRecurseDepth <= 0 ||
+                        if (options.modeBrowserTestRecurseDepth < 0 ||
                                 local.fs.existsSync(options.fileScreenshot)) {
                             options.modeNext = Infinity;
                         } else {
@@ -15506,7 +15506,6 @@ mkdir -p /tmp/100 && \
                                 '\n');
                             local.fs.writeFileSync(options.fileScreenshot, '');
                         }
-                        options.modeBrowserTestRecurseDepth -= 1;
                         options.onNext();
                         return;
                     }
@@ -15583,6 +15582,7 @@ function TranslateElementInit() {\n\
                         );
                         onParallel.counter += 1;
                         local.browserTest({
+                            modeBrowserTest: options2.modeBrowserTest,
                             fileScreenshotBase: options2.fileScreenshotBase,
                             modeBrowserTestTranslating: options2.element,
                             timeoutScreenshot: options.timeoutScreenshot,
@@ -15634,13 +15634,16 @@ function TranslateElementInit() {\n\
                     }, function (options2, onParallel) {
                         onParallel.counter += 1;
                         local.browserTest({
-                            modeBrowserTestRecurseDepth: options.modeBrowserTestRecurseDepth,
+                            modeBrowserTest: options.modeBrowserTest,
+                            modeBrowserTestRecurseDepth:
+                                options.modeBrowserTestRecurseDepth - 1,
                             modeBrowserTestRecurseExclude:
                                 options.modeBrowserTestRecurseExclude,
                             modeBrowserTestRecurseInclude:
                                 options.modeBrowserTestRecurseInclude,
                             modeBrowserTestRecursePath: options.modeBrowserTestRecursePath +
                                 options.url + ' -> ',
+                            modeBrowserTestTranslate: options.modeBrowserTestTranslate,
                             timeoutScreenshot: options.timeoutScreenshot,
                             url: options2.element
                         }, onParallel);

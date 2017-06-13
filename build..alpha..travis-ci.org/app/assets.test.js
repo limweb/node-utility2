@@ -2447,13 +2447,15 @@
             return;
         }
         local.assetsDict['/assets.script_only.html'] = '<h1>script_only_test</h1>\n' +
-                '<a href="assets.undefined">undefined</a>\n' +
-                '<a href="assets.hello">hello</a>\n' +
                 '<script src="assets.utility2.js"></script>\n' +
                 '<script>window.utility2.onReadyBefore.counter += 1;</script>\n' +
                 '<script src="assets.example.js"></script>\n' +
                 '<script src="assets.test.js"></script>\n' +
                 '<script>window.utility2.onReadyBefore();</script>\n';
+        local.assetsDict['/assets.recurse1'] = local.assetsDict['/assets.recurse2'] =
+            '<a href="assets.recurse1"></a>\n' +
+            '<a href="assets.recurse2"></a>\n' +
+            '<a href="assets.undefined"></a>\n';
         if (process.argv[2]) {
             // start with coverage
             if (local.env.npm_config_mode_coverage) {
@@ -2519,12 +2521,12 @@
                 case 1:
                     options2 = {};
                     options2.modeBrowserTest = 'scrape';
-                    //!! options2.modeSilent = true;
                     options2.modeBrowserTestRecurseDepth = 1;
                     options2.modeBrowserTestRecurseExclude = 'undefined';
+                    options2.modeBrowserTestTranslate = 'ru,zh-CN';
                     options2.modeTestIgnore = true;
                     options2.timeoutScreenshot = 1000;
-                    options2.url = local.serverLocalHost + '/assets.script_only.html';
+                    options2.url = local.serverLocalHost + '/assets.recurse1';
                     local.browserTest(options2, options.onNext);
                     break;
                 // test translateAfterScrape handling-behavior
@@ -2538,16 +2540,21 @@
                 case 3:
                     // validate scraped files
                     [
-                        '.html',
-                        '.png',
-                        '.translateAfterScrape.ru.html',
-                        '.translateAfterScrape.ru.png',
-                        '.translateAfterScrape.zh-CN.html',
-                        '.translateAfterScrape.zh-CN.png'
-                    ].forEach(function (file) {
-                        file = options2.fileScreenshotBase + file;
-                        local.assert(local.fs.existsSync(file), file);
-                        local.fs.unlinkSync(file);
+                        options2.fileScreenshotBase,
+                        options2.fileScreenshotBase.replace('1', '2')
+                    ].forEach(function (file1) {
+                        [
+                            '.html',
+                            '.png',
+                            '.translateAfterScrape.ru.html',
+                            '.translateAfterScrape.ru.png',
+                            '.translateAfterScrape.zh-CN.html',
+                            '.translateAfterScrape.zh-CN.png'
+                        ].forEach(function (file2) {
+                            file2 = file1 + file2;
+                            local.assert(local.fs.existsSync(file2), file2);
+                            local.fs.unlinkSync(file2);
+                        });
                     });
                     options.onNext();
                     break;

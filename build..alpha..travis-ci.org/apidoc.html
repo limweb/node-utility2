@@ -13150,22 +13150,22 @@ if (!options.testRunBeforeDone) {
     onEach();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+    return;
+}
 local.assetsDict[&#x27;/assets.script_only.html&#x27;] = &#x27;&#x3c;h1&#x3e;script_only_test&#x3c;/h1&#x3e;\n&#x27; +
-        &#x27;&#x3c;a href=&#x22;assets.undefined&#x22;&#x3e;undefined&#x3c;/a&#x3e;\n&#x27; +
-        &#x27;&#x3c;a href=&#x22;assets.hello&#x22;&#x3e;hello&#x3c;/a&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.utility2.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script&#x3e;window.utility2.onReadyBefore.counter += 1;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.example.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.test.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script&#x3e;window.utility2.<span class="apidocCodeKeywordSpan">onReadyBefore</span>();&#x3c;/script&#x3e;\n
 &#x27;;
+local.assetsDict[&#x27;/assets.recurse1&#x27;] = local.assetsDict[&#x27;/assets.recurse2&#x27;] =
+    &#x27;&#x3c;a href=&#x22;assets.recurse1&#x22;&#x3e;&#x3c;/a&#x3e;\n&#x27; +
+    &#x27;&#x3c;a href=&#x22;assets.recurse2&#x22;&#x3e;&#x3c;/a&#x3e;\n&#x27; +
+    &#x27;&#x3c;a href=&#x22;assets.undefined&#x22;&#x3e;&#x3c;/a&#x3e;\n&#x27;;
 if (process.argv[2]) {
     // start with coverage
     if (local.env.npm_config_mode_coverage) {
-        process.argv.splice(1, 1, __dirname + &#x27;/lib.istanbul.js&#x27;, &#x27;cover&#x27;);
-        local.istanbul.cliRunIstanbul({ runMain: true });
-        return;
-    }
 ...</pre></li>
     </ul>
 
@@ -35069,22 +35069,22 @@ if (!options.testRunBeforeDone) {
     onEach();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+    return;
+}
 local.assetsDict[&#x27;/assets.script_only.html&#x27;] = &#x27;&#x3c;h1&#x3e;script_only_test&#x3c;/h1&#x3e;\n&#x27; +
-        &#x27;&#x3c;a href=&#x22;assets.undefined&#x22;&#x3e;undefined&#x3c;/a&#x3e;\n&#x27; +
-        &#x27;&#x3c;a href=&#x22;assets.hello&#x22;&#x3e;hello&#x3c;/a&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.utility2.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script&#x3e;window.utility2.onReadyBefore.counter += 1;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.example.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.test.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script&#x3e;window.utility2.<span class="apidocCodeKeywordSpan">onReadyBefore</span>();&#x3c;/script&#x3e;\n
 &#x27;;
+local.assetsDict[&#x27;/assets.recurse1&#x27;] = local.assetsDict[&#x27;/assets.recurse2&#x27;] =
+    &#x27;&#x3c;a href=&#x22;assets.recurse1&#x22;&#x3e;&#x3c;/a&#x3e;\n&#x27; +
+    &#x27;&#x3c;a href=&#x22;assets.recurse2&#x22;&#x3e;&#x3c;/a&#x3e;\n&#x27; +
+    &#x27;&#x3c;a href=&#x22;assets.undefined&#x22;&#x3e;&#x3c;/a&#x3e;\n&#x27;;
 if (process.argv[2]) {
     // start with coverage
     if (local.env.npm_config_mode_coverage) {
-        process.argv.splice(1, 1, __dirname + &#x27;/lib.istanbul.js&#x27;, &#x27;cover&#x27;);
-        local.istanbul.cliRunIstanbul({ runMain: true });
-        return;
-    }
 ...</pre></li>
     </ul>
 

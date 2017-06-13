@@ -13150,22 +13150,22 @@ if (!options.testRunBeforeDone) {
     onEach();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+    return;
+}
 local.assetsDict['/assets.script_only.html'] = '&lt;h1&gt;script_only_test&lt;/h1&gt;\n' +
-        '&lt;a href="assets.undefined"&gt;undefined&lt;/a&gt;\n' +
-        '&lt;a href="assets.hello"&gt;hello&lt;/a&gt;\n' +
         '&lt;script src="assets.utility2.js"&gt;&lt;/script&gt;\n' +
         '&lt;script&gt;window.utility2.onReadyBefore.counter += 1;&lt;/script&gt;\n' +
         '&lt;script src="assets.example.js"&gt;&lt;/script&gt;\n' +
         '&lt;script src="assets.test.js"&gt;&lt;/script&gt;\n' +
         '&lt;script&gt;window.utility2.<span class="apidocCodeKeywordSpan">onReadyBefore</span>();&lt;/script&gt;\n
 ';
+local.assetsDict['/assets.recurse1'] = local.assetsDict['/assets.recurse2'] =
+    '&lt;a href="assets.recurse1"&gt;&lt;/a&gt;\n' +
+    '&lt;a href="assets.recurse2"&gt;&lt;/a&gt;\n' +
+    '&lt;a href="assets.undefined"&gt;&lt;/a&gt;\n';
 if (process.argv[2]) {
     // start with coverage
     if (local.env.npm_config_mode_coverage) {
-        process.argv.splice(1, 1, __dirname + '/lib.istanbul.js', 'cover');
-        local.istanbul.cliRunIstanbul({ runMain: true });
-        return;
-    }
 ...</pre></li>
     </ul>
 
@@ -35066,22 +35066,22 @@ if (!options.testRunBeforeDone) {
     onEach();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+    return;
+}
 local.assetsDict['/assets.script_only.html'] = '&lt;h1&gt;script_only_test&lt;/h1&gt;\n' +
-        '&lt;a href="assets.undefined"&gt;undefined&lt;/a&gt;\n' +
-        '&lt;a href="assets.hello"&gt;hello&lt;/a&gt;\n' +
         '&lt;script src="assets.utility2.js"&gt;&lt;/script&gt;\n' +
         '&lt;script&gt;window.utility2.onReadyBefore.counter += 1;&lt;/script&gt;\n' +
         '&lt;script src="assets.example.js"&gt;&lt;/script&gt;\n' +
         '&lt;script src="assets.test.js"&gt;&lt;/script&gt;\n' +
         '&lt;script&gt;window.utility2.<span class="apidocCodeKeywordSpan">onReadyBefore</span>();&lt;/script&gt;\n
 ';
+local.assetsDict['/assets.recurse1'] = local.assetsDict['/assets.recurse2'] =
+    '&lt;a href="assets.recurse1"&gt;&lt;/a&gt;\n' +
+    '&lt;a href="assets.recurse2"&gt;&lt;/a&gt;\n' +
+    '&lt;a href="assets.undefined"&gt;&lt;/a&gt;\n';
 if (process.argv[2]) {
     // start with coverage
     if (local.env.npm_config_mode_coverage) {
-        process.argv.splice(1, 1, __dirname + '/lib.istanbul.js', 'cover');
-        local.istanbul.cliRunIstanbul({ runMain: true });
-        return;
-    }
 ...</pre></li>
     </ul>
 

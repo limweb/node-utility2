@@ -1,0 +1,16 @@
+<svg height="206" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="206" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current</tspan>
+<tspan x="10" y="42">                                 Dload  Upload   Total   Spent    Left  Speed</tspan>
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 1841k    0 15766    0     0  88068      0  0:00:21 --:--:--  0:00:21 88078<tspan x="10" y="58">100 1841k  100 1841k    0     0  4449k      0 --:--:-- --:--:-- --:--:-- 4449k</tspan>
+<tspan x="10" y="74"></tspan>
+<tspan x="10" y="90">testExampleSh - merged test-report from file:///home/travis/build/kaizhu256/node-utility2/tmp/bu\</tspan>
+<tspan x="10" y="106">ild/test-report.json</tspan>
+<tspan x="10" y="122"></tspan>
+<tspan x="10" y="138">testExampleSh - merged test-report from file:///home/travis/build/kaizhu256/node-utility2/tmp/bu\</tspan>
+<tspan x="10" y="154">ild/test-report.json</tspan>
+<tspan x="10" y="170">server listening on http-port 8081</tspan>
+<tspan x="10" y="186">&gt;</tspan>
+</text>
+</svg>

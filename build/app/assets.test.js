@@ -2535,10 +2535,10 @@
                     [
                         '.html',
                         '.png',
-                        '.translate.ru.html',
-                        '.translate.ru.png',
-                        '.translate.zh-CN.html',
-                        '.translate.zh-CN.png'
+                        '.translateAfterScrape.ru.html',
+                        '.translateAfterScrape.ru.png',
+                        '.translateAfterScrape.zh-CN.html',
+                        '.translateAfterScrape.zh-CN.png'
                     ].forEach(function (file) {
                         file = options2.fileScreenshotBase + file;
                         local.assert(local.fs.existsSync(file), file);
@@ -2553,43 +2553,6 @@
             options.modeNext = 0;
             options.onNext();
         };
-
-        //!! local.testCase_browserTest_translateAfterScrape = function (options, onError) {
-        //!! /*
-         //!! * this function will test browserTest's translateAfterScrape handling-behavior
-         //!! */
-            //!! options = {
-                //!! modeBrowserTest: 'scrape',
-                //!! timeoutScreenshot: 5000,
-                //!! url: local.serverLocalHost + '/assets.hello'
-            //!! };
-            //!! local.browserTest(options, function (error) {
-                //!! // validate no error occurred
-                //!! local.assert(!error, error);
-                //!! options.modeBrowserTest = 'translateAfterScrape';
-                //!! options.modeBrowserTestTranslate = 'ru,zh-CN';
-                //!! options.modeNext = 0;
-                //!! options.url = options.fileScreenshotBase;
-                //!! local.browserTest(options, function (error) {
-                    //!! // validate no error occurred
-                    //!! local.assert(!error, error);
-                    //!! // validate scraped files
-                    //!! [
-                        //!! '.html',
-                        //!! '.png',
-                        //!! '.translate.ru.html',
-                        //!! '.translate.ru.png',
-                        //!! '.translate.zh-CN.html',
-                        //!! '.translate.zh-CN.png'
-                    //!! ].forEach(function (file) {
-                        //!! file = options.fileScreenshotBase + file;
-                        //!! local.assert(local.fs.existsSync(file), file);
-                        //!! local.fs.unlinkSync(file);
-                    //!! });
-                    //!! onError();
-                //!! });
-            //!! });
-        //!! };
 
         local.testCase_buildApidoc_default = local.testCase_buildApidoc_default || function (
             options,

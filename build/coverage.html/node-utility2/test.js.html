@@ -2855,44 +2855,7 @@
 2639
 2640
 2641
-2642
-2643
-2644
-2645
-2646
-2647
-2648
-2649
-2650
-2651
-2652
-2653
-2654
-2655
-2656
-2657
-2658
-2659
-2660
-2661
-2662
-2663
-2664
-2665
-2666
-2667
-2668
-2669
-2670
-2671
-2672
-2673
-2674
-2675
-2676
-2677
-2678
-2679</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+2642</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -5446,43 +5409,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -8107,10 +8033,10 @@
                     [
                         '.html',
                         '.png',
-                        '.translate.ru.html',
-                        '.translate.ru.png',
-                        '.translate.zh-CN.html',
-                        '.translate.zh-CN.png'
+                        '.translateAfterScrape.ru.html',
+                        '.translateAfterScrape.ru.png',
+                        '.translateAfterScrape.zh-CN.html',
+                        '.translateAfterScrape.zh-CN.png'
                     ].forEach(function (file) {
                         file = options2.fileScreenshotBase + file;
                         local.assert(local.fs.existsSync(file), file);
@@ -8125,43 +8051,6 @@
             options.modeNext = 0;
             options.onNext();
         };
-&nbsp;
-        //!! local.testCase_browserTest_translateAfterScrape = function (options, onError) {
-        //!! /*
-         //!! * this function will test browserTest's translateAfterScrape handling-behavior
-         //!! */
-            //!! options = {
-                //!! modeBrowserTest: 'scrape',
-                //!! timeoutScreenshot: 5000,
-                //!! url: local.serverLocalHost + '/assets.hello'
-            //!! };
-            //!! local.browserTest(options, function (error) {
-                //!! // validate no error occurred
-                //!! local.assert(!error, error);
-                //!! options.modeBrowserTest = 'translateAfterScrape';
-                //!! options.modeBrowserTestTranslate = 'ru,zh-CN';
-                //!! options.modeNext = 0;
-                //!! options.url = options.fileScreenshotBase;
-                //!! local.browserTest(options, function (error) {
-                    //!! // validate no error occurred
-                    //!! local.assert(!error, error);
-                    //!! // validate scraped files
-                    //!! [
-                        //!! '.html',
-                        //!! '.png',
-                        //!! '.translate.ru.html',
-                        //!! '.translate.ru.png',
-                        //!! '.translate.zh-CN.html',
-                        //!! '.translate.zh-CN.png'
-                    //!! ].forEach(function (file) {
-                        //!! file = options.fileScreenshotBase + file;
-                        //!! local.assert(local.fs.existsSync(file), file);
-                        //!! local.fs.unlinkSync(file);
-                    //!! });
-                    //!! onError();
-                //!! });
-            //!! });
-        //!! };
 &nbsp;
         local.testCase_buildApidoc_default = local.testCase_buildApidoc_default || <span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >function (</span></span>
             options,
@@ -8252,7 +8141,7 @@
 </table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 06:13:33 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 06:38:55 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>

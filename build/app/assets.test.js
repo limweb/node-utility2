@@ -2447,6 +2447,8 @@
             return;
         }
         local.assetsDict['/assets.script_only.html'] = '<h1>script_only_test</h1>\n' +
+                '<a href="assets.undefined">undefined</a>\n' +
+                '<a href="assets.hello">hello</a>\n' +
                 '<script src="assets.utility2.js"></script>\n' +
                 '<script>window.utility2.onReadyBefore.counter += 1;</script>\n' +
                 '<script src="assets.example.js"></script>\n' +
@@ -2515,11 +2517,14 @@
                 switch (options.modeNext) {
                 // test scrape handling-behavior
                 case 1:
-                    options2 = {
-                        modeBrowserTest: 'scrape',
-                        timeoutScreenshot: 5000,
-                        url: local.serverLocalHost + '/assets.hello'
-                    };
+                    options2 = {};
+                    options2.modeBrowserTest = 'scrape';
+                    //!! options2.modeSilent = true;
+                    options2.modeBrowserTestRecurseDepth = 1;
+                    options2.modeBrowserTestRecurseExclude = 'undefined';
+                    options2.modeTestIgnore = true;
+                    options2.timeoutScreenshot = 1000;
+                    options2.url = local.serverLocalHost + '/assets.script_only.html';
                     local.browserTest(options2, options.onNext);
                     break;
                 // test translateAfterScrape handling-behavior

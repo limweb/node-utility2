@@ -8625,7 +8625,6 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                 &#x27;modeBrowserTestTranslating&#x27;,
                 &#x27;modeCoverageMerge&#x27;,
                 &#x27;modeSilent&#x27;,
-                &#x27;modeTestIgnore&#x27;,
                 &#x27;npm_config_dir_build&#x27;,
                 &#x27;npm_config_dir_tmp&#x27;,
                 &#x27;rateLimit&#x27;,
@@ -8684,7 +8683,7 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                     &#x27;/test-report.&#x27; + options.testName + &#x27;.json&#x27;,
                 modeBrowserTest: &#x27;test&#x27;,
                 timeExit: Date.now() + options.timeoutDefault,
-                timeoutScreenshot: opt ...</pre></li>
+                timeoutScreenshot: options.timeoutScreenshot || 15000 ...</pre></li>
     <li>example usage<pre class="apidocCodePre">...
             options,\n\
             onError\n\
@@ -13151,9 +13150,9 @@ if (!options.testRunBeforeDone) {
     onEach();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    return;
-}
 local.assetsDict[&#x27;/assets.script_only.html&#x27;] = &#x27;&#x3c;h1&#x3e;script_only_test&#x3c;/h1&#x3e;\n&#x27; +
+        &#x27;&#x3c;a href=&#x22;assets.undefined&#x22;&#x3e;undefined&#x3c;/a&#x3e;\n&#x27; +
+        &#x27;&#x3c;a href=&#x22;assets.hello&#x22;&#x3e;hello&#x3c;/a&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.utility2.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script&#x3e;window.utility2.onReadyBefore.counter += 1;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.example.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
@@ -29756,7 +29755,6 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                 &#x27;modeBrowserTestTranslating&#x27;,
                 &#x27;modeCoverageMerge&#x27;,
                 &#x27;modeSilent&#x27;,
-                &#x27;modeTestIgnore&#x27;,
                 &#x27;npm_config_dir_build&#x27;,
                 &#x27;npm_config_dir_tmp&#x27;,
                 &#x27;rateLimit&#x27;,
@@ -29815,7 +29813,7 @@ local.<span class="apidocCodeKeywordSpan">blobRead</span>(value, &#x27;binary&#x
                     &#x27;/test-report.&#x27; + options.testName + &#x27;.json&#x27;,
                 modeBrowserTest: &#x27;test&#x27;,
                 timeExit: Date.now() + options.timeoutDefault,
-                timeoutScreenshot: opt ...</pre></li>
+                timeoutScreenshot: options.timeoutScreenshot || 15000 ...</pre></li>
     <li>example usage<pre class="apidocCodePre">...
             options,\n\
             onError\n\
@@ -35071,9 +35069,9 @@ if (!options.testRunBeforeDone) {
     onEach();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    return;
-}
 local.assetsDict[&#x27;/assets.script_only.html&#x27;] = &#x27;&#x3c;h1&#x3e;script_only_test&#x3c;/h1&#x3e;\n&#x27; +
+        &#x27;&#x3c;a href=&#x22;assets.undefined&#x22;&#x3e;undefined&#x3c;/a&#x3e;\n&#x27; +
+        &#x27;&#x3c;a href=&#x22;assets.hello&#x22;&#x3e;hello&#x3c;/a&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.utility2.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script&#x3e;window.utility2.onReadyBefore.counter += 1;&#x3c;/script&#x3e;\n&#x27; +
         &#x27;&#x3c;script src=&#x22;assets.example.js&#x22;&#x3e;&#x3c;/script&#x3e;\n&#x27; +

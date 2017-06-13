@@ -15406,7 +15406,6 @@ local.assetsDict['/favicon.ico'] = '';
                         'modeBrowserTestTranslating',
                         'modeCoverageMerge',
                         'modeSilent',
-                        'modeTestIgnore',
                         'npm_config_dir_build',
                         'npm_config_dir_tmp',
                         'rateLimit',
@@ -15614,7 +15613,8 @@ function TranslateElementInit() {\n\
                         .filter(function (element) {
                             return element;
                         });
-                    data.include = options.modeBrowserTestRecurseInclude
+                    data.include = (options.modeBrowserTestRecurseInclude ||
+                        (options.url.split((/[\/?#]/)).slice(0, 3).join('/')))
                         .split(/[\s,]+/)
                         .filter(function (element) {
                             return element;
@@ -15635,8 +15635,13 @@ function TranslateElementInit() {\n\
                         onParallel.counter += 1;
                         local.browserTest({
                             modeBrowserTestRecurseDepth: options.modeBrowserTestRecurseDepth,
+                            modeBrowserTestRecurseExclude:
+                                options.modeBrowserTestRecurseExclude,
+                            modeBrowserTestRecurseInclude:
+                                options.modeBrowserTestRecurseInclude,
                             modeBrowserTestRecursePath: options.modeBrowserTestRecursePath +
                                 options.url + ' -> ',
+                            timeoutScreenshot: options.timeoutScreenshot,
                             url: options2.element
                         }, onParallel);
                     }, options.onNext);

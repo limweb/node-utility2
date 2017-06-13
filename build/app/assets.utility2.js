@@ -2258,7 +2258,6 @@ local.assetsDict['/favicon.ico'] = '';
                         'modeBrowserTestRecurseExclude',
                         'modeBrowserTestRecurseInclude',
                         'modeBrowserTestRecursePath',
-                        'modeBrowserTestShow',
                         'modeBrowserTestTranslate',
                         'modeBrowserTestTranslating',
                         'modeCoverageMerge',

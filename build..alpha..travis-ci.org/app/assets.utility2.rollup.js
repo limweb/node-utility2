@@ -15480,7 +15480,8 @@ example usage:
 mkdir -p /tmp/100 && \
     rm -f /tmp/100/screenshot.* && \
     modeBrowserTestRecurseDepth=3 \
-    modeBrowserTestRecurseInclude=www.iana.org,example.com \
+    modeBrowserTestRecurseInclude=/www.iana.org/,/example.com/ \
+    modeBrowserTestTranslate=zh-CN \
     npm_config_dir_build=/tmp/100 \
     timeoutScreenshot=5000 \
     shBrowserTest 'http://example.com/' scrape
@@ -15488,9 +15489,10 @@ mkdir -p /tmp/100 && \
     rm -f /tmp/100/screenshot.* && \
     modeBrowserTestRecurseDepth=2 \
     modeBrowserTestRecurseExclude=/english/ \
-    modeBrowserTestRecurseInclude=xinhuanet.com \
+    modeBrowserTestRecurseInclude=.xinhuanet.com/,/xinhuanet.com/ \
     modeBrowserTestTranslate=en \
     npm_config_dir_build=/tmp/100 \
+    rateLimit=2 \
     timeoutScreenshot=10000 \
     shBrowserTest 'http://xinhuanet.com/' scrape
 */
@@ -15539,10 +15541,6 @@ mkdir -p /tmp/100 && \
                 // node - google-translate options.url
                 // to the languages in options.modeBrowserTranslate
                 case 3:
-                    if (options.modeBrowserTest2 === 'translateAfterScrape' &&
-                            !options.modeBrowserTestTranslating) {
-                        options.modeNext = Infinity;
-                    }
                     local.onParallelList({
                         list: (!options.modeBrowserTestTranslating &&
                             options.modeBrowserTestTranslate
@@ -15587,6 +15585,10 @@ function TranslateElementInit() {\n\
                             url: (options2.fileScreenshotBase + '.html').replace((/%/g), '%25')
                         }, onParallel);
                     }, options.onNext);
+                    if (options.modeBrowserTest2 === 'translateAfterScrape' ||
+                            options.modeBrowserTestTranslating) {
+                        options.modeNext = Infinity;
+                    }
                     break;
                 // node - recurse
                 case 4:

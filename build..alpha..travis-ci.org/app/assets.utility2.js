@@ -2352,6 +2352,10 @@ mkdir -p /tmp/100 && \
     timeoutScreenshot=10000 \
     shBrowserTest 'http://xinhuanet.com/' scrape
 */
+                    if (options.modeBrowserTestTranslating) {
+                        options.onNext();
+                        return;
+                    }
                     if (options.modeBrowserTestRecursePath) {
                         if (options.modeBrowserTestRecurseDepth < 0 ||
                                 local.fs.existsSync(options.fileScreenshot)) {

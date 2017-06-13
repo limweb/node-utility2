@@ -2523,7 +2523,6 @@
                     options2.modeBrowserTest = 'scrape';
                     options2.modeBrowserTestRecurseDepth = 1;
                     options2.modeBrowserTestRecurseExclude = 'undefined';
-                    options2.modeBrowserTestTranslate = 'ru,zh-CN';
                     options2.modeTestIgnore = true;
                     options2.timeoutScreenshot = 1000;
                     options2.url = local.serverLocalHost + '/assets.recurse1';
@@ -2540,21 +2539,17 @@
                 case 3:
                     // validate scraped files
                     [
-                        options2.fileScreenshotBase,
-                        options2.fileScreenshotBase.replace('1', '2')
-                    ].forEach(function (file1) {
-                        [
-                            '.html',
-                            '.png',
-                            '.translateAfterScrape.ru.html',
-                            '.translateAfterScrape.ru.png',
-                            '.translateAfterScrape.zh-CN.html',
-                            '.translateAfterScrape.zh-CN.png'
-                        ].forEach(function (file2) {
-                            file2 = file1 + file2;
-                            local.assert(local.fs.existsSync(file2), file2);
-                            local.fs.unlinkSync(file2);
-                        });
+                        options2.fileScreenshotBase + '.html',
+                        options2.fileScreenshotBase + '.png',
+                        options2.fileScreenshotBase + '.translateAfterScrape.ru.html',
+                        options2.fileScreenshotBase + '.translateAfterScrape.ru.png',
+                        options2.fileScreenshotBase + '.translateAfterScrape.zh-CN.html',
+                        options2.fileScreenshotBase + '.translateAfterScrape.zh-CN.png',
+                        options2.fileScreenshotBase.replace('recurse1', 'recurse2') + '.html',
+                        options2.fileScreenshotBase.replace('recurse1', 'recurse2') + '.png'
+                    ].forEach(function (file) {
+                        local.assert(local.fs.existsSync(file), file);
+                        local.fs.unlinkSync(file);
                     });
                     options.onNext();
                     break;

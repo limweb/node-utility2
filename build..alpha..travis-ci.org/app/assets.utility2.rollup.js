@@ -15473,6 +15473,11 @@ local.assetsDict['/favicon.ico'] = '';
                         options.onNext();
                         return;
                     }
+                    // node - translating
+                    if (options.modeBrowserTestTranslating) {
+                        options.onNext();
+                        return;
+                    }
                     // node - recurse
 /*
 example usage:
@@ -15483,22 +15488,20 @@ mkdir -p /tmp/100 && \
     modeBrowserTestTranslate=zh-CN \
     npm_config_dir_build=/tmp/100 \
     timeoutScreenshot=5000 \
-    shBrowserTest 'http://example.com/' scrape
+    shBrowserTest 'http://example.com/' scrape && \
+    ls -l /tmp/100
 mkdir -p /tmp/100 && \
     rm -f /tmp/100/screenshot.* && \
     modeBrowserTestRecurseDepth=1 \
     modeBrowserTestRecurseExclude=/english/ \
     modeBrowserTestRecurseInclude=.xinhuanet.com/,/xinhuanet.com/ \
-    modeBrowserTestTranslate=en \
+    modeBrowserTestTranslate2=en \
     npm_config_dir_build=/tmp/100 \
-    rateLimit=1 \
+    rateLimit=4 \
     timeoutScreenshot=10000 \
-    shBrowserTest 'http://xinhuanet.com/' scrape
+    shBrowserTest 'http://xinhuanet.com/' scrape && \
+    ls -l /tmp/100
 */
-                    if (options.modeBrowserTestTranslating) {
-                        options.onNext();
-                        return;
-                    }
                     if (options.modeBrowserTestRecursePath) {
                         if (options.modeBrowserTestRecurseDepth < 0 ||
                                 local.fs.existsSync(options.fileScreenshot)) {

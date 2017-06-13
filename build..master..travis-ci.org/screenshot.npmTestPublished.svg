@@ -1,0 +1,1386 @@
+<svg height="22126" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="22126" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">(re)starting shNpmTest test.js</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">[MODE_BUILD=npmTestPublished] - 2017-05-28T10:47:15.416Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
+<tspan x="10" y="74">e_modules/utility2</tspan>
+<tspan x="10" y="90"></tspan>
+<tspan x="10" y="106"></tspan>
+<tspan x="10" y="122">covering $ /home/travis/.nvm/versions/node/v6.10.3/bin/node /tmp/npmTestPublished/node_modules/u\</tspan>
+<tspan x="10" y="138">tility2/test.js</tspan>
+<tspan x="10" y="154">&gt; repl-server listening on tcp-port 36802</tspan>
+<tspan x="10" y="170">server listening on http-port 43122</tspan>
+<tspan x="10" y="186">[node test-case 1 of 76 passed] - testCase_FormData_error</tspan>
+<tspan x="10" y="202">[node test-case 2 of 76 passed] - testCase_ajaxProgressUpdate_misc</tspan>
+<tspan x="10" y="218">[node test-case 3 of 76 passed] - testCase_ajax_abort</tspan>
+<tspan x="10" y="234">[node test-case 4 of 76 passed] - testCase_assertXxx_default</tspan>
+<tspan x="10" y="250">[node test-case 5 of 76 passed] - testCase_base64Xxx_default</tspan>
+<tspan x="10" y="266">[node test-case 6 of 76 passed] - testCase_blobRead_default</tspan>
+<tspan x="10" y="282">[node test-case 7 of 76 passed] - testCase_bufferCreate_default</tspan>
+<tspan x="10" y="298">[node test-case 8 of 76 passed] - testCase_bufferCreate_polyfill</tspan>
+<tspan x="10" y="314">[node test-case 9 of 76 passed] - testCase_bufferIndexOfSubBuffer_default</tspan>
+<tspan x="10" y="330">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/package.json</tspan>
+<tspan x="10" y="346">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js</tspan>
+<tspan x="10" y="362">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.db.js</tspan>
+<tspan x="10" y="378">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.github_crud.js</tspan>
+<tspan x="10" y="394">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.istanbul.js</tspan>
+<tspan x="10" y="410">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.jslint.js</tspan>
+<tspan x="10" y="426">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.sjcl.js</tspan>
+<tspan x="10" y="442">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.swgg.js</tspan>
+<tspan x="10" y="458">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.uglifyjs.js</tspan>
+<tspan x="10" y="474">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.utility2.js</tspan>
+<tspan x="10" y="490">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/lib.utility2.sh</tspan>
+<tspan x="10" y="506">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/LICENSE</tspan>
+<tspan x="10" y="522">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/package.json</tspan>
+<tspan x="10" y="538">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/README.md</tspan>
+<tspan x="10" y="554">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/test.js</tspan>
+<tspan x="10" y="570">apidocCreate - requiring /tmp/npmTestPublished/node_modules/utility2 ...</tspan>
+<tspan x="10" y="586">apidocCreate - ... required /tmp/npmTestPublished/node_modules/utility2</tspan>
+<tspan x="10" y="602">apidocCreate - libFile lib.apidoc.js</tspan>
+<tspan x="10" y="618">apidocCreate - libFile lib.db.js</tspan>
+<tspan x="10" y="634">apidocCreate - libFile lib.github_crud.js</tspan>
+<tspan x="10" y="650">apidocCreate - libFile lib.istanbul.js</tspan>
+<tspan x="10" y="666">apidocCreate - libFile lib.jslint.js</tspan>
+<tspan x="10" y="682">apidocCreate - libFile lib.sjcl.js</tspan>
+<tspan x="10" y="698">apidocCreate - libFile lib.swgg.js</tspan>
+<tspan x="10" y="714">apidocCreate - libFile lib.uglifyjs.js</tspan>
+<tspan x="10" y="730">Error</tspan>
+<tspan x="10" y="746">    at Function.local.throwError [as toString] (/tmp/npmTestPublished/node_modules/utility2/lib.\</tspan>
+<tspan x="10" y="762">utility2.js:8:229329)</tspan>
+<tspan x="10" y="778">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:478:30</tspan>
+<tspan x="10" y="794">    at Object.local.tryCatchOnError (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:2\</tspan>
+<tspan x="10" y="810">66:24)</tspan>
+<tspan x="10" y="826">    at toString (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:476:23)</tspan>
+<tspan x="10" y="842">    at elementCreate (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:419:43)</tspan>
+<tspan x="10" y="858">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:739:40</tspan>
+<tspan x="10" y="874">    at Array.map (native)</tspan>
+<tspan x="10" y="890">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:738:30</tspan>
+<tspan x="10" y="906">    at Array.map (native)</tspan>
+<tspan x="10" y="922">    at Object.local.apidocCreate (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:719:\</tspan>
+<tspan x="10" y="938">18)</tspan>
+<tspan x="10" y="954">Error</tspan>
+<tspan x="10" y="970">    at Function.local.throwError [as toString] (/tmp/npmTestPublished/node_modules/utility2/lib.\</tspan>
+<tspan x="10" y="986">utility2.js:8:229329)</tspan>
+<tspan x="10" y="1002">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:478:30</tspan>
+<tspan x="10" y="1018">    at Object.local.tryCatchOnError (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:2\</tspan>
+<tspan x="10" y="1034">66:24)</tspan>
+<tspan x="10" y="1050">    at toString (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:476:23)</tspan>
+<tspan x="10" y="1066">    at elementCreate (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:419:43)</tspan>
+<tspan x="10" y="1082">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:739:40</tspan>
+<tspan x="10" y="1098">    at Array.map (native)</tspan>
+<tspan x="10" y="1114">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:738:30</tspan>
+<tspan x="10" y="1130">    at Array.map (native)</tspan>
+<tspan x="10" y="1146">    at Object.local.apidocCreate (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:719:\</tspan>
+<tspan x="10" y="1162">18)</tspan>
+<tspan x="10" y="1178">Error</tspan>
+<tspan x="10" y="1194">    at Function.local.throwError [as toString] (/tmp/npmTestPublished/node_modules/utility2/lib.\</tspan>
+<tspan x="10" y="1210">utility2.js:8:229329)</tspan>
+<tspan x="10" y="1226">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:478:30</tspan>
+<tspan x="10" y="1242">    at Object.local.tryCatchOnError (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:2\</tspan>
+<tspan x="10" y="1258">66:24)</tspan>
+<tspan x="10" y="1274">    at toString (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:476:23)</tspan>
+<tspan x="10" y="1290">    at elementCreate (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:419:43)</tspan>
+<tspan x="10" y="1306">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:739:40</tspan>
+<tspan x="10" y="1322">    at Array.map (native)</tspan>
+<tspan x="10" y="1338">    at /tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:738:30</tspan>
+<tspan x="10" y="1354">    at Array.map (native)</tspan>
+<tspan x="10" y="1370">    at Object.local.apidocCreate (/tmp/npmTestPublished/node_modules/utility2/lib.apidoc.js:719:\</tspan>
+<tspan x="10" y="1386">18)</tspan>
+<tspan x="10" y="1402">created apidoc file:///home/travis/build/kaizhu256/node-utility2/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="1418"></tspan>
+<tspan x="10" y="1434">[node test-case 10 of 76 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="1450">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1466">e/package.json</tspan>
+<tspan x="10" y="1482">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1498">e/busybox</tspan>
+<tspan x="10" y="1514">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1530">e/lib.electron.js</tspan>
+<tspan x="10" y="1546">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1562">e/LICENSE</tspan>
+<tspan x="10" y="1578">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1594">e/npm_scripts.sh</tspan>
+<tspan x="10" y="1610">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1626">e/package.json</tspan>
+<tspan x="10" y="1642">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1658">e/README.md</tspan>
+<tspan x="10" y="1674">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1690">e/test.js</tspan>
+<tspan x="10" y="1706">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1722">e/external/blink_image_resources_200_percent.pak</tspan>
+<tspan x="10" y="1738">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1754">e/external/content_resources_200_percent.pak</tspan>
+<tspan x="10" y="1770">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1786">e/external/content_shell.pak</tspan>
+<tspan x="10" y="1802">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1818">e/external/electron</tspan>
+<tspan x="10" y="1834">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1850">e/external/icudtl.dat</tspan>
+<tspan x="10" y="1866">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1882">e/external/libffmpeg.so</tspan>
+<tspan x="10" y="1898">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1914">e/external/libnode.so</tspan>
+<tspan x="10" y="1930">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1946">e/external/LICENSE</tspan>
+<tspan x="10" y="1962">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="1978">e/external/LICENSES.chromium.html</tspan>
+<tspan x="10" y="1994">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2010">e/external/natives_blob.bin</tspan>
+<tspan x="10" y="2026">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2042">e/external/snapshot_blob.bin</tspan>
+<tspan x="10" y="2058">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2074">e/external/ui_resources_200_percent.pak</tspan>
+<tspan x="10" y="2090">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2106">e/external/version</tspan>
+<tspan x="10" y="2122">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2138">e/external/views_resources_200_percent.pak</tspan>
+<tspan x="10" y="2154">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2170">e/external/locales/am.pak</tspan>
+<tspan x="10" y="2186">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2202">e/external/locales/ar.pak</tspan>
+<tspan x="10" y="2218">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2234">e/external/locales/bg.pak</tspan>
+<tspan x="10" y="2250">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2266">e/external/locales/bn.pak</tspan>
+<tspan x="10" y="2282">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2298">e/external/locales/ca.pak</tspan>
+<tspan x="10" y="2314">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2330">e/external/locales/cs.pak</tspan>
+<tspan x="10" y="2346">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2362">e/external/locales/da.pak</tspan>
+<tspan x="10" y="2378">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2394">e/external/locales/de.pak</tspan>
+<tspan x="10" y="2410">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2426">e/external/locales/el.pak</tspan>
+<tspan x="10" y="2442">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2458">e/external/locales/en-GB.pak</tspan>
+<tspan x="10" y="2474">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2490">e/external/locales/en-US.pak</tspan>
+<tspan x="10" y="2506">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2522">e/external/locales/es-419.pak</tspan>
+<tspan x="10" y="2538">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2554">e/external/locales/es.pak</tspan>
+<tspan x="10" y="2570">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2586">e/external/locales/et.pak</tspan>
+<tspan x="10" y="2602">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2618">e/external/locales/fake-bidi.pak</tspan>
+<tspan x="10" y="2634">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2650">e/external/locales/fa.pak</tspan>
+<tspan x="10" y="2666">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2682">e/external/locales/fil.pak</tspan>
+<tspan x="10" y="2698">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2714">e/external/locales/fi.pak</tspan>
+<tspan x="10" y="2730">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2746">e/external/locales/fr.pak</tspan>
+<tspan x="10" y="2762">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2778">e/external/locales/gu.pak</tspan>
+<tspan x="10" y="2794">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2810">e/external/locales/he.pak</tspan>
+<tspan x="10" y="2826">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2842">e/external/locales/hi.pak</tspan>
+<tspan x="10" y="2858">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2874">e/external/locales/hr.pak</tspan>
+<tspan x="10" y="2890">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2906">e/external/locales/hu.pak</tspan>
+<tspan x="10" y="2922">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2938">e/external/locales/id.pak</tspan>
+<tspan x="10" y="2954">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="2970">e/external/locales/it.pak</tspan>
+<tspan x="10" y="2986">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3002">e/external/locales/ja.pak</tspan>
+<tspan x="10" y="3018">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3034">e/external/locales/kn.pak</tspan>
+<tspan x="10" y="3050">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3066">e/external/locales/ko.pak</tspan>
+<tspan x="10" y="3082">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3098">e/external/locales/lt.pak</tspan>
+<tspan x="10" y="3114">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3130">e/external/locales/lv.pak</tspan>
+<tspan x="10" y="3146">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3162">e/external/locales/ml.pak</tspan>
+<tspan x="10" y="3178">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3194">e/external/locales/mr.pak</tspan>
+<tspan x="10" y="3210">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3226">e/external/locales/ms.pak</tspan>
+<tspan x="10" y="3242">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3258">e/external/locales/nb.pak</tspan>
+<tspan x="10" y="3274">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3290">e/external/locales/nl.pak</tspan>
+<tspan x="10" y="3306">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3322">e/external/locales/pl.pak</tspan>
+<tspan x="10" y="3338">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3354">e/external/locales/pt-BR.pak</tspan>
+<tspan x="10" y="3370">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3386">e/external/locales/pt-PT.pak</tspan>
+<tspan x="10" y="3402">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3418">e/external/locales/ro.pak</tspan>
+<tspan x="10" y="3434">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3450">e/external/locales/ru.pak</tspan>
+<tspan x="10" y="3466">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3482">e/external/locales/sk.pak</tspan>
+<tspan x="10" y="3498">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3514">e/external/locales/sl.pak</tspan>
+<tspan x="10" y="3530">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3546">e/external/locales/sr.pak</tspan>
+<tspan x="10" y="3562">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3578">e/external/locales/sv.pak</tspan>
+<tspan x="10" y="3594">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3610">e/external/locales/sw.pak</tspan>
+<tspan x="10" y="3626">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3642">e/external/locales/ta.pak</tspan>
+<tspan x="10" y="3658">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3674">e/external/locales/te.pak</tspan>
+<tspan x="10" y="3690">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3706">e/external/locales/th.pak</tspan>
+<tspan x="10" y="3722">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3738">e/external/locales/tr.pak</tspan>
+<tspan x="10" y="3754">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3770">e/external/locales/uk.pak</tspan>
+<tspan x="10" y="3786">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3802">e/external/locales/vi.pak</tspan>
+<tspan x="10" y="3818">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3834">e/external/locales/zh-CN.pak</tspan>
+<tspan x="10" y="3850">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3866">e/external/locales/zh-TW.pak</tspan>
+<tspan x="10" y="3882">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3898">e/external/resources/default_app.asar</tspan>
+<tspan x="10" y="3914">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="3930">e/external/resources/electron.asar</tspan>
+<tspan x="10" y="3946">apidocCreate - requiring /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lite \</tspan>
+<tspan x="10" y="3962">...</tspan>
+<tspan x="10" y="3978">apidocCreate - ... required /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-li\</tspan>
+<tspan x="10" y="3994">te</tspan>
+<tspan x="10" y="4010">created apidoc file:///home/travis/build/kaizhu256/node-utility2/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="4026"></tspan>
+<tspan x="10" y="4042">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4058">e/package.json</tspan>
+<tspan x="10" y="4074">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4090">e/busybox</tspan>
+<tspan x="10" y="4106">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4122">e/lib.electron.js</tspan>
+<tspan x="10" y="4138">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4154">e/LICENSE</tspan>
+<tspan x="10" y="4170">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4186">e/npm_scripts.sh</tspan>
+<tspan x="10" y="4202">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4218">e/package.json</tspan>
+<tspan x="10" y="4234">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4250">e/README.md</tspan>
+<tspan x="10" y="4266">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4282">e/test.js</tspan>
+<tspan x="10" y="4298">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4314">e/external/blink_image_resources_200_percent.pak</tspan>
+<tspan x="10" y="4330">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4346">e/external/content_resources_200_percent.pak</tspan>
+<tspan x="10" y="4362">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4378">e/external/content_shell.pak</tspan>
+<tspan x="10" y="4394">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4410">e/external/electron</tspan>
+<tspan x="10" y="4426">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4442">e/external/icudtl.dat</tspan>
+<tspan x="10" y="4458">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4474">e/external/libffmpeg.so</tspan>
+<tspan x="10" y="4490">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4506">e/external/libnode.so</tspan>
+<tspan x="10" y="4522">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4538">e/external/LICENSE</tspan>
+<tspan x="10" y="4554">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4570">e/external/LICENSES.chromium.html</tspan>
+<tspan x="10" y="4586">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4602">e/external/natives_blob.bin</tspan>
+<tspan x="10" y="4618">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4634">e/external/snapshot_blob.bin</tspan>
+<tspan x="10" y="4650">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4666">e/external/ui_resources_200_percent.pak</tspan>
+<tspan x="10" y="4682">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4698">e/external/version</tspan>
+<tspan x="10" y="4714">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4730">e/external/views_resources_200_percent.pak</tspan>
+<tspan x="10" y="4746">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4762">e/external/locales/am.pak</tspan>
+<tspan x="10" y="4778">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4794">e/external/locales/ar.pak</tspan>
+<tspan x="10" y="4810">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4826">e/external/locales/bg.pak</tspan>
+<tspan x="10" y="4842">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4858">e/external/locales/bn.pak</tspan>
+<tspan x="10" y="4874">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4890">e/external/locales/ca.pak</tspan>
+<tspan x="10" y="4906">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4922">e/external/locales/cs.pak</tspan>
+<tspan x="10" y="4938">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4954">e/external/locales/da.pak</tspan>
+<tspan x="10" y="4970">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="4986">e/external/locales/de.pak</tspan>
+<tspan x="10" y="5002">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5018">e/external/locales/el.pak</tspan>
+<tspan x="10" y="5034">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5050">e/external/locales/en-GB.pak</tspan>
+<tspan x="10" y="5066">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5082">e/external/locales/en-US.pak</tspan>
+<tspan x="10" y="5098">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5114">e/external/locales/es-419.pak</tspan>
+<tspan x="10" y="5130">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5146">e/external/locales/es.pak</tspan>
+<tspan x="10" y="5162">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5178">e/external/locales/et.pak</tspan>
+<tspan x="10" y="5194">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5210">e/external/locales/fake-bidi.pak</tspan>
+<tspan x="10" y="5226">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5242">e/external/locales/fa.pak</tspan>
+<tspan x="10" y="5258">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5274">e/external/locales/fil.pak</tspan>
+<tspan x="10" y="5290">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5306">e/external/locales/fi.pak</tspan>
+<tspan x="10" y="5322">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5338">e/external/locales/fr.pak</tspan>
+<tspan x="10" y="5354">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5370">e/external/locales/gu.pak</tspan>
+<tspan x="10" y="5386">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5402">e/external/locales/he.pak</tspan>
+<tspan x="10" y="5418">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5434">e/external/locales/hi.pak</tspan>
+<tspan x="10" y="5450">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5466">e/external/locales/hr.pak</tspan>
+<tspan x="10" y="5482">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5498">e/external/locales/hu.pak</tspan>
+<tspan x="10" y="5514">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5530">e/external/locales/id.pak</tspan>
+<tspan x="10" y="5546">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5562">e/external/locales/it.pak</tspan>
+<tspan x="10" y="5578">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5594">e/external/locales/ja.pak</tspan>
+<tspan x="10" y="5610">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5626">e/external/locales/kn.pak</tspan>
+<tspan x="10" y="5642">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5658">e/external/locales/ko.pak</tspan>
+<tspan x="10" y="5674">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5690">e/external/locales/lt.pak</tspan>
+<tspan x="10" y="5706">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5722">e/external/locales/lv.pak</tspan>
+<tspan x="10" y="5738">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5754">e/external/locales/ml.pak</tspan>
+<tspan x="10" y="5770">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5786">e/external/locales/mr.pak</tspan>
+<tspan x="10" y="5802">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5818">e/external/locales/ms.pak</tspan>
+<tspan x="10" y="5834">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5850">e/external/locales/nb.pak</tspan>
+<tspan x="10" y="5866">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5882">e/external/locales/nl.pak</tspan>
+<tspan x="10" y="5898">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5914">e/external/locales/pl.pak</tspan>
+<tspan x="10" y="5930">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5946">e/external/locales/pt-BR.pak</tspan>
+<tspan x="10" y="5962">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="5978">e/external/locales/pt-PT.pak</tspan>
+<tspan x="10" y="5994">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6010">e/external/locales/ro.pak</tspan>
+<tspan x="10" y="6026">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6042">e/external/locales/ru.pak</tspan>
+<tspan x="10" y="6058">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6074">e/external/locales/sk.pak</tspan>
+<tspan x="10" y="6090">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6106">e/external/locales/sl.pak</tspan>
+<tspan x="10" y="6122">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6138">e/external/locales/sr.pak</tspan>
+<tspan x="10" y="6154">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6170">e/external/locales/sv.pak</tspan>
+<tspan x="10" y="6186">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6202">e/external/locales/sw.pak</tspan>
+<tspan x="10" y="6218">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6234">e/external/locales/ta.pak</tspan>
+<tspan x="10" y="6250">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6266">e/external/locales/te.pak</tspan>
+<tspan x="10" y="6282">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6298">e/external/locales/th.pak</tspan>
+<tspan x="10" y="6314">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6330">e/external/locales/tr.pak</tspan>
+<tspan x="10" y="6346">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6362">e/external/locales/uk.pak</tspan>
+<tspan x="10" y="6378">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6394">e/external/locales/vi.pak</tspan>
+<tspan x="10" y="6410">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6426">e/external/locales/zh-CN.pak</tspan>
+<tspan x="10" y="6442">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6458">e/external/locales/zh-TW.pak</tspan>
+<tspan x="10" y="6474">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6490">e/external/resources/default_app.asar</tspan>
+<tspan x="10" y="6506">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6522">e/external/resources/electron.asar</tspan>
+<tspan x="10" y="6538">apidocCreate - requiring /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lite \</tspan>
+<tspan x="10" y="6554">...</tspan>
+<tspan x="10" y="6570">apidocCreate - ... required /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-li\</tspan>
+<tspan x="10" y="6586">te</tspan>
+<tspan x="10" y="6602">created customOrg file:///tmp/npmTestPublished/node_modules/utility2/README.md</tspan>
+<tspan x="10" y="6618"></tspan>
+<tspan x="10" y="6634">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6650">e/package.json</tspan>
+<tspan x="10" y="6666">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6682">e/busybox</tspan>
+<tspan x="10" y="6698">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6714">e/lib.electron.js</tspan>
+<tspan x="10" y="6730">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6746">e/LICENSE</tspan>
+<tspan x="10" y="6762">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6778">e/npm_scripts.sh</tspan>
+<tspan x="10" y="6794">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6810">e/package.json</tspan>
+<tspan x="10" y="6826">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6842">e/README.md</tspan>
+<tspan x="10" y="6858">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6874">e/test.js</tspan>
+<tspan x="10" y="6890">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6906">e/external/blink_image_resources_200_percent.pak</tspan>
+<tspan x="10" y="6922">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6938">e/external/content_resources_200_percent.pak</tspan>
+<tspan x="10" y="6954">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="6970">e/external/content_shell.pak</tspan>
+<tspan x="10" y="6986">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7002">e/external/electron</tspan>
+<tspan x="10" y="7018">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7034">e/external/icudtl.dat</tspan>
+<tspan x="10" y="7050">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7066">e/external/libffmpeg.so</tspan>
+<tspan x="10" y="7082">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7098">e/external/libnode.so</tspan>
+<tspan x="10" y="7114">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7130">e/external/LICENSE</tspan>
+<tspan x="10" y="7146">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7162">e/external/LICENSES.chromium.html</tspan>
+<tspan x="10" y="7178">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7194">e/external/natives_blob.bin</tspan>
+<tspan x="10" y="7210">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7226">e/external/snapshot_blob.bin</tspan>
+<tspan x="10" y="7242">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7258">e/external/ui_resources_200_percent.pak</tspan>
+<tspan x="10" y="7274">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7290">e/external/version</tspan>
+<tspan x="10" y="7306">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7322">e/external/views_resources_200_percent.pak</tspan>
+<tspan x="10" y="7338">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7354">e/external/locales/am.pak</tspan>
+<tspan x="10" y="7370">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7386">e/external/locales/ar.pak</tspan>
+<tspan x="10" y="7402">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7418">e/external/locales/bg.pak</tspan>
+<tspan x="10" y="7434">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7450">e/external/locales/bn.pak</tspan>
+<tspan x="10" y="7466">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7482">e/external/locales/ca.pak</tspan>
+<tspan x="10" y="7498">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7514">e/external/locales/cs.pak</tspan>
+<tspan x="10" y="7530">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7546">e/external/locales/da.pak</tspan>
+<tspan x="10" y="7562">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7578">e/external/locales/de.pak</tspan>
+<tspan x="10" y="7594">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7610">e/external/locales/el.pak</tspan>
+<tspan x="10" y="7626">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7642">e/external/locales/en-GB.pak</tspan>
+<tspan x="10" y="7658">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7674">e/external/locales/en-US.pak</tspan>
+<tspan x="10" y="7690">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7706">e/external/locales/es-419.pak</tspan>
+<tspan x="10" y="7722">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7738">e/external/locales/es.pak</tspan>
+<tspan x="10" y="7754">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7770">e/external/locales/et.pak</tspan>
+<tspan x="10" y="7786">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7802">e/external/locales/fake-bidi.pak</tspan>
+<tspan x="10" y="7818">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7834">e/external/locales/fa.pak</tspan>
+<tspan x="10" y="7850">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7866">e/external/locales/fil.pak</tspan>
+<tspan x="10" y="7882">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7898">e/external/locales/fi.pak</tspan>
+<tspan x="10" y="7914">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7930">e/external/locales/fr.pak</tspan>
+<tspan x="10" y="7946">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7962">e/external/locales/gu.pak</tspan>
+<tspan x="10" y="7978">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="7994">e/external/locales/he.pak</tspan>
+<tspan x="10" y="8010">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8026">e/external/locales/hi.pak</tspan>
+<tspan x="10" y="8042">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8058">e/external/locales/hr.pak</tspan>
+<tspan x="10" y="8074">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8090">e/external/locales/hu.pak</tspan>
+<tspan x="10" y="8106">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8122">e/external/locales/id.pak</tspan>
+<tspan x="10" y="8138">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8154">e/external/locales/it.pak</tspan>
+<tspan x="10" y="8170">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8186">e/external/locales/ja.pak</tspan>
+<tspan x="10" y="8202">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8218">e/external/locales/kn.pak</tspan>
+<tspan x="10" y="8234">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8250">e/external/locales/ko.pak</tspan>
+<tspan x="10" y="8266">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8282">e/external/locales/lt.pak</tspan>
+<tspan x="10" y="8298">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8314">e/external/locales/lv.pak</tspan>
+<tspan x="10" y="8330">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8346">e/external/locales/ml.pak</tspan>
+<tspan x="10" y="8362">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8378">e/external/locales/mr.pak</tspan>
+<tspan x="10" y="8394">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8410">e/external/locales/ms.pak</tspan>
+<tspan x="10" y="8426">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8442">e/external/locales/nb.pak</tspan>
+<tspan x="10" y="8458">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8474">e/external/locales/nl.pak</tspan>
+<tspan x="10" y="8490">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8506">e/external/locales/pl.pak</tspan>
+<tspan x="10" y="8522">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8538">e/external/locales/pt-BR.pak</tspan>
+<tspan x="10" y="8554">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8570">e/external/locales/pt-PT.pak</tspan>
+<tspan x="10" y="8586">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8602">e/external/locales/ro.pak</tspan>
+<tspan x="10" y="8618">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8634">e/external/locales/ru.pak</tspan>
+<tspan x="10" y="8650">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8666">e/external/locales/sk.pak</tspan>
+<tspan x="10" y="8682">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8698">e/external/locales/sl.pak</tspan>
+<tspan x="10" y="8714">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8730">e/external/locales/sr.pak</tspan>
+<tspan x="10" y="8746">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8762">e/external/locales/sv.pak</tspan>
+<tspan x="10" y="8778">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8794">e/external/locales/sw.pak</tspan>
+<tspan x="10" y="8810">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8826">e/external/locales/ta.pak</tspan>
+<tspan x="10" y="8842">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8858">e/external/locales/te.pak</tspan>
+<tspan x="10" y="8874">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8890">e/external/locales/th.pak</tspan>
+<tspan x="10" y="8906">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8922">e/external/locales/tr.pak</tspan>
+<tspan x="10" y="8938">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8954">e/external/locales/uk.pak</tspan>
+<tspan x="10" y="8970">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="8986">e/external/locales/vi.pak</tspan>
+<tspan x="10" y="9002">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9018">e/external/locales/zh-CN.pak</tspan>
+<tspan x="10" y="9034">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9050">e/external/locales/zh-TW.pak</tspan>
+<tspan x="10" y="9066">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9082">e/external/resources/default_app.asar</tspan>
+<tspan x="10" y="9098">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9114">e/external/resources/electron.asar</tspan>
+<tspan x="10" y="9130">apidocCreate - requiring /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lite \</tspan>
+<tspan x="10" y="9146">...</tspan>
+<tspan x="10" y="9162">apidocCreate - ... required /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-li\</tspan>
+<tspan x="10" y="9178">te</tspan>
+<tspan x="10" y="9194">created customOrg file:///tmp/npmTestPublished/node_modules/utility2/README.md</tspan>
+<tspan x="10" y="9210"></tspan>
+<tspan x="10" y="9226">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9242">e/package.json</tspan>
+<tspan x="10" y="9258">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9274">e/busybox</tspan>
+<tspan x="10" y="9290">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9306">e/lib.electron.js</tspan>
+<tspan x="10" y="9322">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9338">e/LICENSE</tspan>
+<tspan x="10" y="9354">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9370">e/npm_scripts.sh</tspan>
+<tspan x="10" y="9386">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9402">e/package.json</tspan>
+<tspan x="10" y="9418">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9434">e/README.md</tspan>
+<tspan x="10" y="9450">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9466">e/test.js</tspan>
+<tspan x="10" y="9482">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9498">e/external/blink_image_resources_200_percent.pak</tspan>
+<tspan x="10" y="9514">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9530">e/external/content_resources_200_percent.pak</tspan>
+<tspan x="10" y="9546">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9562">e/external/content_shell.pak</tspan>
+<tspan x="10" y="9578">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9594">e/external/electron</tspan>
+<tspan x="10" y="9610">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9626">e/external/icudtl.dat</tspan>
+<tspan x="10" y="9642">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9658">e/external/libffmpeg.so</tspan>
+<tspan x="10" y="9674">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9690">e/external/libnode.so</tspan>
+<tspan x="10" y="9706">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9722">e/external/LICENSE</tspan>
+<tspan x="10" y="9738">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9754">e/external/LICENSES.chromium.html</tspan>
+<tspan x="10" y="9770">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9786">e/external/natives_blob.bin</tspan>
+<tspan x="10" y="9802">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9818">e/external/snapshot_blob.bin</tspan>
+<tspan x="10" y="9834">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9850">e/external/ui_resources_200_percent.pak</tspan>
+<tspan x="10" y="9866">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9882">e/external/version</tspan>
+<tspan x="10" y="9898">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9914">e/external/views_resources_200_percent.pak</tspan>
+<tspan x="10" y="9930">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9946">e/external/locales/am.pak</tspan>
+<tspan x="10" y="9962">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="9978">e/external/locales/ar.pak</tspan>
+<tspan x="10" y="9994">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10010">e/external/locales/bg.pak</tspan>
+<tspan x="10" y="10026">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10042">e/external/locales/bn.pak</tspan>
+<tspan x="10" y="10058">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10074">e/external/locales/ca.pak</tspan>
+<tspan x="10" y="10090">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10106">e/external/locales/cs.pak</tspan>
+<tspan x="10" y="10122">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10138">e/external/locales/da.pak</tspan>
+<tspan x="10" y="10154">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10170">e/external/locales/de.pak</tspan>
+<tspan x="10" y="10186">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10202">e/external/locales/el.pak</tspan>
+<tspan x="10" y="10218">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10234">e/external/locales/en-GB.pak</tspan>
+<tspan x="10" y="10250">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10266">e/external/locales/en-US.pak</tspan>
+<tspan x="10" y="10282">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10298">e/external/locales/es-419.pak</tspan>
+<tspan x="10" y="10314">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10330">e/external/locales/es.pak</tspan>
+<tspan x="10" y="10346">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10362">e/external/locales/et.pak</tspan>
+<tspan x="10" y="10378">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10394">e/external/locales/fake-bidi.pak</tspan>
+<tspan x="10" y="10410">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10426">e/external/locales/fa.pak</tspan>
+<tspan x="10" y="10442">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10458">e/external/locales/fil.pak</tspan>
+<tspan x="10" y="10474">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10490">e/external/locales/fi.pak</tspan>
+<tspan x="10" y="10506">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10522">e/external/locales/fr.pak</tspan>
+<tspan x="10" y="10538">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10554">e/external/locales/gu.pak</tspan>
+<tspan x="10" y="10570">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10586">e/external/locales/he.pak</tspan>
+<tspan x="10" y="10602">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10618">e/external/locales/hi.pak</tspan>
+<tspan x="10" y="10634">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10650">e/external/locales/hr.pak</tspan>
+<tspan x="10" y="10666">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10682">e/external/locales/hu.pak</tspan>
+<tspan x="10" y="10698">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10714">e/external/locales/id.pak</tspan>
+<tspan x="10" y="10730">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10746">e/external/locales/it.pak</tspan>
+<tspan x="10" y="10762">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10778">e/external/locales/ja.pak</tspan>
+<tspan x="10" y="10794">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10810">e/external/locales/kn.pak</tspan>
+<tspan x="10" y="10826">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10842">e/external/locales/ko.pak</tspan>
+<tspan x="10" y="10858">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10874">e/external/locales/lt.pak</tspan>
+<tspan x="10" y="10890">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10906">e/external/locales/lv.pak</tspan>
+<tspan x="10" y="10922">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10938">e/external/locales/ml.pak</tspan>
+<tspan x="10" y="10954">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="10970">e/external/locales/mr.pak</tspan>
+<tspan x="10" y="10986">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11002">e/external/locales/ms.pak</tspan>
+<tspan x="10" y="11018">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11034">e/external/locales/nb.pak</tspan>
+<tspan x="10" y="11050">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11066">e/external/locales/nl.pak</tspan>
+<tspan x="10" y="11082">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11098">e/external/locales/pl.pak</tspan>
+<tspan x="10" y="11114">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11130">e/external/locales/pt-BR.pak</tspan>
+<tspan x="10" y="11146">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11162">e/external/locales/pt-PT.pak</tspan>
+<tspan x="10" y="11178">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11194">e/external/locales/ro.pak</tspan>
+<tspan x="10" y="11210">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11226">e/external/locales/ru.pak</tspan>
+<tspan x="10" y="11242">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11258">e/external/locales/sk.pak</tspan>
+<tspan x="10" y="11274">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11290">e/external/locales/sl.pak</tspan>
+<tspan x="10" y="11306">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11322">e/external/locales/sr.pak</tspan>
+<tspan x="10" y="11338">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11354">e/external/locales/sv.pak</tspan>
+<tspan x="10" y="11370">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11386">e/external/locales/sw.pak</tspan>
+<tspan x="10" y="11402">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11418">e/external/locales/ta.pak</tspan>
+<tspan x="10" y="11434">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11450">e/external/locales/te.pak</tspan>
+<tspan x="10" y="11466">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11482">e/external/locales/th.pak</tspan>
+<tspan x="10" y="11498">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11514">e/external/locales/tr.pak</tspan>
+<tspan x="10" y="11530">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11546">e/external/locales/uk.pak</tspan>
+<tspan x="10" y="11562">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11578">e/external/locales/vi.pak</tspan>
+<tspan x="10" y="11594">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11610">e/external/locales/zh-CN.pak</tspan>
+<tspan x="10" y="11626">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11642">e/external/locales/zh-TW.pak</tspan>
+<tspan x="10" y="11658">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11674">e/external/resources/default_app.asar</tspan>
+<tspan x="10" y="11690">apidocCreate - readExample /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lit\</tspan>
+<tspan x="10" y="11706">e/external/resources/electron.asar</tspan>
+<tspan x="10" y="11722">apidocCreate - requiring /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-lite \</tspan>
+<tspan x="10" y="11738">...</tspan>
+<tspan x="10" y="11754">apidocCreate - ... required /tmp/npmTestPublished/node_modules/utility2/node_modules/electron-li\</tspan>
+<tspan x="10" y="11770">te</tspan>
+<tspan x="10" y="11786">created customOrg file:///tmp/npmTestPublished/node_modules/utility2/README.md</tspan>
+<tspan x="10" y="11802"></tspan>
+<tspan x="10" y="11818">[node test-case 11 of 76 passed] - testCase_buildCustomOrg_default</tspan>
+<tspan x="10" y="11834">[node test-case 12 of 76 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="11850">[node test-case 13 of 76 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="11866">[node test-case 14 of 76 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="11882">fetching https://api.travis-ci.org/repos?limit=1 ...</tspan>
+<tspan x="10" y="11898">... fetched undefined with 0 repos</tspan>
+<tspan x="10" y="11914">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=0&amp;sor\</tspan>
+<tspan x="10" y="11930">t_by=current_build%3Aasc ...</tspan>
+<tspan x="10" y="11946">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=0&amp;\</tspan>
+<tspan x="10" y="11962">sort_by=current_build%3Aasc</tspan>
+<tspan x="10" y="11978">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=100&amp;s\</tspan>
+<tspan x="10" y="11994">ort_by=current_build%3Aasc ...</tspan>
+<tspan x="10" y="12010">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=10\</tspan>
+<tspan x="10" y="12026">0&amp;sort_by=current_build%3Aasc</tspan>
+<tspan x="10" y="12042">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=200&amp;s\</tspan>
+<tspan x="10" y="12058">ort_by=current_build%3Aasc ...</tspan>
+<tspan x="10" y="12074">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=20\</tspan>
+<tspan x="10" y="12090">0&amp;sort_by=current_build%3Aasc</tspan>
+<tspan x="10" y="12106">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=300&amp;s\</tspan>
+<tspan x="10" y="12122">ort_by=current_build%3Aasc ...</tspan>
+<tspan x="10" y="12138">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=30\</tspan>
+<tspan x="10" y="12154">0&amp;sort_by=current_build%3Aasc</tspan>
+<tspan x="10" y="12170">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=400&amp;s\</tspan>
+<tspan x="10" y="12186">ort_by=current_build%3Aasc ...</tspan>
+<tspan x="10" y="12202">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=40\</tspan>
+<tspan x="10" y="12218">0&amp;sort_by=current_build%3Aasc</tspan>
+<tspan x="10" y="12234">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-100&amp;\</tspan>
+<tspan x="10" y="12250">sort_by=current_build%3Aasc ...</tspan>
+<tspan x="10" y="12266">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-1\</tspan>
+<tspan x="10" y="12282">00&amp;sort_by=current_build%3Aasc</tspan>
+<tspan x="10" y="12298">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-100&amp;\</tspan>
+<tspan x="10" y="12314">sort_by=current_build%3Aasc ...</tspan>
+<tspan x="10" y="12330">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-1\</tspan>
+<tspan x="10" y="12346">00&amp;sort_by=current_build%3Aasc</tspan>
+<tspan x="10" y="12362">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=0&amp;sor\</tspan>
+<tspan x="10" y="12378">t_by=current_build%3Adesc ...</tspan>
+<tspan x="10" y="12394">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=0&amp;\</tspan>
+<tspan x="10" y="12410">sort_by=current_build%3Adesc</tspan>
+<tspan x="10" y="12426">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-500&amp;\</tspan>
+<tspan x="10" y="12442">sort_by=current_build%3Adesc ...</tspan>
+<tspan x="10" y="12458">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-5\</tspan>
+<tspan x="10" y="12474">00&amp;sort_by=current_build%3Adesc</tspan>
+<tspan x="10" y="12490">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-400&amp;\</tspan>
+<tspan x="10" y="12506">sort_by=current_build%3Adesc ...</tspan>
+<tspan x="10" y="12522">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-4\</tspan>
+<tspan x="10" y="12538">00&amp;sort_by=current_build%3Adesc</tspan>
+<tspan x="10" y="12554">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-300&amp;\</tspan>
+<tspan x="10" y="12570">sort_by=current_build%3Adesc ...</tspan>
+<tspan x="10" y="12586">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-3\</tspan>
+<tspan x="10" y="12602">00&amp;sort_by=current_build%3Adesc</tspan>
+<tspan x="10" y="12618">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-200&amp;\</tspan>
+<tspan x="10" y="12634">sort_by=current_build%3Adesc ...</tspan>
+<tspan x="10" y="12650">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-2\</tspan>
+<tspan x="10" y="12666">00&amp;sort_by=current_build%3Adesc</tspan>
+<tspan x="10" y="12682">fetching https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-100&amp;\</tspan>
+<tspan x="10" y="12698">sort_by=current_build%3Adesc ...</tspan>
+<tspan x="10" y="12714">... fetched https://api.travis-ci.org/repos?include=repository.current_build&amp;limit=100&amp;offset=-1\</tspan>
+<tspan x="10" y="12730">00&amp;sort_by=current_build%3Adesc</tspan>
+<tspan x="10" y="12746">dbTableCustomOrgCrudGetManyByQuery - {"customOrg":"kaizhu256","query":{"buildStartedAt":{"$not":\</tspan>
+<tspan x="10" y="12762">{"$gt":"2017-05-28T10:47:32.915Z"}}}}</tspan>
+<tspan x="10" y="12778">[node test-case 15 of 76 passed] - testCase_dbTableCustomOrgXxx_default</tspan>
+<tspan x="10" y="12794">[node test-case 16 of 76 passed] - testCase_debug_inline_default</tspan>
+<tspan x="10" y="12810">[node test-case 17 of 76 passed] - testCase_echo_default</tspan>
+<tspan x="10" y="12826">[node test-case 18 of 76 passed] - testCase_exit_default</tspan>
+<tspan x="10" y="12842">[node test-case 19 of 76 passed] - testCase_fsWriteFileWithMkdirpSync_default</tspan>
+<tspan x="10" y="12858"></tspan>
+<tspan x="10" y="12874">2017-05-28T10:47:32.941Z http-request {"method":"POST","url":"http://127.0.0.1:43122/test.echo"}</tspan>
+<tspan x="10" y="12890"></tspan>
+<tspan x="10" y="12906">2017-05-28T10:47:32.946Z http-request {"url":"http://127.0.0.1:43122/test.error-404"}</tspan>
+<tspan x="10" y="12922">[node test-case 20 of 76 passed] - testCase_isNullOrUndefined_default</tspan>
+<tspan x="10" y="12938">[node test-case 21 of 76 passed] - testCase_jslintAndPrintConditional_default</tspan>
+<tspan x="10" y="12954">[node test-case 22 of 76 passed] - testCase_jsonCopy_default</tspan>
+<tspan x="10" y="12970">[node test-case 23 of 76 passed] - testCase_jsonStringifyOrdered_default</tspan>
+<tspan x="10" y="12986">[node test-case 24 of 76 passed] - testCase_jwtA256GcmXxx_default</tspan>
+<tspan x="10" y="13002">[node test-case 25 of 76 passed] - testCase_jwtHs256Xxx_default</tspan>
+<tspan x="10" y="13018">[node test-case 26 of 76 passed] - testCase_libUtility2Js_standalone</tspan>
+<tspan x="10" y="13034">[node test-case 27 of 76 passed] - testCase_listGetElementRandom_default</tspan>
+<tspan x="10" y="13050">[node test-case 28 of 76 passed] - testCase_listShuffle_default</tspan>
+<tspan x="10" y="13066">[node test-case 29 of 76 passed] - testCase_moduleDirname_default</tspan>
+<tspan x="10" y="13082">[node test-case 30 of 76 passed] - testCase_normalizeXxx_default</tspan>
+<tspan x="10" y="13098">[node test-case 31 of 76 passed] - testCase_objectGetElementFirst_default</tspan>
+<tspan x="10" y="13114">[node test-case 32 of 76 passed] - testCase_objectKeysTypeOf_default</tspan>
+<tspan x="10" y="13130">[node test-case 33 of 76 passed] - testCase_objectLiteralize_default</tspan>
+<tspan x="10" y="13146">[node test-case 34 of 76 passed] - testCase_objectSetDefault_default</tspan>
+<tspan x="10" y="13162">[node test-case 35 of 76 passed] - testCase_objectSetOverride_default</tspan>
+<tspan x="10" y="13178">[node test-case 36 of 76 passed] - testCase_objectTraverse_default</tspan>
+<tspan x="10" y="13194">[node test-case 37 of 76 passed] - testCase_onErrorDefault_default</tspan>
+<tspan x="10" y="13210">[node test-case 38 of 76 passed] - testCase_onErrorThrow_error</tspan>
+<tspan x="10" y="13226">[node test-case 39 of 76 passed] - testCase_onNext_error</tspan>
+<tspan x="10" y="13242">[node test-case 40 of 76 passed] - testCase_replStart_default</tspan>
+<tspan x="10" y="13258">[node test-case 41 of 76 passed] - testCase_requireReadme_start</tspan>
+<tspan x="10" y="13274">[node test-case 42 of 76 passed] - testCase_serverRespondTimeoutDefault_default</tspan>
+<tspan x="10" y="13290">[node test-case 43 of 76 passed] - testCase_sjclHashScryptXxx_default</tspan>
+<tspan x="10" y="13306">[node test-case 44 of 76 passed] - testCase_sjclHashSha256Create_default</tspan>
+<tspan x="10" y="13322">[node test-case 45 of 76 passed] - testCase_sjclHmacSha256Create_default</tspan>
+<tspan x="10" y="13338">[node test-case 46 of 76 passed] - testCase_stringHtmlSafe_default</tspan>
+<tspan x="10" y="13354">[node test-case 47 of 76 passed] - testCase_taskCreate_multipleCallback</tspan>
+<tspan x="10" y="13370">[node test-case 48 of 76 passed] - testCase_templateRender_default</tspan>
+<tspan x="10" y="13386">[node test-case 49 of 76 passed] - testCase_testReportCreate_default</tspan>
+<tspan x="10" y="13402">[node test-case 50 of 76 passed] - testCase_testRunDefault_nop</tspan>
+<tspan x="10" y="13418">[node test-case 51 of 76 passed] - testCase_throwError_default</tspan>
+<tspan x="10" y="13434">[node test-case 52 of 76 passed] - testCase_uglify_default</tspan>
+<tspan x="10" y="13450">[node test-case 53 of 76 passed] - testCase_urlParse_default</tspan>
+<tspan x="10" y="13466">[node test-case 54 of 76 passed] - testCase_uuid4Create_default</tspan>
+<tspan x="10" y="13482"></tspan>
+<tspan x="10" y="13498">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/utility2/tmp/electr\</tspan>
+<tspan x="10" y="13514">on.15c4eab12510.8d1cc3256b317.html</tspan>
+<tspan x="10" y="13530"></tspan>
+<tspan x="10" y="13546"></tspan>
+<tspan x="10" y="13562">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/utility2/tmp/electr\</tspan>
+<tspan x="10" y="13578">on.15c4eab12620.a100d74349bf4.html</tspan>
+<tspan x="10" y="13594"></tspan>
+<tspan x="10" y="13610">[node test-case 55 of 76 passed] - testCase_onParallel_default</tspan>
+<tspan x="10" y="13626">[node test-case 56 of 76 passed] - testCase_profileXxx_default</tspan>
+<tspan x="10" y="13642">[node test-case 57 of 76 passed] - testCase_setTimeoutOnError_default</tspan>
+<tspan x="10" y="13658">[node test-case 58 of 76 passed] - testCase_taskCreate_upsert</tspan>
+<tspan x="10" y="13674">[node test-case 59 of 76 passed] - testCase_ajax_timeout</tspan>
+<tspan x="10" y="13690">[node test-case 60 of 76 passed] - testCase_taskCreateCached_default</tspan>
+<tspan x="10" y="13706">file modified - /tmp/npmTestPublished/node_modules/utility2/README.md</tspan>
+<tspan x="10" y="13722">file modified - /tmp/npmTestPublished/node_modules/utility2/README.md</tspan>
+<tspan x="10" y="13738">file modified - /tmp/npmTestPublished/node_modules/utility2/lib.utility2.js</tspan>
+<tspan x="10" y="13754">file modified - /tmp/npmTestPublished/node_modules/utility2/lib.utility2.js</tspan>
+<tspan x="10" y="13770">file modified - /tmp/npmTestPublished/node_modules/utility2/package.json</tspan>
+<tspan x="10" y="13786">file modified - /tmp/npmTestPublished/node_modules/utility2/package.json</tspan>
+<tspan x="10" y="13802">file modified - /tmp/npmTestPublished/node_modules/utility2/test.js</tspan>
+<tspan x="10" y="13818">file modified - /tmp/npmTestPublished/node_modules/utility2/test.js</tspan>
+<tspan x="10" y="13834">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="13850">2017-05-28T10:47:33.525Z middlewareForwardProxy {"method":"GET","url":"/assets.hello","headers":\</tspan>
+<tspan x="10" y="13866">{}}</tspan>
+<tspan x="10" y="13882">2017-05-28T10:47:33.534Z middlewareForwardProxy {"method":"GET","url":"https://undefined:0","hea\</tspan>
+<tspan x="10" y="13898">ders":{}}</tspan>
+<tspan x="10" y="13914">[node test-case 61 of 76 passed] - testCase_FormData_default</tspan>
+<tspan x="10" y="13930">[node test-case 62 of 76 passed] - testCase_FormData_nullCase</tspan>
+<tspan x="10" y="13946">2017-05-28T10:47:33.597Z ajax-request {"method":"POST","url":"/test.echo","headers":{"x-request-\</tspan>
+<tspan x="10" y="13962">header-test":"aa"},"data":"aa"}</tspan>
+<tspan x="10" y="13978">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="13994">[6651:0528/104734:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="14010">[6651:0528/104734:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="14026">2017-05-28T10:47:34.198Z http-response {"method":"POST","url":"http://127.0.0.1:43122/test.echo"\</tspan>
+<tspan x="10" y="14042">,"statusCode":200}</tspan>
+<tspan x="10" y="14058">0.5867859294201538</tspan>
+<tspan x="10" y="14074">&gt; TypeError: undefined is not a function</tspan>
+<tspan x="10" y="14090">    at repl:1:1</tspan>
+<tspan x="10" y="14106">    at ContextifyScript.Script.runInThisContext (vm.js:25:33)</tspan>
+<tspan x="10" y="14122">    at REPLServer.defaultEval (repl.js:346:29)</tspan>
+<tspan x="10" y="14138">    at bound (domain.js:280:14)</tspan>
+<tspan x="10" y="14154">    at REPLServer.runBound [as evalDefault] (domain.js:293:12)</tspan>
+<tspan x="10" y="14170">    at REPLServer.self.eval (/tmp/npmTestPublished/node_modules/utility2/lib.utility2.js:8:17914\</tspan>
+<tspan x="10" y="14186">2)</tspan>
+<tspan x="10" y="14202">    at REPLServer.&lt;anonymous&gt; (repl.js:545:10)</tspan>
+<tspan x="10" y="14218">    at emitOne (events.js:96:13)</tspan>
+<tspan x="10" y="14234">    at REPLServer.emit (events.js:188:7)</tspan>
+<tspan x="10" y="14250">    at REPLServer.Interface._onLine (readline.js:230:10)</tspan>
+<tspan x="10" y="14266">&gt; </tspan>
+<tspan x="10" y="14282">2017-05-28T10:47:34.230Z http-request {"url":"http://127.0.0.1:43122/test.timeout"}</tspan>
+<tspan x="10" y="14298">2017-05-28T10:47:34.245Z http-response {"url":"http://127.0.0.1:43122/test.timeout","statusCode"\</tspan>
+<tspan x="10" y="14314">:0}</tspan>
+<tspan x="10" y="14330">file modified - /tmp/npmTestPublished/node_modules/utility2/test.js</tspan>
+<tspan x="10" y="14346">file modified - /tmp/npmTestPublished/node_modules/utility2/test.js</tspan>
+<tspan x="10" y="14362">[node test-case 63 of 76 passed] - testCase_ajax_error</tspan>
+<tspan x="10" y="14378">2017-05-28T10:47:34.254Z http-response {"url":"http://127.0.0.1:43122/test.error-404","statusCod\</tspan>
+<tspan x="10" y="14394">e":404}</tspan>
+<tspan x="10" y="14410">[node test-case 64 of 76 passed] - testCase_httpRequest_default</tspan>
+<tspan x="10" y="14426">[node test-case 65 of 76 passed] - testCase_replStart_tcp</tspan>
+<tspan x="10" y="14442">[6697:0528/104734:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="14458">in process gpu-process. </tspan>
+<tspan x="10" y="14474">[6651:0528/104734:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="14490">[node test-case 66 of 76 passed] - testCase_ajax_cache</tspan>
+<tspan x="10" y="14506">2017-05-28T10:47:34.466Z ajax-response {"statusCode":200,"method":"POST","url":"/test.echo","res\</tspan>
+<tspan x="10" y="14522">ponseText":"POST /test.echo HTTP/1.1\r\nx-request-header-test: aa\r\nhost: 127.0.0.1:43122\r\nco\</tspan>
+<tspan x="10" y="14538">nnection: close\r\ncontent-length: 2\r\n\r\naa"}</tspan>
+<tspan x="10" y="14554">[node test-case 67 of 76 passed] - testCase_ajax_post</tspan>
+<tspan x="10" y="14570">[node test-case 68 of 76 passed] - testCase_middlewareForwardProxy_default</tspan>
+<tspan x="10" y="14586">[node test-case 69 of 76 passed] - testCase_onTimeout_timeout</tspan>
+<tspan x="10" y="14602">[node test-case 70 of 76 passed] - testCase_ajax_assets</tspan>
+<tspan x="10" y="14618">[node test-case 71 of 76 passed] - testCase_onFileModifiedRestart_watchFile</tspan>
+<tspan x="10" y="14634">[node test-case 72 of 76 passed] - testCase_processSpawnWithTimeout_default</tspan>
+<tspan x="10" y="14650"></tspan>
+<tspan x="10" y="14666">browserTest - opened url http://127.0.0.1:43122?modeTest=1</tspan>
+<tspan x="10" y="14682"></tspan>
+<tspan x="10" y="14698">[6651:0528/104737:ERROR:backend_impl.cc(1033)] Critical error found -8</tspan>
+<tspan x="10" y="14714">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14730">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14746">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14762">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14778">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14794">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14810">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14826">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14842">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14858">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14874">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14890">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="14906">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14922">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14938">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14954">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14970">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="14986">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15002">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15018">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15034">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="15050">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="15066">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15082">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15098">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15114">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15130">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15146">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15162">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15178">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15194">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15210">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15226">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="15242">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="15258">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15274">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15290">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15306">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15322">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15338">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15354">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15370">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15386">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15402">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15418">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15434">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15450">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="15466">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15482">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15498">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15514">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15530">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15546">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15562">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15578">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15594">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15610">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15626">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15642">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15658">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="15674">[node test-case 73 of 76 passed] - testCase_onParallelList_default</tspan>
+<tspan x="10" y="15690">server listening on http-port 54539</tspan>
+<tspan x="10" y="15706">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15722">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15738">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15754">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15770">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15786">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15802">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15818">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15834">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15850">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15866">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15882">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15898">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15914">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15930">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="15946">&gt; [6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15962">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15978">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="15994">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16010">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16026">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16042">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16058">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16074">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16090">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16106">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16122">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16138">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16154">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16170">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16186">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16202">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16218">[6651:0528/104737:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="16234">[6651:0528/104737:ERROR:entry_impl.cc(960)] Failed to save user data</tspan>
+<tspan x="10" y="16250">[6651:0528/104738:INFO:CONSOLE(1)] "server listening on http-port undefined", source: file:///tm\</tspan>
+<tspan x="10" y="16266">p/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="16282">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 1 of 61 passed] - testCase_FormData_error\</tspan>
+<tspan x="10" y="16298">", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc325\</tspan>
+<tspan x="10" y="16314">6b317.html (1)</tspan>
+<tspan x="10" y="16330">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 2 of 61 passed] - testCase_ajaxProgressUp\</tspan>
+<tspan x="10" y="16346">date_misc", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510\</tspan>
+<tspan x="10" y="16362">.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="16378">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 3 of 61 passed] - testCase_ajax_abort", s\</tspan>
+<tspan x="10" y="16394">ource: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b31\</tspan>
+<tspan x="10" y="16410">7.html (1)</tspan>
+<tspan x="10" y="16426">2017-05-28T10:47:38.189Z middlewareForwardProxy {"method":"GET","url":"https://undefined:0","hea\</tspan>
+<tspan x="10" y="16442">ders":{}}</tspan>
+<tspan x="10" y="16458">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 4 of 61 passed] - testCase_assertXxx_defa\</tspan>
+<tspan x="10" y="16474">ult", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc\</tspan>
+<tspan x="10" y="16490">3256b317.html (1)</tspan>
+<tspan x="10" y="16506">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 5 of 61 passed] - testCase_base64Xxx_defa\</tspan>
+<tspan x="10" y="16522">ult", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc\</tspan>
+<tspan x="10" y="16538">3256b317.html (1)</tspan>
+<tspan x="10" y="16554">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 6 of 61 passed] - testCase_blobRead_error\</tspan>
+<tspan x="10" y="16570">", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc325\</tspan>
+<tspan x="10" y="16586">6b317.html (1)</tspan>
+<tspan x="10" y="16602">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 7 of 61 passed] - testCase_browser_nullCa\</tspan>
+<tspan x="10" y="16618">se", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3\</tspan>
+<tspan x="10" y="16634">256b317.html (1)</tspan>
+<tspan x="10" y="16650">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 8 of 61 passed] - testCase_bufferCreate_d\</tspan>
+<tspan x="10" y="16666">efault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d\</tspan>
+<tspan x="10" y="16682">1cc3256b317.html (1)</tspan>
+<tspan x="10" y="16698">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 9 of 61 passed] - testCase_bufferCreate_p\</tspan>
+<tspan x="10" y="16714">olyfill", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8\</tspan>
+<tspan x="10" y="16730">d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="16746">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 10 of 61 passed] - testCase_bufferIndexOf\</tspan>
+<tspan x="10" y="16762">SubBuffer_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4\</tspan>
+<tspan x="10" y="16778">eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="16794">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 11 of 61 passed] - testCase_cookieXxx_def\</tspan>
+<tspan x="10" y="16810">ault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1c\</tspan>
+<tspan x="10" y="16826">c3256b317.html (1)</tspan>
+<tspan x="10" y="16842">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?limit=1 ...", sourc\</tspan>
+<tspan x="10" y="16858">e: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.ht\</tspan>
+<tspan x="10" y="16874">ml (1)</tspan>
+<tspan x="10" y="16890">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched undefined with 0 repos", source: file:///tmp/npm\</tspan>
+<tspan x="10" y="16906">TestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="16922">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="16938">current_build&amp;limit=100&amp;offset=0&amp;sort_by=current_build%3Aasc ...", source: file:///tmp/npmTestPu\</tspan>
+<tspan x="10" y="16954">blished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="16970">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="16986">ry.current_build&amp;limit=100&amp;offset=0&amp;sort_by=current_build%3Aasc", source: file:///tmp/npmTestPub\</tspan>
+<tspan x="10" y="17002">lished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17018">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17034">current_build&amp;limit=100&amp;offset=100&amp;sort_by=current_build%3Aasc ...", source: file:///tmp/npmTest\</tspan>
+<tspan x="10" y="17050">Published/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17066">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17082">ry.current_build&amp;limit=100&amp;offset=100&amp;sort_by=current_build%3Aasc", source: file:///tmp/npmTestP\</tspan>
+<tspan x="10" y="17098">ublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17114">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17130">current_build&amp;limit=100&amp;offset=200&amp;sort_by=current_build%3Aasc ...", source: file:///tmp/npmTest\</tspan>
+<tspan x="10" y="17146">Published/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17162">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17178">ry.current_build&amp;limit=100&amp;offset=200&amp;sort_by=current_build%3Aasc", source: file:///tmp/npmTestP\</tspan>
+<tspan x="10" y="17194">ublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17210">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17226">current_build&amp;limit=100&amp;offset=300&amp;sort_by=current_build%3Aasc ...", source: file:///tmp/npmTest\</tspan>
+<tspan x="10" y="17242">Published/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17258">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17274">ry.current_build&amp;limit=100&amp;offset=300&amp;sort_by=current_build%3Aasc", source: file:///tmp/npmTestP\</tspan>
+<tspan x="10" y="17290">ublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17306">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17322">current_build&amp;limit=100&amp;offset=400&amp;sort_by=current_build%3Aasc ...", source: file:///tmp/npmTest\</tspan>
+<tspan x="10" y="17338">Published/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17354">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17370">ry.current_build&amp;limit=100&amp;offset=400&amp;sort_by=current_build%3Aasc", source: file:///tmp/npmTestP\</tspan>
+<tspan x="10" y="17386">ublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17402">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17418">current_build&amp;limit=100&amp;offset=-100&amp;sort_by=current_build%3Aasc ...", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="17434">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17450">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17466">ry.current_build&amp;limit=100&amp;offset=-100&amp;sort_by=current_build%3Aasc", source: file:///tmp/npmTest\</tspan>
+<tspan x="10" y="17482">Published/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17498">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17514">current_build&amp;limit=100&amp;offset=-100&amp;sort_by=current_build%3Aasc ...", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="17530">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17546">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17562">ry.current_build&amp;limit=100&amp;offset=-100&amp;sort_by=current_build%3Aasc", source: file:///tmp/npmTest\</tspan>
+<tspan x="10" y="17578">Published/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17594">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17610">current_build&amp;limit=100&amp;offset=0&amp;sort_by=current_build%3Adesc ...", source: file:///tmp/npmTestP\</tspan>
+<tspan x="10" y="17626">ublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17642">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17658">ry.current_build&amp;limit=100&amp;offset=0&amp;sort_by=current_build%3Adesc", source: file:///tmp/npmTestPu\</tspan>
+<tspan x="10" y="17674">blished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17690">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17706">current_build&amp;limit=100&amp;offset=-500&amp;sort_by=current_build%3Adesc ...", source: file:///tmp/npmTe\</tspan>
+<tspan x="10" y="17722">stPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17738">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17754">ry.current_build&amp;limit=100&amp;offset=-500&amp;sort_by=current_build%3Adesc", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="17770">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17786">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17802">current_build&amp;limit=100&amp;offset=-400&amp;sort_by=current_build%3Adesc ...", source: file:///tmp/npmTe\</tspan>
+<tspan x="10" y="17818">stPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17834">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17850">ry.current_build&amp;limit=100&amp;offset=-400&amp;sort_by=current_build%3Adesc", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="17866">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17882">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17898">current_build&amp;limit=100&amp;offset=-300&amp;sort_by=current_build%3Adesc ...", source: file:///tmp/npmTe\</tspan>
+<tspan x="10" y="17914">stPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17930">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="17946">ry.current_build&amp;limit=100&amp;offset=-300&amp;sort_by=current_build%3Adesc", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="17962">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="17978">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="17994">current_build&amp;limit=100&amp;offset=-200&amp;sort_by=current_build%3Adesc ...", source: file:///tmp/npmTe\</tspan>
+<tspan x="10" y="18010">stPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18026">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="18042">ry.current_build&amp;limit=100&amp;offset=-200&amp;sort_by=current_build%3Adesc", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="18058">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18074">[6651:0528/104738:INFO:CONSOLE(1)] "fetching https://api.travis-ci.org/repos?include=repository.\</tspan>
+<tspan x="10" y="18090">current_build&amp;limit=100&amp;offset=-100&amp;sort_by=current_build%3Adesc ...", source: file:///tmp/npmTe\</tspan>
+<tspan x="10" y="18106">stPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18122">[6651:0528/104738:INFO:CONSOLE(1)] "... fetched https://api.travis-ci.org/repos?include=reposito\</tspan>
+<tspan x="10" y="18138">ry.current_build&amp;limit=100&amp;offset=-100&amp;sort_by=current_build%3Adesc", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="18154">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18170">[6651:0528/104738:INFO:CONSOLE(1)] "dbTableCustomOrgCrudGetManyByQuery - {"query":{"buildStarted\</tspan>
+<tspan x="10" y="18186">At":{"$not":{"$gt":"2017-05-28T10:47:38.678Z"}}}}", source: file:///tmp/npmTestPublished/node_mo\</tspan>
+<tspan x="10" y="18202">dules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18218">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 12 of 61 passed] - testCase_dbTableCustom\</tspan>
+<tspan x="10" y="18234">OrgXxx_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab\</tspan>
+<tspan x="10" y="18250">12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18266">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 13 of 61 passed] - testCase_debug_inline_\</tspan>
+<tspan x="10" y="18282">default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8\</tspan>
+<tspan x="10" y="18298">d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18314">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 14 of 61 passed] - testCase_domFragmentRe\</tspan>
+<tspan x="10" y="18330">nder_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12\</tspan>
+<tspan x="10" y="18346">510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18362">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 15 of 61 passed] - testCase_echo_default"\</tspan>
+<tspan x="10" y="18378">, source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256\</tspan>
+<tspan x="10" y="18394">b317.html (1)</tspan>
+<tspan x="10" y="18410">[6651:0528/104738:INFO:CONSOLE(1)] "TypeError: Cannot read property 'testReport' of undefined", \</tspan>
+<tspan x="10" y="18426">source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b3\</tspan>
+<tspan x="10" y="18442">17.html (1)</tspan>
+<tspan x="10" y="18458">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 16 of 61 passed] - testCase_exit_default"\</tspan>
+<tspan x="10" y="18474">, source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256\</tspan>
+<tspan x="10" y="18490">b317.html (1)</tspan>
+<tspan x="10" y="18506">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 17 of 61 passed] - testCase_isNullOrUndef\</tspan>
+<tspan x="10" y="18522">ined_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12\</tspan>
+<tspan x="10" y="18538">510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18554">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 18 of 61 passed] - testCase_jslintAndPrin\</tspan>
+<tspan x="10" y="18570">tConditional_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.1\</tspan>
+<tspan x="10" y="18586">5c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18602">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 19 of 61 passed] - testCase_jsonCopy_defa\</tspan>
+<tspan x="10" y="18618">ult", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc\</tspan>
+<tspan x="10" y="18634">3256b317.html (1)</tspan>
+<tspan x="10" y="18650">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 20 of 61 passed] - testCase_jsonStringify\</tspan>
+<tspan x="10" y="18666">Ordered_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4ea\</tspan>
+<tspan x="10" y="18682">b12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18698">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 21 of 61 passed] - testCase_jwtA256GcmXxx\</tspan>
+<tspan x="10" y="18714">_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.\</tspan>
+<tspan x="10" y="18730">8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18746">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 22 of 61 passed] - testCase_jwtHs256Xxx_d\</tspan>
+<tspan x="10" y="18762">efault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d\</tspan>
+<tspan x="10" y="18778">1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18794">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 23 of 61 passed] - testCase_listGetElemen\</tspan>
+<tspan x="10" y="18810">tRandom_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4ea\</tspan>
+<tspan x="10" y="18826">b12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18842">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 24 of 61 passed] - testCase_listShuffle_d\</tspan>
+<tspan x="10" y="18858">efault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d\</tspan>
+<tspan x="10" y="18874">1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18890">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 25 of 61 passed] - testCase_normalizeXxx_\</tspan>
+<tspan x="10" y="18906">default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8\</tspan>
+<tspan x="10" y="18922">d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18938">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 26 of 61 passed] - testCase_objectGetElem\</tspan>
+<tspan x="10" y="18954">entFirst_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4e\</tspan>
+<tspan x="10" y="18970">ab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="18986">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 27 of 61 passed] - testCase_objectKeysTyp\</tspan>
+<tspan x="10" y="19002">eOf_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab125\</tspan>
+<tspan x="10" y="19018">10.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19034">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 28 of 61 passed] - testCase_objectLiteral\</tspan>
+<tspan x="10" y="19050">ize_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab125\</tspan>
+<tspan x="10" y="19066">10.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19082">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 29 of 61 passed] - testCase_objectSetDefa\</tspan>
+<tspan x="10" y="19098">ult_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab125\</tspan>
+<tspan x="10" y="19114">10.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19130">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 30 of 61 passed] - testCase_objectSetOver\</tspan>
+<tspan x="10" y="19146">ride_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12\</tspan>
+<tspan x="10" y="19162">510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19178">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 31 of 61 passed] - testCase_objectTravers\</tspan>
+<tspan x="10" y="19194">e_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510\</tspan>
+<tspan x="10" y="19210">.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19226">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 32 of 61 passed] - testCase_onErrorDefaul\</tspan>
+<tspan x="10" y="19242">t_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510\</tspan>
+<tspan x="10" y="19258">.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19274">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 33 of 61 passed] - testCase_onErrorThrow_\</tspan>
+<tspan x="10" y="19290">error", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1\</tspan>
+<tspan x="10" y="19306">cc3256b317.html (1)</tspan>
+<tspan x="10" y="19322">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 34 of 61 passed] - testCase_onNext_error"\</tspan>
+<tspan x="10" y="19338">, source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256\</tspan>
+<tspan x="10" y="19354">b317.html (1)</tspan>
+<tspan x="10" y="19370">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 35 of 61 passed] - testCase_sjclHashScryp\</tspan>
+<tspan x="10" y="19386">tXxx_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12\</tspan>
+<tspan x="10" y="19402">510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19418">[6651:0528/104738:INFO:CONSOLE(1)] "[browser test-case 36 of 61 passed] - testCase_sjclHashSha25\</tspan>
+<tspan x="10" y="19434">6Create_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4ea\</tspan>
+<tspan x="10" y="19450">b12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19466">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 37 of 61 passed] - testCase_sjclHmacSha25\</tspan>
+<tspan x="10" y="19482">6Create_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4ea\</tspan>
+<tspan x="10" y="19498">b12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19514">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 38 of 61 passed] - testCase_stringHtmlSaf\</tspan>
+<tspan x="10" y="19530">e_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510\</tspan>
+<tspan x="10" y="19546">.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19562">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 39 of 61 passed] - testCase_taskCreate_mu\</tspan>
+<tspan x="10" y="19578">ltipleCallback", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab\</tspan>
+<tspan x="10" y="19594">12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19610">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 40 of 61 passed] - testCase_templateRende\</tspan>
+<tspan x="10" y="19626">r_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510\</tspan>
+<tspan x="10" y="19642">.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19658">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 41 of 61 passed] - testCase_testRunDefaul\</tspan>
+<tspan x="10" y="19674">t_nop", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1\</tspan>
+<tspan x="10" y="19690">cc3256b317.html (1)</tspan>
+<tspan x="10" y="19706">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 42 of 61 passed] - testCase_throwError_de\</tspan>
+<tspan x="10" y="19722">fault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1\</tspan>
+<tspan x="10" y="19738">cc3256b317.html (1)</tspan>
+<tspan x="10" y="19754">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 43 of 61 passed] - testCase_uglify_defaul\</tspan>
+<tspan x="10" y="19770">t", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc32\</tspan>
+<tspan x="10" y="19786">56b317.html (1)</tspan>
+<tspan x="10" y="19802">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 44 of 61 passed] - testCase_urlParse_defa\</tspan>
+<tspan x="10" y="19818">ult", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc\</tspan>
+<tspan x="10" y="19834">3256b317.html (1)</tspan>
+<tspan x="10" y="19850">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 45 of 61 passed] - testCase_uuid4Create_d\</tspan>
+<tspan x="10" y="19866">efault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d\</tspan>
+<tspan x="10" y="19882">1cc3256b317.html (1)</tspan>
+<tspan x="10" y="19898">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 46 of 61 passed] - testCase_ajax_404", so\</tspan>
+<tspan x="10" y="19914">urce: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317\</tspan>
+<tspan x="10" y="19930">.html (1)</tspan>
+<tspan x="10" y="19946">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 47 of 61 passed] - testCase_ajax_assets",\</tspan>
+<tspan x="10" y="19962"> source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b\</tspan>
+<tspan x="10" y="19978">317.html (1)</tspan>
+<tspan x="10" y="19994">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 48 of 61 passed] - testCase_ajax_200", so\</tspan>
+<tspan x="10" y="20010">urce: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317\</tspan>
+<tspan x="10" y="20026">.html (1)</tspan>
+<tspan x="10" y="20042">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 49 of 61 passed] - testCase_blobRead_defa\</tspan>
+<tspan x="10" y="20058">ult", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc\</tspan>
+<tspan x="10" y="20074">3256b317.html (1)</tspan>
+<tspan x="10" y="20090">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 50 of 61 passed] - testCase_FormData_null\</tspan>
+<tspan x="10" y="20106">Case", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1c\</tspan>
+<tspan x="10" y="20122">c3256b317.html (1)</tspan>
+<tspan x="10" y="20138">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 51 of 61 passed] - testCase_ajax_error", \</tspan>
+<tspan x="10" y="20154">source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b3\</tspan>
+<tspan x="10" y="20170">17.html (1)</tspan>
+<tspan x="10" y="20186">[6651:0528/104739:INFO:CONSOLE(1)] "2017-05-28T10:47:39.212Z ajax-request {"method":"POST","url"\</tspan>
+<tspan x="10" y="20202">:"/test.echo","headers":{"x-request-header-test":"aa"},"data":"aa"}", source: file:///tmp/npmTes\</tspan>
+<tspan x="10" y="20218">tPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="20234">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 52 of 61 passed] - testCase_onParallel_de\</tspan>
+<tspan x="10" y="20250">fault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1\</tspan>
+<tspan x="10" y="20266">cc3256b317.html (1)</tspan>
+<tspan x="10" y="20282">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 53 of 61 passed] - testCase_profileXxx_de\</tspan>
+<tspan x="10" y="20298">fault", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1\</tspan>
+<tspan x="10" y="20314">cc3256b317.html (1)</tspan>
+<tspan x="10" y="20330">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 54 of 61 passed] - testCase_setTimeoutOnE\</tspan>
+<tspan x="10" y="20346">rror_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12\</tspan>
+<tspan x="10" y="20362">510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="20378">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 55 of 61 passed] - testCase_taskCreate_up\</tspan>
+<tspan x="10" y="20394">sert", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1c\</tspan>
+<tspan x="10" y="20410">c3256b317.html (1)</tspan>
+<tspan x="10" y="20426">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 56 of 61 passed] - testCase_FormData_defa\</tspan>
+<tspan x="10" y="20442">ult", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc\</tspan>
+<tspan x="10" y="20458">3256b317.html (1)</tspan>
+<tspan x="10" y="20474">[6651:0528/104739:INFO:CONSOLE(1)] "2017-05-28T10:47:39.282Z ajax-response {"statusCode":200,"me\</tspan>
+<tspan x="10" y="20490">thod":"POST","url":"/test.echo","responseText":"POST /test.echo HTTP/1.1\r\nx-request-header-tes\</tspan>
+<tspan x="10" y="20506">t: aa\r\n\r\naa"}", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4\</tspan>
+<tspan x="10" y="20522">eab12510.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="20538">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 57 of 61 passed] - testCase_ajax_post", s\</tspan>
+<tspan x="10" y="20554">ource: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256b31\</tspan>
+<tspan x="10" y="20570">7.html (1)</tspan>
+<tspan x="10" y="20586">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 58 of 61 passed] - testCase_taskCreateCac\</tspan>
+<tspan x="10" y="20602">hed_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab125\</tspan>
+<tspan x="10" y="20618">10.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="20634">[6651:0528/104739:INFO:CONSOLE(1)] "[browser test-case 59 of 61 passed] - testCase_ajax_timeout"\</tspan>
+<tspan x="10" y="20650">, source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256\</tspan>
+<tspan x="10" y="20666">b317.html (1)</tspan>
+<tspan x="10" y="20682">[6651:0528/104740:INFO:CONSOLE(1)] "[browser test-case 60 of 61 passed] - testCase_onTimeout_tim\</tspan>
+<tspan x="10" y="20698">eout", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1c\</tspan>
+<tspan x="10" y="20714">c3256b317.html (1)</tspan>
+<tspan x="10" y="20730">[6651:0528/104741:INFO:CONSOLE(1)] "[browser test-case 61 of 61 passed] - testCase_onParallelLis\</tspan>
+<tspan x="10" y="20746">t_default", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510\</tspan>
+<tspan x="10" y="20762">.8d1cc3256b317.html (1)</tspan>
+<tspan x="10" y="20778">[node test-case 74 of 76 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="20794">[6651:0528/104742:INFO:CONSOLE(1)] "----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="20810">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="20826">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="20842">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="20858">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="20874">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="20890">", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc325\</tspan>
+<tspan x="10" y="20906">6b317.html (1)</tspan>
+<tspan x="10" y="20922">[6651:0528/104742:INFO:CONSOLE(1)] "created coverage file:///tmp/build/coverage.html/index.html"\</tspan>
+<tspan x="10" y="20938">, source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256\</tspan>
+<tspan x="10" y="20954">b317.html (1)</tspan>
+<tspan x="10" y="20970">[6651:0528/104742:INFO:CONSOLE(1)] "----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="20986">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="21002">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21018">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21034">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="21050">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21066">", source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc325\</tspan>
+<tspan x="10" y="21082">6b317.html (1)</tspan>
+<tspan x="10" y="21098">[6651:0528/104742:INFO:CONSOLE(1)] "created coverage file:///tmp/build/coverage.html/index.html"\</tspan>
+<tspan x="10" y="21114">, source: file:///tmp/npmTestPublished/node_modules/utility2/tmp/electron.15c4eab12510.8d1cc3256\</tspan>
+<tspan x="10" y="21130">b317.html (1)</tspan>
+<tspan x="10" y="21146"></tspan>
+<tspan x="10" y="21162">browserTest - created screenshot file:///home/travis/build/kaizhu256/node-utility2/tmp/build/scr\</tspan>
+<tspan x="10" y="21178">eenshot.npmTestPublished.browser.%2F.png</tspan>
+<tspan x="10" y="21194"></tspan>
+<tspan x="10" y="21210">browserTest - created screenshot file:///home/travis/build/kaizhu256/node-utility2/tmp/build/scr\</tspan>
+<tspan x="10" y="21226">eenshot.npmTestPublished.browser.%2F.html</tspan>
+<tspan x="10" y="21242"></tspan>
+<tspan x="10" y="21258">browserTest - exit-code 0 - http://127.0.0.1:43122?modeTest=1</tspan>
+<tspan x="10" y="21274"></tspan>
+<tspan x="10" y="21290"></tspan>
+<tspan x="10" y="21306">browserTest - merged coverage from /tmp/npmTestPublished/node_modules/utility2/tmp/coverage.npmT\</tspan>
+<tspan x="10" y="21322">estPublished.browser.%2F.json</tspan>
+<tspan x="10" y="21338"></tspan>
+<tspan x="10" y="21354"></tspan>
+<tspan x="10" y="21370">browserTest - merged test-report from file:///tmp/npmTestPublished/node_modules/utility2/tmp/tes\</tspan>
+<tspan x="10" y="21386">t-report.npmTestPublished.browser.%2F.json</tspan>
+<tspan x="10" y="21402"></tspan>
+<tspan x="10" y="21418">[node test-case 75 of 76 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="21434"></tspan>
+<tspan x="10" y="21450">browserTest - exit-code 0 - http://127.0.0.1:43122/assets.script_only.html?modeTest=1&amp;modeTestCa\</tspan>
+<tspan x="10" y="21466">se=_testCase_testRunDefault_failure&amp;timeExit={{timeExit}}</tspan>
+<tspan x="10" y="21482"></tspan>
+<tspan x="10" y="21498"></tspan>
+<tspan x="10" y="21514">browserTest - merged coverage from /tmp/npmTestPublished/node_modules/utility2/tmp/coverage.npmT\</tspan>
+<tspan x="10" y="21530">estPublished.browser.%2Fassets.script_only.html.json</tspan>
+<tspan x="10" y="21546"></tspan>
+<tspan x="10" y="21562">[node test-case 76 of 76 passed] - testCase_webpage_error</tspan>
+<tspan x="10" y="21578">----------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21594">File                  |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="21610">----------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21626">   utility2/          |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="21642">      example.js      |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="21658">      lib.utility2.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="21674">      test.js         |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="21690">----------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21706">All files             |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="21722">----------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21738"></tspan>
+<tspan x="10" y="21754">created coverage file:///tmp/npmTestPublished/node_modules/utility2/tmp/build/coverage.html/inde\</tspan>
+<tspan x="10" y="21770">x.html</tspan>
+<tspan x="10" y="21786"></tspan>
+<tspan x="10" y="21802">-------------------------------------------------------</tspan>
+<tspan x="10" y="21818">| test-report - npmTestPublished - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537\</tspan>
+<tspan x="10" y="21834">.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-05-28T10:47:38\</tspan>
+<tspan x="10" y="21850">.045Z</tspan>
+<tspan x="10" y="21866">|    3805 ms            0 failed       61 passed      |</tspan>
+<tspan x="10" y="21882">-------------------------------------------------------</tspan>
+<tspan x="10" y="21898">| test-report - npmTestPublished - node - linux v6.10.3 - 2017-05-28T10:47:16.340Z</tspan>
+<tspan x="10" y="21914">|   29442 ms            0 failed       76 passed      |</tspan>
+<tspan x="10" y="21930">-------------------------------------------------------</tspan>
+<tspan x="10" y="21946"></tspan>
+<tspan x="10" y="21962">created test-report file:///home/travis/build/kaizhu256/node-utility2/tmp/build/test-report.html</tspan>
+<tspan x="10" y="21978"></tspan>
+<tspan x="10" y="21994"></tspan>
+<tspan x="10" y="22010">npmTestPublished - 0 failed tests</tspan>
+<tspan x="10" y="22026"></tspan>
+<tspan x="10" y="22042"></tspan>
+<tspan x="10" y="22058">[MODE_BUILD=npmTestPublished] - 2017-05-28T10:47:48.046Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="22074"></tspan>
+<tspan x="10" y="22090">process exited with code 0</tspan>
+<tspan x="10" y="22106">EXIT_CODE - 0</tspan>
+</text>
+</svg>

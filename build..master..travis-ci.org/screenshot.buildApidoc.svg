@@ -1,0 +1,125 @@
+<svg height="1950" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1950" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">(re)starting shNpmTest test.js</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">[MODE_BUILD=buildApidoc] - 2017-05-28T10:48:49.871Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="74">ode-utility2</tspan>
+<tspan x="10" y="90"></tspan>
+<tspan x="10" y="106"></tspan>
+<tspan x="10" y="122">buildApidoc - merged test-report from file:///home/travis/build/kaizhu256/node-utility2/tmp/buil\</tspan>
+<tspan x="10" y="138">d/test-report.json</tspan>
+<tspan x="10" y="154">&gt; repl-server listening on tcp-port 41930</tspan>
+<tspan x="10" y="170">server listening on http-port 33881</tspan>
+<tspan x="10" y="186">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/package.json</tspan>
+<tspan x="10" y="202">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/.dockerignore</tspan>
+<tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/.gitconfig</tspan>
+<tspan x="10" y="234">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/.gitignore</tspan>
+<tspan x="10" y="250">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js</tspan>
+<tspan x="10" y="266">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.db.js</tspan>
+<tspan x="10" y="282">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.github_crud.js</tspan>
+<tspan x="10" y="298">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.istanbul.js</tspan>
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.jslint.js</tspan>
+<tspan x="10" y="330">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.sjcl.js</tspan>
+<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.swgg.js</tspan>
+<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.uglifyjs.js</tspan>
+<tspan x="10" y="378">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.utility2.js</tspan>
+<tspan x="10" y="394">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/lib.utility2.sh</tspan>
+<tspan x="10" y="410">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/LICENSE</tspan>
+<tspan x="10" y="426">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/package.json</tspan>
+<tspan x="10" y="442">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/README.md</tspan>
+<tspan x="10" y="458">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/.screenrc</tspan>
+<tspan x="10" y="474">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/test.js</tspan>
+<tspan x="10" y="490">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/.travis.yml</tspan>
+<tspan x="10" y="506">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/.vimrc</tspan>
+<tspan x="10" y="522">apidocCreate - requiring /home/travis/build/kaizhu256/node-utility2 ...</tspan>
+<tspan x="10" y="538">apidocCreate - ... required /home/travis/build/kaizhu256/node-utility2</tspan>
+<tspan x="10" y="554">apidocCreate - libFile lib.apidoc.js</tspan>
+<tspan x="10" y="570">apidocCreate - libFile lib.db.js</tspan>
+<tspan x="10" y="586">apidocCreate - libFile lib.github_crud.js</tspan>
+<tspan x="10" y="602">apidocCreate - libFile lib.istanbul.js</tspan>
+<tspan x="10" y="618">apidocCreate - libFile lib.jslint.js</tspan>
+<tspan x="10" y="634">apidocCreate - libFile lib.sjcl.js</tspan>
+<tspan x="10" y="650">apidocCreate - libFile lib.swgg.js</tspan>
+<tspan x="10" y="666">apidocCreate - libFile lib.uglifyjs.js</tspan>
+<tspan x="10" y="682">Error</tspan>
+<tspan x="10" y="698">    at Function.local.throwError [as toString] (/home/travis/build/kaizhu256/node-utility2/lib.u\</tspan>
+<tspan x="10" y="714">tility2.js:5880:19)</tspan>
+<tspan x="10" y="730">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:478:30</tspan>
+<tspan x="10" y="746">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:26\</tspan>
+<tspan x="10" y="762">6:24)</tspan>
+<tspan x="10" y="778">    at toString (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:476:23)</tspan>
+<tspan x="10" y="794">    at elementCreate (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:419:43)</tspan>
+<tspan x="10" y="810">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:739:40</tspan>
+<tspan x="10" y="826">    at Array.map (native)</tspan>
+<tspan x="10" y="842">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:738:30</tspan>
+<tspan x="10" y="858">    at Array.map (native)</tspan>
+<tspan x="10" y="874">    at Object.local.apidocCreate (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:719:1\</tspan>
+<tspan x="10" y="890">8)</tspan>
+<tspan x="10" y="906">Error</tspan>
+<tspan x="10" y="922">    at Function.local.throwError [as toString] (/home/travis/build/kaizhu256/node-utility2/lib.u\</tspan>
+<tspan x="10" y="938">tility2.js:5880:19)</tspan>
+<tspan x="10" y="954">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:478:30</tspan>
+<tspan x="10" y="970">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:26\</tspan>
+<tspan x="10" y="986">6:24)</tspan>
+<tspan x="10" y="1002">    at toString (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:476:23)</tspan>
+<tspan x="10" y="1018">    at elementCreate (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:419:43)</tspan>
+<tspan x="10" y="1034">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:739:40</tspan>
+<tspan x="10" y="1050">    at Array.map (native)</tspan>
+<tspan x="10" y="1066">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:738:30</tspan>
+<tspan x="10" y="1082">    at Array.map (native)</tspan>
+<tspan x="10" y="1098">    at Object.local.apidocCreate (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:719:1\</tspan>
+<tspan x="10" y="1114">8)</tspan>
+<tspan x="10" y="1130">Error</tspan>
+<tspan x="10" y="1146">    at Function.local.throwError [as toString] (/home/travis/build/kaizhu256/node-utility2/lib.u\</tspan>
+<tspan x="10" y="1162">tility2.js:5880:19)</tspan>
+<tspan x="10" y="1178">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:478:30</tspan>
+<tspan x="10" y="1194">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:26\</tspan>
+<tspan x="10" y="1210">6:24)</tspan>
+<tspan x="10" y="1226">    at toString (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:476:23)</tspan>
+<tspan x="10" y="1242">    at elementCreate (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:419:43)</tspan>
+<tspan x="10" y="1258">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:739:40</tspan>
+<tspan x="10" y="1274">    at Array.map (native)</tspan>
+<tspan x="10" y="1290">    at /home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:738:30</tspan>
+<tspan x="10" y="1306">    at Array.map (native)</tspan>
+<tspan x="10" y="1322">    at Object.local.apidocCreate (/home/travis/build/kaizhu256/node-utility2/lib.apidoc.js:719:1\</tspan>
+<tspan x="10" y="1338">8)</tspan>
+<tspan x="10" y="1354">created apidoc file:///home/travis/build/kaizhu256/node-utility2/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="1370"></tspan>
+<tspan x="10" y="1386">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="1402"></tspan>
+<tspan x="10" y="1418">buildApidoc - merged test-report from file:///home/travis/build/kaizhu256/node-utility2/tmp/buil\</tspan>
+<tspan x="10" y="1434">d/test-report.json</tspan>
+<tspan x="10" y="1450"></tspan>
+<tspan x="10" y="1466">-------------------------------------------------------</tspan>
+<tspan x="10" y="1482">| test-report - buildApidoc - node - linux v6.10.3 - 2017-05-28T10:48:50.058Z</tspan>
+<tspan x="10" y="1498">|    9163 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1514">-------------------------------------------------------</tspan>
+<tspan x="10" y="1530">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="1546">L, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-05-28T10:48:38.456Z</tspan>
+<tspan x="10" y="1562">|    3828 ms            0 failed       61 passed      |</tspan>
+<tspan x="10" y="1578">-------------------------------------------------------</tspan>
+<tspan x="10" y="1594">| test-report - npmTest - node - linux v6.10.3 - 2017-05-28T10:48:17.539Z</tspan>
+<tspan x="10" y="1610">|   28943 ms            0 failed       76 passed      |</tspan>
+<tspan x="10" y="1626">-------------------------------------------------------</tspan>
+<tspan x="10" y="1642">| test-report - testExampleJs - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36\</tspan>
+<tspan x="10" y="1658"> (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-05-28T10:47:52.78\</tspan>
+<tspan x="10" y="1674">4Z</tspan>
+<tspan x="10" y="1690">|      46 ms            0 failed        2 passed      |</tspan>
+<tspan x="10" y="1706">-------------------------------------------------------</tspan>
+<tspan x="10" y="1722">| test-report - testExampleJs - node - linux v6.10.3 - 2017-05-28T10:47:51.688Z</tspan>
+<tspan x="10" y="1738">|   10860 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1754">-------------------------------------------------------</tspan>
+<tspan x="10" y="1770"></tspan>
+<tspan x="10" y="1786">created test-report file:///home/travis/build/kaizhu256/node-utility2/tmp/build/test-report.html</tspan>
+<tspan x="10" y="1802"></tspan>
+<tspan x="10" y="1818"></tspan>
+<tspan x="10" y="1834">buildApidoc - 0 failed tests</tspan>
+<tspan x="10" y="1850"></tspan>
+<tspan x="10" y="1866"></tspan>
+<tspan x="10" y="1882">[MODE_BUILD=buildApidoc] - 2017-05-28T10:49:02.825Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1898"></tspan>
+<tspan x="10" y="1914">process exited with code 0</tspan>
+<tspan x="10" y="1930">EXIT_CODE - 0</tspan>
+</text>
+</svg>

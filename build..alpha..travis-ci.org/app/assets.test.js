@@ -2505,25 +2505,32 @@
             }, onError);
         };
 
-        local.testCase_browserTest_translateAfterScrape = function (options, onError) {
+        local.testCase_browserTest_default = function (options, onError) {
         /*
-         * this function will test browserTest's translateAfterScrape handling-behavior
+         * this function will test browserTest's default handling-behavior
          */
-            options = {
-                modeBrowserTest: 'scrape',
-                timeoutScreenshot: 5000,
-                url: local.serverLocalHost + '/assets.hello'
-            };
-            local.browserTest(options, function (error) {
-                // validate no error occurred
-                local.assert(!error, error);
-                options.modeBrowserTest = 'translateAfterScrape';
-                options.modeBrowserTestTranslate = 'ru,zh-CN';
-                options.modeNext = 0;
-                options.url = options.fileScreenshotBase;
-                local.browserTest(options, function (error) {
-                    // validate no error occurred
-                    local.assert(!error, error);
+            var options2;
+            options = {};
+            local.onNext(options, function (error) {
+                switch (options.modeNext) {
+                // test scrape handling-behavior
+                case 1:
+                    options2 = {
+                        modeBrowserTest: 'scrape',
+                        timeoutScreenshot: 5000,
+                        url: local.serverLocalHost + '/assets.hello'
+                    };
+                    local.browserTest(options2, options.onNext);
+                    break;
+                // test translateAfterScrape handling-behavior
+                case 2:
+                    options2.modeBrowserTest = 'translateAfterScrape';
+                    options2.modeBrowserTestTranslate = 'ru,zh-CN';
+                    options2.modeNext = 0;
+                    options2.url = options2.fileScreenshotBase;
+                    local.browserTest(options2, options.onNext);
+                    break;
+                case 3:
                     // validate scraped files
                     [
                         '.html',
@@ -2533,14 +2540,56 @@
                         '.translate.zh-CN.html',
                         '.translate.zh-CN.png'
                     ].forEach(function (file) {
-                        file = options.fileScreenshotBase + file;
+                        file = options2.fileScreenshotBase + file;
                         local.assert(local.fs.existsSync(file), file);
                         local.fs.unlinkSync(file);
                     });
-                    onError();
-                });
+                    options.onNext();
+                    break;
+                default:
+                    onError(error);
+                }
             });
+            options.modeNext = 0;
+            options.onNext();
         };
+
+        //!! local.testCase_browserTest_translateAfterScrape = function (options, onError) {
+        //!! /*
+         //!! * this function will test browserTest's translateAfterScrape handling-behavior
+         //!! */
+            //!! options = {
+                //!! modeBrowserTest: 'scrape',
+                //!! timeoutScreenshot: 5000,
+                //!! url: local.serverLocalHost + '/assets.hello'
+            //!! };
+            //!! local.browserTest(options, function (error) {
+                //!! // validate no error occurred
+                //!! local.assert(!error, error);
+                //!! options.modeBrowserTest = 'translateAfterScrape';
+                //!! options.modeBrowserTestTranslate = 'ru,zh-CN';
+                //!! options.modeNext = 0;
+                //!! options.url = options.fileScreenshotBase;
+                //!! local.browserTest(options, function (error) {
+                    //!! // validate no error occurred
+                    //!! local.assert(!error, error);
+                    //!! // validate scraped files
+                    //!! [
+                        //!! '.html',
+                        //!! '.png',
+                        //!! '.translate.ru.html',
+                        //!! '.translate.ru.png',
+                        //!! '.translate.zh-CN.html',
+                        //!! '.translate.zh-CN.png'
+                    //!! ].forEach(function (file) {
+                        //!! file = options.fileScreenshotBase + file;
+                        //!! local.assert(local.fs.existsSync(file), file);
+                        //!! local.fs.unlinkSync(file);
+                    //!! });
+                    //!! onError();
+                //!! });
+            //!! });
+        //!! };
 
         local.testCase_buildApidoc_default = local.testCase_buildApidoc_default || function (
             options,

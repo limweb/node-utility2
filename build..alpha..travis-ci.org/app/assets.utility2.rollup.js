@@ -15588,10 +15588,9 @@ function TranslateElementInit() {\n\
                     if (options.modeBrowserTest2 === 'translateAfterScrape' ||
                             options.modeBrowserTestTranslating) {
                         options.modeNext = Infinity;
+                        return;
                     }
-                    break;
-                // node - recurse
-                case 4:
+                    // node - recurse
                     options.modeBrowserTestRecurseDepth -= 1;
                     local.fs.readFileSync(
                         options.fileScreenshotBase + '.html',
@@ -15641,6 +15640,11 @@ function TranslateElementInit() {\n\
                         }, onParallel);
                     }, options.onNext);
                     break;
+                case 4:
+                    break;
+                case 5:
+                    options.onNext();
+                    break;
                 // node.electron - init
                 case 11:
                     // init timerTimeout
@@ -15684,6 +15688,7 @@ function TranslateElementInit() {\n\
                         '(' + options.browserTestScript + '(' + JSON.stringify(options) +
                             '))'
                     );
+                    // reset modeNext
                     options.modeNext = 11;
                     local.electron = options.electron;
                     local.tryCatchOnError(function () {

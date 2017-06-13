@@ -2349,7 +2349,7 @@ mkdir -p /tmp/100 && \
     modeBrowserTestRecurseInclude=.xinhuanet.com/,/xinhuanet.com/ \
     modeBrowserTestTranslate=en \
     npm_config_dir_build=/tmp/100 \
-    rateLimit=2 \
+    rateLimit=1 \
     timeoutScreenshot=10000 \
     shBrowserTest 'http://xinhuanet.com/' scrape
 */
@@ -2412,7 +2412,7 @@ mkdir -p /tmp/100 && \
                             }))
                     }, function (options2, onParallel) {
                         options2.fileScreenshotBase = options.fileScreenshotBase +
-                            '.translate.' + options2.element;
+                            '.translateAfterScrape.' + options2.element;
                         local.fs.writeFileSync(
                             options2.fileScreenshotBase + '.html',
                             local.fs.readFileSync(options.fileScreenshotBase + '.html', 'utf8')
@@ -2453,7 +2453,7 @@ function TranslateElementInit() {\n\
                     local.fs.readFileSync(
                         options.fileScreenshotBase + '.html',
                         'utf8'
-                    ).replace((/ data-scrape="(.*?)"/), function (match0, match1) {
+                    ).replace((/ data-scrape="([\S\s]*?)"/), function (match0, match1) {
                         // jslint-hack
                         local.nop(match0);
                         data = JSON.parse(match1
@@ -2815,7 +2815,7 @@ function TranslateElementInit() {\n\
                             console.error(errorCaught);
                         }
                         data.bodyTextContent = tmp;
-                        document.documentElement.dataset.scrape = JSON.stringify(data);
+                        document.documentElement.dataset.scrape = JSON.stringify(data, null, 4);
                     } catch (errorCaught) {
                         console.error(errorCaught);
                     }

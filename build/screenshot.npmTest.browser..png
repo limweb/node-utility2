@@ -1,1 +1,13 @@
-function (arg0,arg1){__cov_a64f2539f5435.f['218']++;__cov_a64f2539f5435.s['940']++;if(typeof arg0==='function'){__cov_a64f2539f5435.b['51'][0]++;__cov_a64f2539f5435.s['941']++;arg0();}else{__cov_a64f2539f5435.b['51'][1]++;}__cov_a64f2539f5435.s['942']++;if(typeof arg1==='function'){__cov_a64f2539f5435.b['52'][0]++;__cov_a64f2539f5435.s['943']++;arg1(options,'');__cov_a64f2539f5435.s['944']++;arg1(options,options.fileElectronHtml);__cov_a64f2539f5435.s['945']++;arg1(options,options.fileElectronHtml+' opened');}else{__cov_a64f2539f5435.b['52'][1]++;}__cov_a64f2539f5435.s['946']++;return options;}
+function (arg0, arg1) {
+                // test onParallel handling-behavior
+                if (typeof arg0 === 'function') {
+                    arg0();
+                }
+                // test on handling-behavior
+                if (typeof arg1 === 'function') {
+                    arg1(options, '');
+                    arg1(options, options.fileElectronHtml);
+                    arg1(options, options.fileElectronHtml + ' opened');
+                }
+                return options;
+            }

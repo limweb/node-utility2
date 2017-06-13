@@ -6,7 +6,7 @@
     },
     &quot;href&quot;: &quot;http://127.0.0.1:8081/&quot;,
     &quot;url&quot;: &quot;http://127.0.0.1:8081/&quot;,
-    &quot;bodyTextContent&quot;: &quot;edit or paste script below to cover and test\n// remove comment below to disable jslint\n/*jslint\n    browser: true,\n    es6: true\n*/\n/*global window*/\n(function () {\n    \&quot;use strict\&quot;;\n    var testCaseDict;\n    testCaseDict = {};\n    testCaseDict.modeTest = true;\n\n    // comment this testCase to disable the failed assertion demo\n    testCaseDict.testCase_failed_assertion_demo = function (\n        options,\n        onError\n    ) {\n    /*\n     * this function will demo a failed assertion test\n     */\n        // jslint-hack\n        window.utility2.nop(options);\n        window.utility2.assert(false, \&quot;this is a failed assertion demo\&quot;);\n        onError();\n    };\n\n    testCaseDict.testCase_passed_ajax_demo = function (options, onError) {\n    /*\n     * this function will demo a passed ajax test\n     */\n        var data;\n        options = {url: \&quot;/\&quot;};\n        // test ajax request for main-page \&quot;/\&quot;\n        window.utility2.ajax(options, function (error, xhr) {\n            try {\n                // validate no error occurred\n                window.utility2.assert(!error, error);\n                // validate \&quot;200 ok\&quot; status\n                window.utility2.assert(xhr.statusCode === 200, xhr.statusCode);\n                // validate non-empty data\n                data = xhr.responseText;\n                window.utility2.assert(data &amp;&amp; data.length > 0, data);\n                onError();\n            } catch (errorCaught) {\n                onError(errorCaught);\n            }\n        });\n    };\n\n                                                1. testCase_failed_assertion_demo\nthis is a failed assertion demo\nError: this is a failed assertion demo\n    at Object.local.assert (http://127.0.0.1:8081/assets.utility2.js:2055:19)\n    at Object.testCaseDict.testCase_failed_assertion_demo [as onTestCase] (eval at <anonymous> (http://127.0.0.1:8081/assets.example.js:341:21), <anonymous>:23:25)\n    at http://127.0.0.1:8081/assets.utility2.js:6180:30\n    at Object.local.tryCatchOnError (http://127.0.0.1:8081/assets.utility2.js:6319:24)\n    at http://127.0.0.1:8081/assets.utility2.js:6177:23\n    at onEach2 (http://127.0.0.1:8081/assets.utility2.js:4756:21)\n    at Object.local.onParallelList (http://127.0.0.1:8081/assets.utility2.js:4782:13)\n    at Object.local.testRunDefault (http://127.0.0.1:8081/assets.utility2.js:6127:19)\n    at http://127.0.0.1:8081/assets.utility2.js:6068:35\n    at http://127.0.0.1:8081/assets.utility2.js:4654:17\n\n                                                               \t                                                                   \t\t                                                    &nbsp;    // comment this testCase to disable the failed assertion demo\n    testCaseDict.testCase_failed_assertion_demo = function (\n        options,\n        onError\n    ) {\n    /*\n     * this function will demo a failed assertion test\n     */\n        // jslint-hack\n        window.utility2.nop(options);\n        window.utility2.assert(false, \&quot;this is a failed assertion demo\&quot;);\n        onError();\n    };\n\n    testCaseDict.testCase_passed_ajax_demo = function (options, onError) {\n    /*\n     * this function will demo a passed ajax test\n     */\n        var data;\n        options = {url: \&quot;/\&quot;};\n        // test ajax request for main-page \&quot;/\&quot;\n        window.utility2.ajax(options, function (error, xhr) {\n            try {\n                // validate no error occurred\n                window.utility2.assert(!error, error);\n                // validate \&quot;200 ok\&quot; status\n                window.utility2.assert(xhr.statusCode === 200, xhr.statusCode);\n                // validate non-empty data\n                data = xhr.responseText;\n                window.utility2.assert(data &amp;&amp; data.length > 0, data);\n                onError();\n            } catch (errorCaught) {\n                onError(errorCaught);\n            }\n        });\n    };&quot;
+    &quot;bodyTextContent&quot;: &quot;edit or paste script below to cover and test\n// remove comment below to disable jslint\n/*jslint\n    browser: true,\n    es6: true\n*/\n/*global window*/\n(function () {\n    \&quot;use strict\&quot;;\n    var testCaseDict;\n    testCaseDict = {};\n    testCaseDict.modeTest = true;\n\n    // comment this testCase to disable the failed assertion demo\n    testCaseDict.testCase_failed_assertion_demo = function (\n        options,\n        onError\n    ) {\n    /*\n     * this function will demo a failed assertion test\n     */\n        // jslint-hack\n        window.utility2.nop(options);\n        window.utility2.assert(false, \&quot;this is a failed assertion demo\&quot;);\n        onError();\n    };\n\n    testCaseDict.testCase_passed_ajax_demo = function (options, onError) {\n    /*\n     * this function will demo a passed ajax test\n     */\n        var data;\n        options = {url: \&quot;/\&quot;};\n        // test ajax request for main-page \&quot;/\&quot;\n        window.utility2.ajax(options, function (error, xhr) {\n            try {\n                // validate no error occurred\n                window.utility2.assert(!error, error);\n                // validate \&quot;200 ok\&quot; status\n                window.utility2.assert(xhr.statusCode === 200, xhr.statusCode);\n                // validate non-empty data\n                data = xhr.responseText;\n                window.utility2.assert(data &amp;&amp; data.length > 0, data);\n                onError();\n            } catch (errorCaught) {\n                onError(errorCaught);\n            }\n        });\n    };\n\n                                                1. testCase_failed_assertion_demo\nthis is a failed assertion demo\nError: this is a failed assertion demo\n    at Object.local.assert (http://127.0.0.1:8081/assets.utility2.js:2055:19)\n    at Object.testCaseDict.testCase_failed_assertion_demo [as onTestCase] (eval at <anonymous> (http://127.0.0.1:8081/assets.example.js:341:21), <anonymous>:23:25)\n    at http://127.0.0.1:8081/assets.utility2.js:6184:30\n    at Object.local.tryCatchOnError (http://127.0.0.1:8081/assets.utility2.js:6323:24)\n    at http://127.0.0.1:8081/assets.utility2.js:6181:23\n    at onEach2 (http://127.0.0.1:8081/assets.utility2.js:4760:21)\n    at Object.local.onParallelList (http://127.0.0.1:8081/assets.utility2.js:4786:13)\n    at Object.local.testRunDefault (http://127.0.0.1:8081/assets.utility2.js:6131:19)\n    at http://127.0.0.1:8081/assets.utility2.js:6072:35\n    at http://127.0.0.1:8081/assets.utility2.js:4658:17\n\n                                                               \t                                                                   \t\t                                                    &nbsp;    // comment this testCase to disable the failed assertion demo\n    testCaseDict.testCase_failed_assertion_demo = function (\n        options,\n        onError\n    ) {\n    /*\n     * this function will demo a failed assertion test\n     */\n        // jslint-hack\n        window.utility2.nop(options);\n        window.utility2.assert(false, \&quot;this is a failed assertion demo\&quot;);\n        onError();\n    };\n\n    testCaseDict.testCase_passed_ajax_demo = function (options, onError) {\n    /*\n     * this function will demo a passed ajax test\n     */\n        var data;\n        options = {url: \&quot;/\&quot;};\n        // test ajax request for main-page \&quot;/\&quot;\n        window.utility2.ajax(options, function (error, xhr) {\n            try {\n                // validate no error occurred\n                window.utility2.assert(!error, error);\n                // validate \&quot;200 ok\&quot; status\n                window.utility2.assert(xhr.statusCode === 200, xhr.statusCode);\n                // validate non-empty data\n                data = xhr.responseText;\n                window.utility2.assert(data &amp;&amp; data.length > 0, data);\n                onError();\n            } catch (errorCaught) {\n                onError(errorCaught);\n            }\n        });\n    };&quot;
 }"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -216,7 +216,7 @@ utility2-comment -->
 <h4>
     <span>version</span>-
         0.0.1<br>
-    <span>test date</span>- 2017-06-13T08:30:03.611Z<br>
+    <span>test date</span>- 2017-06-13T08:51:22.471Z<br>
     <span>commit info</span>-
         
         undefined<br>
@@ -232,7 +232,7 @@ utility2-comment -->
     </tr>
 </thead>
 <tbody><tr>
-    <td>1035 ms</td>
+    <td>1032 ms</td>
     <td class="testFailed">1</td>
     <td>1</td>
     <td>0</td>
@@ -242,9 +242,9 @@ utility2-comment -->
 
 <div class="testReportPlatformDiv">
 <h4>
-    1. browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T08:30:03.480Z<br>
+    1. browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-13T08:51:22.338Z<br>
     
-    <span>time-elapsed</span>- 1035 ms<br>
+    <span>time-elapsed</span>- 1032 ms<br>
     <span>tests failed</span>- 1<br>
     <span>tests passed</span>- 1<br>
     <span>tests pending</span>- 0<br>
@@ -267,7 +267,7 @@ utility2-comment -->
 
 <tr>
     <td>2</td>
-    <td>17 ms</td>
+    <td>16 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_passed_ajax_demo</td>
 </tr>
@@ -280,14 +280,14 @@ this is a failed assertion demo
 Error: this is a failed assertion demo
     at Object.local.assert (http://127.0.0.1:8081/assets.utility2.js:2055:19)
     at Object.testCaseDict.testCase_failed_assertion_demo [as onTestCase] (eval at &lt;anonymous&gt; (http://127.0.0.1:8081/assets.example.js:341:21), &lt;anonymous&gt;:23:25)
-    at http://127.0.0.1:8081/assets.utility2.js:6180:30
-    at Object.local.tryCatchOnError (http://127.0.0.1:8081/assets.utility2.js:6319:24)
-    at http://127.0.0.1:8081/assets.utility2.js:6177:23
-    at onEach2 (http://127.0.0.1:8081/assets.utility2.js:4756:21)
-    at Object.local.onParallelList (http://127.0.0.1:8081/assets.utility2.js:4782:13)
-    at Object.local.testRunDefault (http://127.0.0.1:8081/assets.utility2.js:6127:19)
-    at http://127.0.0.1:8081/assets.utility2.js:6068:35
-    at http://127.0.0.1:8081/assets.utility2.js:4654:17
+    at http://127.0.0.1:8081/assets.utility2.js:6184:30
+    at Object.local.tryCatchOnError (http://127.0.0.1:8081/assets.utility2.js:6323:24)
+    at http://127.0.0.1:8081/assets.utility2.js:6181:23
+    at onEach2 (http://127.0.0.1:8081/assets.utility2.js:4760:21)
+    at Object.local.onParallelList (http://127.0.0.1:8081/assets.utility2.js:4786:13)
+    at Object.local.testRunDefault (http://127.0.0.1:8081/assets.utility2.js:6131:19)
+    at http://127.0.0.1:8081/assets.utility2.js:6072:35
+    at http://127.0.0.1:8081/assets.utility2.js:4658:17
 
 </pre>
 </div>
@@ -549,7 +549,7 @@ Error: this is a failed assertion demo
 </table>
 </div></div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 08:30:04 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 08:51:23 GMT+0000 (UTC)</div>
 </div>
 
 </x-istanbul-html>
@@ -800,7 +800,7 @@ Error: this is a failed assertion demo
 </table>
 </div></div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 08:30:04 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 08:51:23 GMT+0000 (UTC)</div>
 </div>
 
 </x-istanbul-html>
@@ -1179,7 +1179,7 @@ Error: this is a failed assertion demo
 </tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 08:30:04 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Jun 13 2017 08:51:23 GMT+0000 (UTC)</div>
 </div>
 
 </x-istanbul-html>

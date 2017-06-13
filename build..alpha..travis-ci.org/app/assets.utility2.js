@@ -2336,7 +2336,7 @@ local.assetsDict['/favicon.ico'] = '';
 example usage:
 mkdir -p /tmp/100 && \
     rm -f /tmp/100/screenshot.* && \
-    modeBrowserTestRecurseDepth=3 \
+    modeBrowserTestRecurseDepth=1 \
     modeBrowserTestRecurseInclude=/www.iana.org/,/example.com/ \
     modeBrowserTestTranslate=zh-CN \
     npm_config_dir_build=/tmp/100 \
@@ -2344,7 +2344,7 @@ mkdir -p /tmp/100 && \
     shBrowserTest 'http://example.com/' scrape
 mkdir -p /tmp/100 && \
     rm -f /tmp/100/screenshot.* && \
-    modeBrowserTestRecurseDepth=2 \
+    modeBrowserTestRecurseDepth=1 \
     modeBrowserTestRecurseExclude=/english/ \
     modeBrowserTestRecurseInclude=.xinhuanet.com/,/xinhuanet.com/ \
     modeBrowserTestTranslate=en \
@@ -2364,6 +2364,7 @@ mkdir -p /tmp/100 && \
                                 '\n');
                             local.fs.writeFileSync(options.fileScreenshot, '');
                         }
+                        options.modeBrowserTestRecurseDepth -= 1;
                         options.onNext();
                         return;
                     }
@@ -2398,6 +2399,10 @@ mkdir -p /tmp/100 && \
                 // node - google-translate options.url
                 // to the languages in options.modeBrowserTranslate
                 case 3:
+                    if (options.modeBrowserTest2 === 'translateAfterScrape' ||
+                            options.modeBrowserTestTranslating) {
+                        options.modeNext = Infinity;
+                    }
                     local.onParallelList({
                         list: (!options.modeBrowserTestTranslating &&
                             options.modeBrowserTestTranslate
@@ -2442,13 +2447,9 @@ function TranslateElementInit() {\n\
                             url: (options2.fileScreenshotBase + '.html').replace((/%/g), '%25')
                         }, onParallel);
                     }, options.onNext);
-                    if (options.modeBrowserTest2 === 'translateAfterScrape' ||
-                            options.modeBrowserTestTranslating) {
-                        options.modeNext = Infinity;
-                        return;
-                    }
-                    // node - recurse
-                    options.modeBrowserTestRecurseDepth -= 1;
+                    break;
+                // node - recurse
+                case 4:
                     local.fs.readFileSync(
                         options.fileScreenshotBase + '.html',
                         'utf8'
@@ -2496,11 +2497,6 @@ function TranslateElementInit() {\n\
                             url: options2.element
                         }, onParallel);
                     }, options.onNext);
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    options.onNext();
                     break;
                 // node.electron - init
                 case 11:

@@ -1,341 +1,339 @@
-<svg height="5406" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="5406" fill="#555" width="720"></rect>
+<svg height="5374" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="5374" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">2017-06-13 16:49:03 +0800</tspan>
+<tspan x="10" y="26">2017-06-14 00:10:15 +0800</tspan>
 <tspan x="10" y="42">improve test-coverage</tspan>
 <tspan x="10" y="58"></tspan>
-<tspan x="10" y="74">2017-06-13 16:27:32 +0800</tspan>
+<tspan x="10" y="74">2017-06-13 16:49:03 +0800</tspan>
 <tspan x="10" y="90">improve test-coverage</tspan>
 <tspan x="10" y="106"></tspan>
-<tspan x="10" y="122">2017-06-13 15:50:42 +0800</tspan>
+<tspan x="10" y="122">2017-06-13 16:27:32 +0800</tspan>
 <tspan x="10" y="138">improve test-coverage</tspan>
 <tspan x="10" y="154"></tspan>
-<tspan x="10" y="170">2017-06-13 15:43:41 +0800</tspan>
-<tspan x="10" y="186">slushy improve test-coverage</tspan>
+<tspan x="10" y="170">2017-06-13 15:50:42 +0800</tspan>
+<tspan x="10" y="186">improve test-coverage</tspan>
 <tspan x="10" y="202"></tspan>
-<tspan x="10" y="218">2017-06-13 14:35:16 +0800</tspan>
-<tspan x="10" y="234">update build</tspan>
+<tspan x="10" y="218">2017-06-13 15:43:41 +0800</tspan>
+<tspan x="10" y="234">slushy improve test-coverage</tspan>
 <tspan x="10" y="250"></tspan>
-<tspan x="10" y="266">2017-06-13 14:09:52 +0800</tspan>
+<tspan x="10" y="266">2017-06-13 14:35:16 +0800</tspan>
 <tspan x="10" y="282">update build</tspan>
 <tspan x="10" y="298"></tspan>
-<tspan x="10" y="314">2017-06-13 13:49:00 +0800</tspan>
+<tspan x="10" y="314">2017-06-13 14:09:52 +0800</tspan>
 <tspan x="10" y="330">update build</tspan>
 <tspan x="10" y="346"></tspan>
-<tspan x="10" y="362">2017-06-13 13:31:33 +0800</tspan>
+<tspan x="10" y="362">2017-06-13 13:49:00 +0800</tspan>
 <tspan x="10" y="378">update build</tspan>
 <tspan x="10" y="394"></tspan>
-<tspan x="10" y="410">2017-06-13 11:55:39 +0800</tspan>
+<tspan x="10" y="410">2017-06-13 13:31:33 +0800</tspan>
 <tspan x="10" y="426">update build</tspan>
 <tspan x="10" y="442"></tspan>
-<tspan x="10" y="458">2017-06-13 11:54:05 +0800</tspan>
+<tspan x="10" y="458">2017-06-13 11:55:39 +0800</tspan>
 <tspan x="10" y="474">update build</tspan>
 <tspan x="10" y="490"></tspan>
-<tspan x="10" y="506">2017-06-13 11:39:41 +0800</tspan>
+<tspan x="10" y="506">2017-06-13 11:54:05 +0800</tspan>
 <tspan x="10" y="522">update build</tspan>
 <tspan x="10" y="538"></tspan>
-<tspan x="10" y="554">2017-06-13 11:22:18 +0800</tspan>
+<tspan x="10" y="554">2017-06-13 11:39:41 +0800</tspan>
 <tspan x="10" y="570">update build</tspan>
 <tspan x="10" y="586"></tspan>
-<tspan x="10" y="602">2017-06-13 10:23:52 +0800</tspan>
+<tspan x="10" y="602">2017-06-13 11:22:18 +0800</tspan>
 <tspan x="10" y="618">update build</tspan>
 <tspan x="10" y="634"></tspan>
-<tspan x="10" y="650">2017-06-13 08:35:32 +0800</tspan>
+<tspan x="10" y="650">2017-06-13 10:23:52 +0800</tspan>
 <tspan x="10" y="666">update build</tspan>
 <tspan x="10" y="682"></tspan>
-<tspan x="10" y="698">2017-06-13 08:13:40 +0800</tspan>
-<tspan x="10" y="714">recurse</tspan>
+<tspan x="10" y="698">2017-06-13 08:35:32 +0800</tspan>
+<tspan x="10" y="714">update build</tspan>
 <tspan x="10" y="730"></tspan>
-<tspan x="10" y="746">2017-06-13 07:28:54 +0800</tspan>
-<tspan x="10" y="762">slushy recurse</tspan>
+<tspan x="10" y="746">2017-06-13 08:13:40 +0800</tspan>
+<tspan x="10" y="762">recurse</tspan>
 <tspan x="10" y="778"></tspan>
-<tspan x="10" y="794">2017-06-13 06:19:12 +0800</tspan>
-<tspan x="10" y="810">recurse</tspan>
+<tspan x="10" y="794">2017-06-13 07:28:54 +0800</tspan>
+<tspan x="10" y="810">slushy recurse</tspan>
 <tspan x="10" y="826"></tspan>
-<tspan x="10" y="842">2017-06-12 15:46:20 +0800</tspan>
+<tspan x="10" y="842">2017-06-13 06:19:12 +0800</tspan>
 <tspan x="10" y="858">recurse</tspan>
 <tspan x="10" y="874"></tspan>
-<tspan x="10" y="890">2017-06-12 14:51:17 +0800</tspan>
-<tspan x="10" y="906">update build</tspan>
+<tspan x="10" y="890">2017-06-12 15:46:20 +0800</tspan>
+<tspan x="10" y="906">recurse</tspan>
 <tspan x="10" y="922"></tspan>
-<tspan x="10" y="938">2017-06-10 14:58:28 +0800</tspan>
-<tspan x="10" y="954">reduce test output noise</tspan>
+<tspan x="10" y="938">2017-06-12 14:51:17 +0800</tspan>
+<tspan x="10" y="954">update build</tspan>
 <tspan x="10" y="970"></tspan>
-<tspan x="10" y="986">2017-06-10 14:52:05 +0800</tspan>
-<tspan x="10" y="1002">- merge functions browserTestInit and browserTestTranslate back into browserTest</tspan>
+<tspan x="10" y="986">2017-06-10 14:58:28 +0800</tspan>
+<tspan x="10" y="1002">reduce test output noise</tspan>
 <tspan x="10" y="1018"></tspan>
-<tspan x="10" y="1034">2017-06-08 01:37:30 +0800</tspan>
-<tspan x="10" y="1050">- merge functions normalizeDict, normalizeList, normalizeText into function normalizeValue</tspan>
+<tspan x="10" y="1034">2017-06-10 14:52:05 +0800</tspan>
+<tspan x="10" y="1050">- merge functions browserTestInit and browserTestTranslate back into browserTest</tspan>
 <tspan x="10" y="1066"></tspan>
-<tspan x="10" y="1082">2017-06-07 19:27:32 +0800</tspan>
-<tspan x="10" y="1098">- add google-translate ability to function browserTest</tspan>
-<tspan x="10" y="1114">- add env-vars modeBrowserTest=translateAfterScrape and modeBrowserTestTranslate</tspan>
-<tspan x="10" y="1130">- add function browserTestTranslate</tspan>
-<tspan x="10" y="1146">- rename function processSpawnWithTimeout -&gt; childProcessSpawnWithTimeout</tspan>
-<tspan x="10" y="1162"></tspan>
-<tspan x="10" y="1178">2017-05-31 19:58:30 +0800</tspan>
-<tspan x="10" y="1194">[npm publish] - npm publish 2017.5.30</tspan>
-<tspan x="10" y="1210">- fix 'use strict' bug in firefox and safari</tspan>
-<tspan x="10" y="1226">- auto-mock browserTest if webapp is missing window.utility2</tspan>
-<tspan x="10" y="1242">- cleanup customOrg templates</tspan>
-<tspan x="10" y="1258">- customize assets.index.template.html with file-override</tspan>
-<tspan x="10" y="1274">- fix missing test-report for deployed app to github and heroku</tspan>
-<tspan x="10" y="1290">- github-deployed demos should auto-default to heroku forward-proxy</tspan>
-<tspan x="10" y="1306">- move functions uiAnimateSlideXxx from file lib.swgg.js to file lib.utility2.js</tspan>
-<tspan x="10" y="1322"></tspan>
-<tspan x="10" y="1338">2017-05-28 18:16:13 +0800</tspan>
-<tspan x="10" y="1354">- npm publish 2017.5.27</tspan>
-<tspan x="10" y="1370">- ignore missing links in README section 'all screenshots'</tspan>
-<tspan x="10" y="1386">- merge shell function shReadmeBuildLinkVerify into shBuildCiInternal</tspan>
-<tspan x="10" y="1402">- rename screenCapture -&gt; screenshot</tspan>
-<tspan x="10" y="1418">- uprade to istanbul v0.4.5</tspan>
-<tspan x="10" y="1434">- upgrade to sjcl v1.0.6</tspan>
-<tspan x="10" y="1450">- auto-create README section 'table of contents'</tspan>
-<tspan x="10" y="1466"></tspan>
-<tspan x="10" y="1482">2017-05-22 17:21:28 +0800</tspan>
-<tspan x="10" y="1498">[npm publish] - npm publish 2017.5.20</tspan>
-<tspan x="10" y="1514">- auto npm install from alpha-branch</tspan>
-<tspan x="10" y="1530">- auto-build assets.example.html</tspan>
-<tspan x="10" y="1546">- auto-detect if package is npm-published to create npmPackageDependencyTree</tspan>
-<tspan x="10" y="1562">- deprecate and remove auto-rollup generation</tspan>
-<tspan x="10" y="1578">- merge function middlewareGroupCreate into testRunServer</tspan>
-<tspan x="10" y="1594">- merge shell command shBuildCiBefore into shBuildCiAfter</tspan>
-<tspan x="10" y="1610">- rename /app/index.html -&gt; /app</tspan>
-<tspan x="10" y="1626">- rename istanbul-coverage -&gt; coverage</tspan>
-<tspan x="10" y="1642">- rename screenCapture -&gt; screen-capture</tspan>
-<tspan x="10" y="1658">- un-uglify embedded-lib jslint.js</tspan>
-<tspan x="10" y="1674">- add README section 'internal screen-capture'</tspan>
-<tspan x="10" y="1690">- add README section 'quickstart standalone app'</tspan>
-<tspan x="10" y="1706">- rename README section 'quickstart web example' -&gt; 'quickstart example.js'</tspan>
-<tspan x="10" y="1722"></tspan>
-<tspan x="10" y="1738">2017-05-06 06:37:28 +0800</tspan>
-<tspan x="10" y="1754">[npm publish] - npm publish 2017.5.5</tspan>
-<tspan x="10" y="1770">- add local.env param modeForwardProxyUrl to enable serverless browser-xss</tspan>
-<tspan x="10" y="1786">- allow assets.index.template.html and assets.lib.css to be overridden by external files</tspan>
-<tspan x="10" y="1802">- fix apidoc for duplicating main-module if circularly-referenced</tspan>
-<tspan x="10" y="1818">- merge assets.swgg.rollup.js into assets.utility2.rollup.js</tspan>
-<tspan x="10" y="1834">- remove file assets.utility2.rollup.js</tspan>
-<tspan x="10" y="1850"></tspan>
-<tspan x="10" y="1866">2017-05-02 13:00:10 +0800</tspan>
-<tspan x="10" y="1882">[npm publish] - npm publish 2017.5.1</tspan>
-<tspan x="10" y="1898">- add cli-code cli.customOrgStarFilterNotBuilt</tspan>
-<tspan x="10" y="1914">- add default-coverage fallback for npmtest</tspan>
-<tspan x="10" y="1930">- add shell-functions shCustomOrgBuildCi, shCustomOrgTravisRebuild</tspan>
-<tspan x="10" y="1946">- auto-include electron-lite binary path in shell-function shBuildInit</tspan>
-<tspan x="10" y="1962">- streamline shell-based crypto-functions</tspan>
-<tspan x="10" y="1978">- use breadth-first-search for exampleList in apidoc</tspan>
-<tspan x="10" y="1994"></tspan>
-<tspan x="10" y="2010">2017-04-23 14:41:06 +0800</tspan>
-<tspan x="10" y="2026">[npm publish] - npm publish 2017.4.22</tspan>
-<tspan x="10" y="2042">- add $not query-operator in function dbTable.prototype.crudGetManyByQuery</tspan>
-<tspan x="10" y="2058">- add function requireInSandbox to try and build customOrg in sandbox-like env</tspan>
-<tspan x="10" y="2074">- fallback to tarball-install if npm-install fails when building customOrg</tspan>
-<tspan x="10" y="2090">- merge git-branch public) -&gt; alpha)</tspan>
-<tspan x="10" y="2106">- remove redundant shBuildCiInternal process after publishing customOrg</tspan>
-<tspan x="10" y="2122">- rename name dbTableTravisOrg -&gt; dbTableCustomOrg</tspan>
-<tspan x="10" y="2138">- use breadth-first-search for files to add to libFileList-param in function apidocCreate</tspan>
-<tspan x="10" y="2154"></tspan>
-<tspan x="10" y="2170">2017-04-18 00:55:07 +0800</tspan>
-<tspan x="10" y="2186">[npm publish] - npm publish 2017.4.16</tspan>
-<tspan x="10" y="2202">- npmdoc - remove markdown renderer</tspan>
-<tspan x="10" y="2218">- npmdoc - bug-workaround for npm-package material-design-icons - limit npmPackageListing size m\</tspan>
-<tspan x="10" y="2234">aximum of 4096 items</tspan>
-<tspan x="10" y="2250">- add shell-function shBrowserTestList</tspan>
-<tspan x="10" y="2266">- add 'shuffle' param in function function dbTable.prototype.crudGetManyByQuery</tspan>
-<tspan x="10" y="2282"></tspan>
-<tspan x="10" y="2298">2017-04-15 04:42:26 +0800</tspan>
-<tspan x="10" y="2314">Merge pull request #6 from kaizhu256/alpha</tspan>
+<tspan x="10" y="1082">2017-06-08 01:37:30 +0800</tspan>
+<tspan x="10" y="1098">- merge functions normalizeDict, normalizeList, normalizeText into function normalizeValue</tspan>
+<tspan x="10" y="1114"></tspan>
+<tspan x="10" y="1130">2017-06-07 19:27:32 +0800</tspan>
+<tspan x="10" y="1146">- add google-translate ability to function browserTest</tspan>
+<tspan x="10" y="1162">- add env-vars modeBrowserTest=translateAfterScrape and modeBrowserTestTranslate</tspan>
+<tspan x="10" y="1178">- add function browserTestTranslate</tspan>
+<tspan x="10" y="1194">- rename function processSpawnWithTimeout -&gt; childProcessSpawnWithTimeout</tspan>
+<tspan x="10" y="1210"></tspan>
+<tspan x="10" y="1226">2017-05-31 19:58:30 +0800</tspan>
+<tspan x="10" y="1242">[npm publish] - npm publish 2017.5.30</tspan>
+<tspan x="10" y="1258">- fix 'use strict' bug in firefox and safari</tspan>
+<tspan x="10" y="1274">- auto-mock browserTest if webapp is missing window.utility2</tspan>
+<tspan x="10" y="1290">- cleanup customOrg templates</tspan>
+<tspan x="10" y="1306">- customize assets.index.template.html with file-override</tspan>
+<tspan x="10" y="1322">- fix missing test-report for deployed app to github and heroku</tspan>
+<tspan x="10" y="1338">- github-deployed demos should auto-default to heroku forward-proxy</tspan>
+<tspan x="10" y="1354">- move functions uiAnimateSlideXxx from file lib.swgg.js to file lib.utility2.js</tspan>
+<tspan x="10" y="1370"></tspan>
+<tspan x="10" y="1386">2017-05-28 18:16:13 +0800</tspan>
+<tspan x="10" y="1402">- npm publish 2017.5.27</tspan>
+<tspan x="10" y="1418">- ignore missing links in README section 'all screenshots'</tspan>
+<tspan x="10" y="1434">- merge shell function shReadmeBuildLinkVerify into shBuildCiInternal</tspan>
+<tspan x="10" y="1450">- rename screenCapture -&gt; screenshot</tspan>
+<tspan x="10" y="1466">- uprade to istanbul v0.4.5</tspan>
+<tspan x="10" y="1482">- upgrade to sjcl v1.0.6</tspan>
+<tspan x="10" y="1498">- auto-create README section 'table of contents'</tspan>
+<tspan x="10" y="1514"></tspan>
+<tspan x="10" y="1530">2017-05-22 17:21:28 +0800</tspan>
+<tspan x="10" y="1546">[npm publish] - npm publish 2017.5.20</tspan>
+<tspan x="10" y="1562">- auto npm install from alpha-branch</tspan>
+<tspan x="10" y="1578">- auto-build assets.example.html</tspan>
+<tspan x="10" y="1594">- auto-detect if package is npm-published to create npmPackageDependencyTree</tspan>
+<tspan x="10" y="1610">- deprecate and remove auto-rollup generation</tspan>
+<tspan x="10" y="1626">- merge function middlewareGroupCreate into testRunServer</tspan>
+<tspan x="10" y="1642">- merge shell command shBuildCiBefore into shBuildCiAfter</tspan>
+<tspan x="10" y="1658">- rename /app/index.html -&gt; /app</tspan>
+<tspan x="10" y="1674">- rename istanbul-coverage -&gt; coverage</tspan>
+<tspan x="10" y="1690">- rename screenCapture -&gt; screen-capture</tspan>
+<tspan x="10" y="1706">- un-uglify embedded-lib jslint.js</tspan>
+<tspan x="10" y="1722">- add README section 'internal screen-capture'</tspan>
+<tspan x="10" y="1738">- add README section 'quickstart standalone app'</tspan>
+<tspan x="10" y="1754">- rename README section 'quickstart web example' -&gt; 'quickstart example.js'</tspan>
+<tspan x="10" y="1770"></tspan>
+<tspan x="10" y="1786">2017-05-06 06:37:28 +0800</tspan>
+<tspan x="10" y="1802">[npm publish] - npm publish 2017.5.5</tspan>
+<tspan x="10" y="1818">- add local.env param modeForwardProxyUrl to enable serverless browser-xss</tspan>
+<tspan x="10" y="1834">- allow assets.index.template.html and assets.lib.css to be overridden by external files</tspan>
+<tspan x="10" y="1850">- fix apidoc for duplicating main-module if circularly-referenced</tspan>
+<tspan x="10" y="1866">- merge assets.swgg.rollup.js into assets.utility2.rollup.js</tspan>
+<tspan x="10" y="1882">- remove file assets.utility2.rollup.js</tspan>
+<tspan x="10" y="1898"></tspan>
+<tspan x="10" y="1914">2017-05-02 13:00:10 +0800</tspan>
+<tspan x="10" y="1930">[npm publish] - npm publish 2017.5.1</tspan>
+<tspan x="10" y="1946">- add cli-code cli.customOrgStarFilterNotBuilt</tspan>
+<tspan x="10" y="1962">- add default-coverage fallback for npmtest</tspan>
+<tspan x="10" y="1978">- add shell-functions shCustomOrgBuildCi, shCustomOrgTravisRebuild</tspan>
+<tspan x="10" y="1994">- auto-include electron-lite binary path in shell-function shBuildInit</tspan>
+<tspan x="10" y="2010">- streamline shell-based crypto-functions</tspan>
+<tspan x="10" y="2026">- use breadth-first-search for exampleList in apidoc</tspan>
+<tspan x="10" y="2042"></tspan>
+<tspan x="10" y="2058">2017-04-23 14:41:06 +0800</tspan>
+<tspan x="10" y="2074">[npm publish] - npm publish 2017.4.22</tspan>
+<tspan x="10" y="2090">- add $not query-operator in function dbTable.prototype.crudGetManyByQuery</tspan>
+<tspan x="10" y="2106">- add function requireInSandbox to try and build customOrg in sandbox-like env</tspan>
+<tspan x="10" y="2122">- fallback to tarball-install if npm-install fails when building customOrg</tspan>
+<tspan x="10" y="2138">- merge git-branch public) -&gt; alpha)</tspan>
+<tspan x="10" y="2154">- remove redundant shBuildCiInternal process after publishing customOrg</tspan>
+<tspan x="10" y="2170">- rename name dbTableTravisOrg -&gt; dbTableCustomOrg</tspan>
+<tspan x="10" y="2186">- use breadth-first-search for files to add to libFileList-param in function apidocCreate</tspan>
+<tspan x="10" y="2202"></tspan>
+<tspan x="10" y="2218">2017-04-18 00:55:07 +0800</tspan>
+<tspan x="10" y="2234">[npm publish] - npm publish 2017.4.16</tspan>
+<tspan x="10" y="2250">- npmdoc - remove markdown renderer</tspan>
+<tspan x="10" y="2266">- npmdoc - bug-workaround for npm-package material-design-icons - limit npmPackageListing size m\</tspan>
+<tspan x="10" y="2282">aximum of 4096 items</tspan>
+<tspan x="10" y="2298">- add shell-function shBrowserTestList</tspan>
+<tspan x="10" y="2314">- add 'shuffle' param in function function dbTable.prototype.crudGetManyByQuery</tspan>
 <tspan x="10" y="2330"></tspan>
-<tspan x="10" y="2346">- fix bug where function apidocCreate cannot document module-functions</tspan>
-<tspan x="10" y="2362">2017-04-15 04:25:15 +0800</tspan>
-<tspan x="10" y="2378">- fix bug where function apidocCreate cannot document module-functions</tspan>
-<tspan x="10" y="2394">- fix bug parsing package.json in shell-function shInit</tspan>
-<tspan x="10" y="2410">- strip email from npmdoc documentation - https://github.com/npmdoc/node-npmdoc-hpp/issues/1</tspan>
-<tspan x="10" y="2426"></tspan>
-<tspan x="10" y="2442">2017-04-14 15:46:32 +0800</tspan>
-<tspan x="10" y="2458">[npm publish] - npm publish 2017.4.14</tspan>
-<tspan x="10" y="2474">- begin mass test-coverage of npm-ecosystem under https://github.com/npmtest</tspan>
-<tspan x="10" y="2490">- add default testCase testCase_buildCustomOrg_default</tspan>
-<tspan x="10" y="2506">- add shell-function shIsInGithubOrg to auto-determine whether using env-var $GITHUB_ORG is appr\</tspan>
-<tspan x="10" y="2522">opriate or not</tspan>
-<tspan x="10" y="2538">- add shell-functions shCryptoAesWithGithubOrg, shNpmNameListFetch</tspan>
-<tspan x="10" y="2554">- auto-screenCapture test-report and coverage.html in shell-function shBuildCiInternal</tspan>
-<tspan x="10" y="2570">- improve scaffolding feature of shell-function shBuildApp</tspan>
-<tspan x="10" y="2586">- merge env-vars $npm_package_buildNpmdoc and $npm_package_readmeParse into $npm_package_buildCu\</tspan>
-<tspan x="10" y="2602">stomOrg</tspan>
-<tspan x="10" y="2618">- merge shell-function shBuildCustomOrg into shBuildCiInternal</tspan>
-<tspan x="10" y="2634">- preserve percent-encoding in screenCapture files (so the url can be reconstructed)</tspan>
-<tspan x="10" y="2650"></tspan>
-<tspan x="10" y="2666">2017-04-07 15:50:56 +0800</tspan>
-<tspan x="10" y="2682">[npm publish] - npm publish 2017.4.6</tspan>
-<tspan x="10" y="2698">- add auto-retry option to function onParallelList</tspan>
-<tspan x="10" y="2714">- add depencency-tree-visualization and dependency-tree-size to README.md</tspan>
-<tspan x="10" y="2730">- add html-scraper to function browerTest</tspan>
-<tspan x="10" y="2746">- add property 'sortDefault' to dbTable, which defaults to [{ fieldName: '_timeUpdated', isDesce\</tspan>
-<tspan x="10" y="2762">nding: true }]</tspan>
-<tspan x="10" y="2778">- add optional callback to function dbTable.prototype.save</tspan>
-<tspan x="10" y="2794">- add shell-functions shGithubRepoListCreate, shNpmNameNormalize, shNpmPackageDependencyTreeCrea\</tspan>
-<tspan x="10" y="2810">te, shOnParallelListSpawn, shTravisRepoListFilterForNonActive</tspan>
-<tspan x="10" y="2826">- add shell-function shNpmPackageNameListGetFromUrl, which allows shNpmdocRepoListCreate to crea\</tspan>
-<tspan x="10" y="2842">te npmdocs directly from npm-website</tspan>
-<tspan x="10" y="2858">- enable auto-cancel-mode by default when creating travis-repo</tspan>
-<tspan x="10" y="2874">- streamline build-process for 'npm publishAfterCommitAfterBuild' to just one stage (alpha)</tspan>
-<tspan x="10" y="2890"></tspan>
-<tspan x="10" y="2906">2017-03-30 22:40:41 +0800</tspan>
-<tspan x="10" y="2922">[npm publish] - npm publish 2017.3.29</tspan>
-<tspan x="10" y="2938">- add args $modeBrowserTest and $url to shell-function shBrowserTest</tspan>
-<tspan x="10" y="2954">- add branch-cron</tspan>
-<tspan x="10" y="2970">- add function dbTableTravisRepoCreate, dbTableTravisRepoCrudGetManyByQuery, dbTableTravisRepoUp\</tspan>
-<tspan x="10" y="2986">date, and listForEachAsync</tspan>
-<tspan x="10" y="3002">- add github-crud function contentTouchList</tspan>
-<tspan x="10" y="3018">- add shell-function shGitRemotePromote to auto-promote branches alpha -&gt; beta -&gt; master</tspan>
-<tspan x="10" y="3034">- add shell-function shGithubRepoListTouch, shListUnflattenAndApply, and shNpmInstallWithPeerDep\</tspan>
-<tspan x="10" y="3050">endencies</tspan>
-<tspan x="10" y="3066">- auto update public travis-repos in alpha-branch</tspan>
-<tspan x="10" y="3082">- deprecate ssh-key in favor of github oauth - https://stackoverflow.com/questions/18027115/comm\</tspan>
-<tspan x="10" y="3098">itting-via-travis-ci-failing</tspan>
-<tspan x="10" y="3114">- enable shNpmdocRepoListCreate in travis-ci</tspan>
-<tspan x="10" y="3130">- enhance shell-function shNpmPackageListingCreate to add total package-size to package-listing</tspan>
-<tspan x="10" y="3146">- fix apidoc bug 'Function.prototype.toString is not generic'</tspan>
-<tspan x="10" y="3162">- fix shell-function shInit bug - export: npm_package_react-native: bad variable name</tspan>
-<tspan x="10" y="3178">- sanitize sensitive env-vars from electron.*.html</tspan>
-<tspan x="10" y="3194">- use optional remote-credentials during travis-ci build</tspan>
-<tspan x="10" y="3210"></tspan>
-<tspan x="10" y="3226">2017-03-22 01:58:56 +0800</tspan>
-<tspan x="10" y="3242">[npm publish] - npm publish 2017.3.21</tspan>
-<tspan x="10" y="3258">- security - rewrite function moduleDirname, so that it doesn't have to require arbitrary module\</tspan>
-<tspan x="10" y="3274">s</tspan>
-<tspan x="10" y="3290">- add github-crud command 'touch' to trigger github-hooks and add commit-messages without changi\</tspan>
-<tspan x="10" y="3306">ng files</tspan>
-<tspan x="10" y="3322">- add commit-message-meta macro 'promote branch1 -&gt; branch2'</tspan>
-<tspan x="10" y="3338">- add env var TRAVIS_REPO_CREATE_FORCE to force re-creation of npmdoc</tspan>
-<tspan x="10" y="3354">- add env var npm_package_buildNpmdocMain to customize npmdoc target</tspan>
-<tspan x="10" y="3370">- add optional commit-message for PUT, DELETE, and TOUCH requests in github-crud</tspan>
-<tspan x="10" y="3386">- add package-description to apidoc</tspan>
-<tspan x="10" y="3402">- add package-listing to npmdoc</tspan>
-<tspan x="10" y="3418">- add package.json to npmdoc</tspan>
-<tspan x="10" y="3434">- add async shell-function shNpmdocRepoListCreate to automate creation of npmdoc's</tspan>
-<tspan x="10" y="3450">- add shell function shUtility2GrepTravisYml</tspan>
-<tspan x="10" y="3466">- fix 'span class' error in https://www.npmjs.com/package/npmdoc-glob</tspan>
-<tspan x="10" y="3482">- merge function local.runIfTrue -&gt; local.nop</tspan>
-<tspan x="10" y="3498">- rename lib.xxx.npm_scripts.sh to npm_scripts.sh</tspan>
-<tspan x="10" y="3514">- shBuildPrint message for deprecate and publish operations</tspan>
-<tspan x="10" y="3530"></tspan>
-<tspan x="10" y="3546">2017-03-17 21:15:11 +0800</tspan>
-<tspan x="10" y="3562">[npm publish] - npm publish 2017.3.17</tspan>
-<tspan x="10" y="3578">- fix quickstart demo for example.js</tspan>
-<tspan x="10" y="3594">- allow auto-deprecating of aliases in publish branch</tspan>
-<tspan x="10" y="3610">- allow auto-publishing of aliases in publish branch</tspan>
-<tspan x="10" y="3626"></tspan>
-<tspan x="10" y="3642">2017-03-17 05:05:24 +0800</tspan>
-<tspan x="10" y="3658">[npm publish] - npm publish 2017.3.16</tspan>
-<tspan x="10" y="3674">- add function buildNpmdoc and buildTest</tspan>
-<tspan x="10" y="3690">- automate building and publishing of npmdoc's</tspan>
-<tspan x="10" y="3706">- commit tag 'npm publish' will publish package in alpha-branch and promote to beta</tspan>
-<tspan x="10" y="3722">- harden shell-function shPasswordEnvUnset</tspan>
-<tspan x="10" y="3738">- remove '|| return $?' from shell-scripts when possible to fix 'set -e' failing to exit on erro\</tspan>
-<tspan x="10" y="3754">r</tspan>
-<tspan x="10" y="3770">- rename function onErrorAssert -&gt; onErrorThrow</tspan>
-<tspan x="10" y="3786">- partially revert npm_package_nameAlias back to npm_package_name</tspan>
-<tspan x="10" y="3802"></tspan>
-<tspan x="10" y="3818">2017-03-11 03:56:44 +0800</tspan>
-<tspan x="10" y="3834">- npm publish 2017.3.10</tspan>
-<tspan x="10" y="3850">- fix build in beta branch</tspan>
-<tspan x="10" y="3866"></tspan>
-<tspan x="10" y="3882">2017-03-11 02:50:36 +0800</tspan>
-<tspan x="10" y="3898">- npm publish 2017.3.9</tspan>
-<tspan x="10" y="3914">- add functions moduleDirname and onErrorAssert</tspan>
-<tspan x="10" y="3930">- add shell-command shPasswordEnvUnset</tspan>
-<tspan x="10" y="3946">- rename name api-doc -&gt; apidoc</tspan>
-<tspan x="10" y="3962">- revamp build scripts</tspan>
-<tspan x="10" y="3978">- split function buildApidoc into new file lib.apidoc.js</tspan>
-<tspan x="10" y="3994">- verify README.md's build-links during build</tspan>
-<tspan x="10" y="4010"></tspan>
-<tspan x="10" y="4026">2017-03-01 17:52:26 +0800</tspan>
-<tspan x="10" y="4042">- npm publish 2017.2.28</tspan>
-<tspan x="10" y="4058">- build - add publish build-branch</tspan>
-<tspan x="10" y="4074">- build - auto-clean build if commit-message is CLEAN_BUILD</tspan>
-<tspan x="10" y="4090">- build - auto-tag branch in master build-branch</tspan>
-<tspan x="10" y="4106">- README.md - normalize browser-script in example.js</tspan>
-<tspan x="10" y="4122">- promote utility2 plug in README.md, api-doc, code-coverage, rollup, test-coverage</tspan>
-<tspan x="10" y="4138">- lib.db.js - add ttl-cache</tspan>
-<tspan x="10" y="4154">- lib.utility2.js - revamp function buildApiDoc</tspan>
-<tspan x="10" y="4170">- lib.utility2.sh - revamp shell-function shNpmPublish</tspan>
-<tspan x="10" y="4186"></tspan>
-<tspan x="10" y="4202">2017-02-21 03:06:56 +0800</tspan>
-<tspan x="10" y="4218">- npm publish 2017.2.20</tspan>
-<tspan x="10" y="4234">- add field nameOriginal to package.json</tspan>
-<tspan x="10" y="4250">- do not cover rollups</tspan>
-<tspan x="10" y="4266">- merge shell-function shNpmPublishAlias into shNpmPublish</tspan>
-<tspan x="10" y="4282">- normalize example.html</tspan>
-<tspan x="10" y="4298"></tspan>
-<tspan x="10" y="4314">2017-02-20 02:49:59 +0800</tspan>
-<tspan x="10" y="4330">- npm publish 2017.2.19</tspan>
-<tspan x="10" y="4346">- replace env var npm_package_name with npm_package_nameAlias in istanbul code-coverage</tspan>
-<tspan x="10" y="4362">- revamp shell-function shNpmPublishAlias</tspan>
-<tspan x="10" y="4378"></tspan>
-<tspan x="10" y="4394">2017-02-19 01:09:51 +0800</tspan>
-<tspan x="10" y="4410">- npm publish 2017.2.18</tspan>
-<tspan x="10" y="4426">- add shell-function shReadmeTestExampleJs</tspan>
-<tspan x="10" y="4442">- do not auto-uglify js-assets in production</tspan>
-<tspan x="10" y="4458">- rename doc-api to api-doc</tspan>
-<tspan x="10" y="4474">- rename hrku01 to h1</tspan>
-<tspan x="10" y="4490">- rename local.template* to local.assetsDict[assets.*.template]</tspan>
-<tspan x="10" y="4506">- revamp function buildApiDoc</tspan>
-<tspan x="10" y="4522">- revamp function buildReadme and include testCase_buildReadme_default inside testCase_buildApp_\</tspan>
-<tspan x="10" y="4538">default</tspan>
-<tspan x="10" y="4554">- remove functions assetsAlias, assetsWrite</tspan>
-<tspan x="10" y="4570">- use env var npm_package_nameAlias over npm_package_name</tspan>
-<tspan x="10" y="4586"></tspan>
-<tspan x="10" y="4602">2017-02-06 21:14:20 +0800</tspan>
-<tspan x="10" y="4618">- npm publish 2017.2.6</tspan>
-<tspan x="10" y="4634">- allow env var npm_config_mode_test_case to have comma-separated list of test-cases</tspan>
-<tspan x="10" y="4650">- replace function requestResponseCleanup with streamListCleanup</tspan>
-<tspan x="10" y="4666">- don't use nameAlias in assets</tspan>
-<tspan x="10" y="4682">- rename base64 functions with base64 as prefix</tspan>
-<tspan x="10" y="4698">- add commandline options --eval -e --interactive -i</tspan>
-<tspan x="10" y="4714">- add env var npm_pacakge_nameHeroku</tspan>
-<tspan x="10" y="4730">- add function assetsAlias</tspan>
-<tspan x="10" y="4746">- add shell-functions shUtility2DependentsSync shUtility2RollupCreate</tspan>
-<tspan x="10" y="4762">- merge files lib.* into standaalone file assets.utility2.rollup.js</tspan>
-<tspan x="10" y="4778">- merge files lib.swgg.* into lib.swgg.js</tspan>
-<tspan x="10" y="4794"></tspan>
-<tspan x="10" y="4810">2017-01-27 14:44:40 +0800</tspan>
-<tspan x="10" y="4826">- move most logic from Dockerfile.latest to Dockerfile.base</tspan>
-<tspan x="10" y="4842">- add shell-function shImageToDataUri</tspan>
-<tspan x="10" y="4858">- add shell-function shSshReverseTunnel</tspan>
-<tspan x="10" y="4874">- add function sjclHmacSha256Create</tspan>
-<tspan x="10" y="4890">- replace localhost with 127.0.0.1</tspan>
-<tspan x="10" y="4906"></tspan>
-<tspan x="10" y="4922">2017-01-05 20:57:31 +0800</tspan>
-<tspan x="10" y="4938">- npm publish 2017.1.5</tspan>
-<tspan x="10" y="4954">- automate readme-generation with new functions local.buildReadmeElectronLite and local.buildRea\</tspan>
-<tspan x="10" y="4970">dmeJslintLite</tspan>
-<tspan x="10" y="4986">- revamp github-crud-api</tspan>
-<tspan x="10" y="5002">- add function httpRequest</tspan>
-<tspan x="10" y="5018">- add shell-function shNpmPublishAlias</tspan>
-<tspan x="10" y="5034">- remove function domQuerySelectorAll</tspan>
-<tspan x="10" y="5050">- update documentation-generator</tspan>
-<tspan x="10" y="5066"></tspan>
-<tspan x="10" y="5082">2016-12-26 15:10:22 +0800</tspan>
-<tspan x="10" y="5098">- add file lib.swgg.css</tspan>
-<tspan x="10" y="5114">- add file lib.swgg.js</tspan>
-<tspan x="10" y="5130">- add file lib.swgg.json-schema.json</tspan>
-<tspan x="10" y="5146">- add file lib.swgg.petstore.json</tspan>
-<tspan x="10" y="5162">- add file lib.swgg.schema.json</tspan>
-<tspan x="10" y="5178">- add file lib.swgg.ui.js</tspan>
-<tspan x="10" y="5194">- add heroku-postbuild npm-script</tspan>
-<tspan x="10" y="5210"></tspan>
-<tspan x="10" y="5226">2016-12-25 02:10:59 +0800</tspan>
-<tspan x="10" y="5242">- npm publish 2016.12.2</tspan>
-<tspan x="10" y="5258">- merge github-crud into this package</tspan>
-<tspan x="10" y="5274">- revamp heroku-deploy</tspan>
-<tspan x="10" y="5290">- add middlewareForwardProxy</tspan>
-<tspan x="10" y="5306">- add modeDebug option to function local.ajax</tspan>
-<tspan x="10" y="5322"></tspan>
-<tspan x="10" y="5338">2016-12-13 21:36:58 +0800</tspan>
-<tspan x="10" y="5354">- npm publish 2016.12.1</tspan>
-<tspan x="10" y="5370">- merge utility2 namespace into local namespace</tspan>
-<tspan x="10" y="5386">- revamp encryption features to primarily use json-web-encryption</tspan>
+<tspan x="10" y="2346">2017-04-15 04:42:26 +0800</tspan>
+<tspan x="10" y="2362">Merge pull request #6 from kaizhu256/alpha</tspan>
+<tspan x="10" y="2378"></tspan>
+<tspan x="10" y="2394">- fix bug where function apidocCreate cannot document module-functions</tspan>
+<tspan x="10" y="2410">2017-04-15 04:25:15 +0800</tspan>
+<tspan x="10" y="2426">- fix bug where function apidocCreate cannot document module-functions</tspan>
+<tspan x="10" y="2442">- fix bug parsing package.json in shell-function shInit</tspan>
+<tspan x="10" y="2458">- strip email from npmdoc documentation - https://github.com/npmdoc/node-npmdoc-hpp/issues/1</tspan>
+<tspan x="10" y="2474"></tspan>
+<tspan x="10" y="2490">2017-04-14 15:46:32 +0800</tspan>
+<tspan x="10" y="2506">[npm publish] - npm publish 2017.4.14</tspan>
+<tspan x="10" y="2522">- begin mass test-coverage of npm-ecosystem under https://github.com/npmtest</tspan>
+<tspan x="10" y="2538">- add default testCase testCase_buildCustomOrg_default</tspan>
+<tspan x="10" y="2554">- add shell-function shIsInGithubOrg to auto-determine whether using env-var $GITHUB_ORG is appr\</tspan>
+<tspan x="10" y="2570">opriate or not</tspan>
+<tspan x="10" y="2586">- add shell-functions shCryptoAesWithGithubOrg, shNpmNameListFetch</tspan>
+<tspan x="10" y="2602">- auto-screenCapture test-report and coverage.html in shell-function shBuildCiInternal</tspan>
+<tspan x="10" y="2618">- improve scaffolding feature of shell-function shBuildApp</tspan>
+<tspan x="10" y="2634">- merge env-vars $npm_package_buildNpmdoc and $npm_package_readmeParse into $npm_package_buildCu\</tspan>
+<tspan x="10" y="2650">stomOrg</tspan>
+<tspan x="10" y="2666">- merge shell-function shBuildCustomOrg into shBuildCiInternal</tspan>
+<tspan x="10" y="2682">- preserve percent-encoding in screenCapture files (so the url can be reconstructed)</tspan>
+<tspan x="10" y="2698"></tspan>
+<tspan x="10" y="2714">2017-04-07 15:50:56 +0800</tspan>
+<tspan x="10" y="2730">[npm publish] - npm publish 2017.4.6</tspan>
+<tspan x="10" y="2746">- add auto-retry option to function onParallelList</tspan>
+<tspan x="10" y="2762">- add depencency-tree-visualization and dependency-tree-size to README.md</tspan>
+<tspan x="10" y="2778">- add html-scraper to function browerTest</tspan>
+<tspan x="10" y="2794">- add property 'sortDefault' to dbTable, which defaults to [{ fieldName: '_timeUpdated', isDesce\</tspan>
+<tspan x="10" y="2810">nding: true }]</tspan>
+<tspan x="10" y="2826">- add optional callback to function dbTable.prototype.save</tspan>
+<tspan x="10" y="2842">- add shell-functions shGithubRepoListCreate, shNpmNameNormalize, shNpmPackageDependencyTreeCrea\</tspan>
+<tspan x="10" y="2858">te, shOnParallelListSpawn, shTravisRepoListFilterForNonActive</tspan>
+<tspan x="10" y="2874">- add shell-function shNpmPackageNameListGetFromUrl, which allows shNpmdocRepoListCreate to crea\</tspan>
+<tspan x="10" y="2890">te npmdocs directly from npm-website</tspan>
+<tspan x="10" y="2906">- enable auto-cancel-mode by default when creating travis-repo</tspan>
+<tspan x="10" y="2922">- streamline build-process for 'npm publishAfterCommitAfterBuild' to just one stage (alpha)</tspan>
+<tspan x="10" y="2938"></tspan>
+<tspan x="10" y="2954">2017-03-30 22:40:41 +0800</tspan>
+<tspan x="10" y="2970">[npm publish] - npm publish 2017.3.29</tspan>
+<tspan x="10" y="2986">- add args $modeBrowserTest and $url to shell-function shBrowserTest</tspan>
+<tspan x="10" y="3002">- add branch-cron</tspan>
+<tspan x="10" y="3018">- add function dbTableTravisRepoCreate, dbTableTravisRepoCrudGetManyByQuery, dbTableTravisRepoUp\</tspan>
+<tspan x="10" y="3034">date, and listForEachAsync</tspan>
+<tspan x="10" y="3050">- add github-crud function contentTouchList</tspan>
+<tspan x="10" y="3066">- add shell-function shGitRemotePromote to auto-promote branches alpha -&gt; beta -&gt; master</tspan>
+<tspan x="10" y="3082">- add shell-function shGithubRepoListTouch, shListUnflattenAndApply, and shNpmInstallWithPeerDep\</tspan>
+<tspan x="10" y="3098">endencies</tspan>
+<tspan x="10" y="3114">- auto update public travis-repos in alpha-branch</tspan>
+<tspan x="10" y="3130">- deprecate ssh-key in favor of github oauth - https://stackoverflow.com/questions/18027115/comm\</tspan>
+<tspan x="10" y="3146">itting-via-travis-ci-failing</tspan>
+<tspan x="10" y="3162">- enable shNpmdocRepoListCreate in travis-ci</tspan>
+<tspan x="10" y="3178">- enhance shell-function shNpmPackageListingCreate to add total package-size to package-listing</tspan>
+<tspan x="10" y="3194">- fix apidoc bug 'Function.prototype.toString is not generic'</tspan>
+<tspan x="10" y="3210">- fix shell-function shInit bug - export: npm_package_react-native: bad variable name</tspan>
+<tspan x="10" y="3226">- sanitize sensitive env-vars from electron.*.html</tspan>
+<tspan x="10" y="3242">- use optional remote-credentials during travis-ci build</tspan>
+<tspan x="10" y="3258"></tspan>
+<tspan x="10" y="3274">2017-03-22 01:58:56 +0800</tspan>
+<tspan x="10" y="3290">[npm publish] - npm publish 2017.3.21</tspan>
+<tspan x="10" y="3306">- security - rewrite function moduleDirname, so that it doesn't have to require arbitrary module\</tspan>
+<tspan x="10" y="3322">s</tspan>
+<tspan x="10" y="3338">- add github-crud command 'touch' to trigger github-hooks and add commit-messages without changi\</tspan>
+<tspan x="10" y="3354">ng files</tspan>
+<tspan x="10" y="3370">- add commit-message-meta macro 'promote branch1 -&gt; branch2'</tspan>
+<tspan x="10" y="3386">- add env var TRAVIS_REPO_CREATE_FORCE to force re-creation of npmdoc</tspan>
+<tspan x="10" y="3402">- add env var npm_package_buildNpmdocMain to customize npmdoc target</tspan>
+<tspan x="10" y="3418">- add optional commit-message for PUT, DELETE, and TOUCH requests in github-crud</tspan>
+<tspan x="10" y="3434">- add package-description to apidoc</tspan>
+<tspan x="10" y="3450">- add package-listing to npmdoc</tspan>
+<tspan x="10" y="3466">- add package.json to npmdoc</tspan>
+<tspan x="10" y="3482">- add async shell-function shNpmdocRepoListCreate to automate creation of npmdoc's</tspan>
+<tspan x="10" y="3498">- add shell function shUtility2GrepTravisYml</tspan>
+<tspan x="10" y="3514">- fix 'span class' error in https://www.npmjs.com/package/npmdoc-glob</tspan>
+<tspan x="10" y="3530">- merge function local.runIfTrue -&gt; local.nop</tspan>
+<tspan x="10" y="3546">- rename lib.xxx.npm_scripts.sh to npm_scripts.sh</tspan>
+<tspan x="10" y="3562">- shBuildPrint message for deprecate and publish operations</tspan>
+<tspan x="10" y="3578"></tspan>
+<tspan x="10" y="3594">2017-03-17 21:15:11 +0800</tspan>
+<tspan x="10" y="3610">[npm publish] - npm publish 2017.3.17</tspan>
+<tspan x="10" y="3626">- fix quickstart demo for example.js</tspan>
+<tspan x="10" y="3642">- allow auto-deprecating of aliases in publish branch</tspan>
+<tspan x="10" y="3658">- allow auto-publishing of aliases in publish branch</tspan>
+<tspan x="10" y="3674"></tspan>
+<tspan x="10" y="3690">2017-03-17 05:05:24 +0800</tspan>
+<tspan x="10" y="3706">[npm publish] - npm publish 2017.3.16</tspan>
+<tspan x="10" y="3722">- add function buildNpmdoc and buildTest</tspan>
+<tspan x="10" y="3738">- automate building and publishing of npmdoc's</tspan>
+<tspan x="10" y="3754">- commit tag 'npm publish' will publish package in alpha-branch and promote to beta</tspan>
+<tspan x="10" y="3770">- harden shell-function shPasswordEnvUnset</tspan>
+<tspan x="10" y="3786">- remove '|| return $?' from shell-scripts when possible to fix 'set -e' failing to exit on erro\</tspan>
+<tspan x="10" y="3802">r</tspan>
+<tspan x="10" y="3818">- rename function onErrorAssert -&gt; onErrorThrow</tspan>
+<tspan x="10" y="3834">- partially revert npm_package_nameAlias back to npm_package_name</tspan>
+<tspan x="10" y="3850"></tspan>
+<tspan x="10" y="3866">2017-03-11 03:56:44 +0800</tspan>
+<tspan x="10" y="3882">- npm publish 2017.3.10</tspan>
+<tspan x="10" y="3898">- fix build in beta branch</tspan>
+<tspan x="10" y="3914"></tspan>
+<tspan x="10" y="3930">2017-03-11 02:50:36 +0800</tspan>
+<tspan x="10" y="3946">- npm publish 2017.3.9</tspan>
+<tspan x="10" y="3962">- add functions moduleDirname and onErrorAssert</tspan>
+<tspan x="10" y="3978">- add shell-command shPasswordEnvUnset</tspan>
+<tspan x="10" y="3994">- rename name api-doc -&gt; apidoc</tspan>
+<tspan x="10" y="4010">- revamp build scripts</tspan>
+<tspan x="10" y="4026">- split function buildApidoc into new file lib.apidoc.js</tspan>
+<tspan x="10" y="4042">- verify README.md's build-links during build</tspan>
+<tspan x="10" y="4058"></tspan>
+<tspan x="10" y="4074">2017-03-01 17:52:26 +0800</tspan>
+<tspan x="10" y="4090">- npm publish 2017.2.28</tspan>
+<tspan x="10" y="4106">- build - add publish build-branch</tspan>
+<tspan x="10" y="4122">- build - auto-clean build if commit-message is CLEAN_BUILD</tspan>
+<tspan x="10" y="4138">- build - auto-tag branch in master build-branch</tspan>
+<tspan x="10" y="4154">- README.md - normalize browser-script in example.js</tspan>
+<tspan x="10" y="4170">- promote utility2 plug in README.md, api-doc, code-coverage, rollup, test-coverage</tspan>
+<tspan x="10" y="4186">- lib.db.js - add ttl-cache</tspan>
+<tspan x="10" y="4202">- lib.utility2.js - revamp function buildApiDoc</tspan>
+<tspan x="10" y="4218">- lib.utility2.sh - revamp shell-function shNpmPublish</tspan>
+<tspan x="10" y="4234"></tspan>
+<tspan x="10" y="4250">2017-02-21 03:06:56 +0800</tspan>
+<tspan x="10" y="4266">- npm publish 2017.2.20</tspan>
+<tspan x="10" y="4282">- add field nameOriginal to package.json</tspan>
+<tspan x="10" y="4298">- do not cover rollups</tspan>
+<tspan x="10" y="4314">- merge shell-function shNpmPublishAlias into shNpmPublish</tspan>
+<tspan x="10" y="4330">- normalize example.html</tspan>
+<tspan x="10" y="4346"></tspan>
+<tspan x="10" y="4362">2017-02-20 02:49:59 +0800</tspan>
+<tspan x="10" y="4378">- npm publish 2017.2.19</tspan>
+<tspan x="10" y="4394">- replace env var npm_package_name with npm_package_nameAlias in istanbul code-coverage</tspan>
+<tspan x="10" y="4410">- revamp shell-function shNpmPublishAlias</tspan>
+<tspan x="10" y="4426"></tspan>
+<tspan x="10" y="4442">2017-02-19 01:09:51 +0800</tspan>
+<tspan x="10" y="4458">- npm publish 2017.2.18</tspan>
+<tspan x="10" y="4474">- add shell-function shReadmeTestExampleJs</tspan>
+<tspan x="10" y="4490">- do not auto-uglify js-assets in production</tspan>
+<tspan x="10" y="4506">- rename doc-api to api-doc</tspan>
+<tspan x="10" y="4522">- rename hrku01 to h1</tspan>
+<tspan x="10" y="4538">- rename local.template* to local.assetsDict[assets.*.template]</tspan>
+<tspan x="10" y="4554">- revamp function buildApiDoc</tspan>
+<tspan x="10" y="4570">- revamp function buildReadme and include testCase_buildReadme_default inside testCase_buildApp_\</tspan>
+<tspan x="10" y="4586">default</tspan>
+<tspan x="10" y="4602">- remove functions assetsAlias, assetsWrite</tspan>
+<tspan x="10" y="4618">- use env var npm_package_nameAlias over npm_package_name</tspan>
+<tspan x="10" y="4634"></tspan>
+<tspan x="10" y="4650">2017-02-06 21:14:20 +0800</tspan>
+<tspan x="10" y="4666">- npm publish 2017.2.6</tspan>
+<tspan x="10" y="4682">- allow env var npm_config_mode_test_case to have comma-separated list of test-cases</tspan>
+<tspan x="10" y="4698">- replace function requestResponseCleanup with streamListCleanup</tspan>
+<tspan x="10" y="4714">- don't use nameAlias in assets</tspan>
+<tspan x="10" y="4730">- rename base64 functions with base64 as prefix</tspan>
+<tspan x="10" y="4746">- add commandline options --eval -e --interactive -i</tspan>
+<tspan x="10" y="4762">- add env var npm_pacakge_nameHeroku</tspan>
+<tspan x="10" y="4778">- add function assetsAlias</tspan>
+<tspan x="10" y="4794">- add shell-functions shUtility2DependentsSync shUtility2RollupCreate</tspan>
+<tspan x="10" y="4810">- merge files lib.* into standaalone file assets.utility2.rollup.js</tspan>
+<tspan x="10" y="4826">- merge files lib.swgg.* into lib.swgg.js</tspan>
+<tspan x="10" y="4842"></tspan>
+<tspan x="10" y="4858">2017-01-27 14:44:40 +0800</tspan>
+<tspan x="10" y="4874">- move most logic from Dockerfile.latest to Dockerfile.base</tspan>
+<tspan x="10" y="4890">- add shell-function shImageToDataUri</tspan>
+<tspan x="10" y="4906">- add shell-function shSshReverseTunnel</tspan>
+<tspan x="10" y="4922">- add function sjclHmacSha256Create</tspan>
+<tspan x="10" y="4938">- replace localhost with 127.0.0.1</tspan>
+<tspan x="10" y="4954"></tspan>
+<tspan x="10" y="4970">2017-01-05 20:57:31 +0800</tspan>
+<tspan x="10" y="4986">- npm publish 2017.1.5</tspan>
+<tspan x="10" y="5002">- automate readme-generation with new functions local.buildReadmeElectronLite and local.buildRea\</tspan>
+<tspan x="10" y="5018">dmeJslintLite</tspan>
+<tspan x="10" y="5034">- revamp github-crud-api</tspan>
+<tspan x="10" y="5050">- add function httpRequest</tspan>
+<tspan x="10" y="5066">- add shell-function shNpmPublishAlias</tspan>
+<tspan x="10" y="5082">- remove function domQuerySelectorAll</tspan>
+<tspan x="10" y="5098">- update documentation-generator</tspan>
+<tspan x="10" y="5114"></tspan>
+<tspan x="10" y="5130">2016-12-26 15:10:22 +0800</tspan>
+<tspan x="10" y="5146">- add file lib.swgg.css</tspan>
+<tspan x="10" y="5162">- add file lib.swgg.js</tspan>
+<tspan x="10" y="5178">- add file lib.swgg.json-schema.json</tspan>
+<tspan x="10" y="5194">- add file lib.swgg.petstore.json</tspan>
+<tspan x="10" y="5210">- add file lib.swgg.schema.json</tspan>
+<tspan x="10" y="5226">- add file lib.swgg.ui.js</tspan>
+<tspan x="10" y="5242">- add heroku-postbuild npm-script</tspan>
+<tspan x="10" y="5258"></tspan>
+<tspan x="10" y="5274">2016-12-25 02:10:59 +0800</tspan>
+<tspan x="10" y="5290">- npm publish 2016.12.2</tspan>
+<tspan x="10" y="5306">- merge github-crud into this package</tspan>
+<tspan x="10" y="5322">- revamp heroku-deploy</tspan>
+<tspan x="10" y="5338">- add middlewareForwardProxy</tspan>
+<tspan x="10" y="5354">- add modeDebug option to function local.ajax</tspan>
 </text>
 </svg>

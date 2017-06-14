@@ -3,14 +3,14 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26">(re)starting shNpmTest test.js</tspan>
 <tspan x="10" y="42"></tspan>
-<tspan x="10" y="58">[MODE_BUILD=buildApidoc] - 2017-06-14T03:28:45.528Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="58">[MODE_BUILD=buildApidoc] - 2017-06-14T04:36:44.748Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="74">ode-utility2</tspan>
 <tspan x="10" y="90"></tspan>
 <tspan x="10" y="106"></tspan>
 <tspan x="10" y="122">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-utility2/tmp/build/\</tspan>
 <tspan x="10" y="138">test-report.json</tspan>
-<tspan x="10" y="154">&gt; repl-server listening on tcp-port 48846</tspan>
-<tspan x="10" y="170">server listening on http-port 49684</tspan>
+<tspan x="10" y="154">&gt; repl-server listening on tcp-port 38795</tspan>
+<tspan x="10" y="170">server listening on http-port 36771</tspan>
 <tspan x="10" y="186">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/package.json</tspan>
 <tspan x="10" y="202">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/assets.hello</tspan>
 <tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-utility2/.dockerignore</tspan>
@@ -93,23 +93,23 @@
 <tspan x="10" y="1450">test-report.json</tspan>
 <tspan x="10" y="1466"></tspan>
 <tspan x="10" y="1482">-------------------------------------------------------</tspan>
-<tspan x="10" y="1498">| test-report - buildApidoc - node - linux v6.11.0 - 2017-06-14T03:28:45.701Z</tspan>
-<tspan x="10" y="1514">|    9039 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1498">| test-report - buildApidoc - node - linux v6.11.0 - 2017-06-14T04:36:44.928Z</tspan>
+<tspan x="10" y="1514">|    9380 ms            0 failed        1 passed      |</tspan>
 <tspan x="10" y="1530">-------------------------------------------------------</tspan>
 <tspan x="10" y="1546">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="1562">L, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-14T03:28:29.733Z</tspan>
-<tspan x="10" y="1578">|    4410 ms            0 failed       64 passed      |</tspan>
+<tspan x="10" y="1562">L, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-14T04:36:29.002Z</tspan>
+<tspan x="10" y="1578">|    4716 ms            0 failed       64 passed      |</tspan>
 <tspan x="10" y="1594">-------------------------------------------------------</tspan>
-<tspan x="10" y="1610">| test-report - npmTest - node - linux v6.11.0 - 2017-06-14T03:28:06.872Z</tspan>
-<tspan x="10" y="1626">|   35287 ms            0 failed       79 passed      |</tspan>
+<tspan x="10" y="1610">| test-report - npmTest - node - linux v6.11.0 - 2017-06-14T04:36:06.062Z</tspan>
+<tspan x="10" y="1626">|   35374 ms            0 failed       79 passed      |</tspan>
 <tspan x="10" y="1642">-------------------------------------------------------</tspan>
 <tspan x="10" y="1658">| test-report - testExampleJs - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36\</tspan>
-<tspan x="10" y="1674"> (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-14T03:27:17.08\</tspan>
-<tspan x="10" y="1690">3Z</tspan>
-<tspan x="10" y="1706">|      30 ms            0 failed        2 passed      |</tspan>
+<tspan x="10" y="1674"> (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.16 Safari/537.36 - 2017-06-14T04:35:16.29\</tspan>
+<tspan x="10" y="1690">0Z</tspan>
+<tspan x="10" y="1706">|      35 ms            0 failed        2 passed      |</tspan>
 <tspan x="10" y="1722">-------------------------------------------------------</tspan>
-<tspan x="10" y="1738">| test-report - testExampleJs - node - linux v6.11.0 - 2017-06-14T03:27:16.077Z</tspan>
-<tspan x="10" y="1754">|   15886 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1738">| test-report - testExampleJs - node - linux v6.11.0 - 2017-06-14T04:35:15.262Z</tspan>
+<tspan x="10" y="1754">|   15908 ms            0 failed        1 passed      |</tspan>
 <tspan x="10" y="1770">-------------------------------------------------------</tspan>
 <tspan x="10" y="1786"></tspan>
 <tspan x="10" y="1802">created test-report file /home/travis/build/kaizhu256/node-utility2/tmp/build/test-report.html</tspan>
@@ -118,7 +118,7 @@
 <tspan x="10" y="1850">buildApidoc - 0 failed tests</tspan>
 <tspan x="10" y="1866"></tspan>
 <tspan x="10" y="1882"></tspan>
-<tspan x="10" y="1898">[MODE_BUILD=buildApidoc] - 2017-06-14T03:28:56.863Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1898">[MODE_BUILD=buildApidoc] - 2017-06-14T04:36:56.505Z - EXIT_CODE - 0</tspan>
 <tspan x="10" y="1914"></tspan>
 <tspan x="10" y="1930">process exited with code 0</tspan>
 <tspan x="10" y="1946">EXIT_CODE - 0</tspan>
